@@ -1,39 +1,79 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Parks& Trails
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Healthy living
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX-
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+### User Stories
 
-Another blue button should appear to click: *Open Browser*.
+* 
+* 
+* 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features, existing features and features left to implement
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Wire-Frames
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### Header and Menu section
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Body section 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Footer section
 
---------
 
-Happy coding!
+## Features left to implement
+
+
+
+## Technologies-
+
+* 
+*  
+* 
+* 
+* 
+## Testing-
+
+### Testing - i.
+Shared the link on google, internet explorer and yahoo to ensure the site looks and works as it should on different browers. 
+
+### Testing - ii. 
+Opened google developer tools and toggled the site between various device screens.
+
+### Testing - iiii. 
+
+
+### Testing - iiiii.
+Site was tested in safari, firefox and chrome. Site works as intended.
+
+### Testing - iiiiii.
+Tested html and css code formatting with https://validator.w3.org/. Only one formatting error, otherwise code is up to standard.
+
+### Testing summary of device screens: 
+
+
+## Version control-
+
+
+## Deployment-
+
+
+## issues and bugs-
+
+
+## Acknowledgements-
+
+
+
+## Credits-
+
+
+## External Media 
