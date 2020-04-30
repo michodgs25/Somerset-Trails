@@ -10,10 +10,20 @@
 
 /*header section*/
 
-.banner {
-    height: 100%;
+.banner { 
     width: 100%;
-    background-image: url('https://live.staticflickr.com/5762/20000952304_d893a0299f_b.jpg');
-    background-position-x: center;
-    background-position-y: 0rem;
+	height: 38rem;
+	background: url("../images/banner/cover-image.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+.banner h2 {
+    color: rgb(255, 255, 255);
+}
+
+.banner p {
+    color: rgb(255, 255, 255);
 }
