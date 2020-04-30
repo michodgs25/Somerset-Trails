@@ -35,11 +35,12 @@
 
 ## Technologies-
 
-* 
-*  
-* 
-* 
-* 
+* Html, Css and Javascript language
+
+* JQuery library - https://code.jquery.com/jquery-3.2.1.slim.min.js and https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js
+
+* Bootstrap - https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js
+
 ## Testing-
 
 ### Testing - i.
