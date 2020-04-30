@@ -30,7 +30,7 @@
 }
 
 .banner {
-    animation-name: hero-zoom;
+    animation-name: trail-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
 }
@@ -42,9 +42,9 @@
     position: relative;
 }
 
-@keyframes hero-zoom {
+@keyframes trail-zoom {
     from{
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     to{
         transform: scale(1);
