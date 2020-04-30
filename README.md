@@ -1,7 +1,4 @@
-# Parks& Trails
-
-
-## Healthy living
+# Somerset Trails
 
 
 ## UX-
