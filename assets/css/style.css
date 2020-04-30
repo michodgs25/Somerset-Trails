@@ -8,3 +8,12 @@
     border-radius: 1rem;
 }
 
+/*header section*/
+
+.banner {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://live.staticflickr.com/5762/20000952304_d893a0299f_b.jpg');
+    background-position-x: center;
+    background-position-y: 0rem;
+}
