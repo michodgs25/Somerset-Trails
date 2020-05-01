@@ -1,23 +1,14 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700&display=swap');
 
 /*Navigation section*/
 
 .logo {
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 1rem;
 }
 
 /*header section*/
-
-.banner h2 {
-    color: rgb(255, 255, 255);
-}
-
-.banner p {
-    color: rgb(255, 255, 255);
-}
 
 .banner { 
     width: 100%;
@@ -49,4 +40,16 @@
     to{
         transform: scale(1);
     }
+}
+
+.banner-text h2 {
+    color: rgb(147, 66, 245);
+}
+
+.banner p {
+    color: rgb(255, 255, 255);
+}
+
+.Introduction {
+    text-align: center;
 }
