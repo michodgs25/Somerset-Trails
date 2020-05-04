@@ -21,8 +21,8 @@
 
 <body data-spy="scroll" data-target="#navbar-scrollspy" data-offset="0">
 
-<!--Navigation, fixed at the top of page for ease of use.-->
-	
+	<!--Navigation, fixed at the top of page for ease of use.-->
+
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 
@@ -65,16 +65,24 @@
 	</header>
 
 
-	<section>
+	<!--<section class="cheddar-map">
+    <div
 		<h2><strong>Cheddar gorge street view</strong></h2>
-		<iframe src="https://www.google.com/maps/embed/v1/streetview" ?key="AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8"
+		<iframe src="https://www.google.com/maps/embed/v1/streetview" key="AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8"
 		location="51.2880522,-2.7575527" heading="210" pitch="10" fov="35"><iframe>
-	</section>
+    </div>
+	</section>-->
 
 	<footer>
 	</footer>
+	<!--Map-->
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8&callback=initMap&language=ja&region=JP"
+		async defer>
+	</script>
 
-	<script type="text/javascript" src="js/myscript.js"></script>
+	<!--javascript-->
+	<script src="js/myscript.js"></script>
 
 	<!--Jquery library-->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">

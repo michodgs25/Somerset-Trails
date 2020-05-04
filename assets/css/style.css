@@ -56,4 +56,17 @@
     text-align: center;
 }
 
+/*Maps section*/
+
+.cheddar-map {
+    padding-top: 10rem;
+    margin-top: 10rem;
+}
+
+.cheddar-map {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /*slide show section*/
