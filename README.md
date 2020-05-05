@@ -6,7 +6,7 @@ Somerset is world famous for it's beautiful countryside and spectacular hill-top
 
 ## UX-
 
-Somerset Trails site offers a user like Jeremy, John, Matt and Electra *(see User stories below) is a visually impactful site through its application of images on each trail and a Google maps feature enabling them to toggle distance and terrain type to most suit their personal needs. 
+Somerset Trails site offers a user like Jeremy, John, Matt and Electra (see user stories below) is a visually impactful site through its application of images on each trail and a Google maps feature enabling them to toggle distance and terrain type to most suit their personal needs. 
 
 ### User Stories
 
