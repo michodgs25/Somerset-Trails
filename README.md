@@ -9,27 +9,32 @@ Somerset is world famous for it's beautiful countryside and spectacular hill-top
 
 ---
 
-## README Roadmap 
+### Roadmap 
+1. [UX](https://github.com/pmarre/full_stack_cert/tree/master/03_interactive_frontend_development/milestone_2#UX)
 
-## UX-
+
+### UX-
 
 __Somerset Trails__ site offers a user like Jeremy, John, Matt and Electra **(see user stories below)** is a visually impactful site through its application of images on each trail and a Google maps feature enabling them to toggle distance and terrain type to most suit their personal needs. 
+* The primary goal of this website is to be a responsive, that users can easily explore different trails and learn more about each trail.
+* The site should be easy to navigate, menu bar scrolls down with viewer on each page and the user won't have to scroll up-down or side to side to access different sections of the site.
+* Map of each trail is clearly defined on each page, easy to use toggles: terrain and distance.
 
 ### User Stories
 
-* Hi, my name is John, I live in the somerset area which has beautiful walking trails but the websites are hard to look at with too many adverts. I'd like the websites to be beautiful to look at like the trails themselves and simple to use.
+* _"Hi, my name is John, I live in the somerset area which has beautiful walking trails but the websites are hard to look at with too many adverts. I'd like the websites to be beautiful to look at like the trails themselves and simple to use"_.
 
 ---
 
-* Hello my name is Matt, a software developer and trails junkie. I love the national trails website but the navigation around the website is difficult as the menu bar is not sticky thus I have to scroll back up the page when wanting to get back to the homepage. Which is irritating and time consuming. I'd like the website to have a sticky nav-bar and the ability to move between pages with ease.
+* _"Hello my name is Matt, a software developer and trails junkie. I love the national trails website but the navigation around the website is difficult as the menu bar is not sticky thus I have to scroll back up the page when wanting to get back to the homepage. Which is irritating and time consuming. I'd like the website to have a sticky nav-bar and the ability to move between pages with ease."_
 
 ---
 
-* Hey, my name is Jeremy and I have some time off and would like to visit the somerset area for a day out with the family. I would like to find out what the terrain and distance of each trail. This is important as I like to know if we need to bring a picnic and if we decide to bring our bikes.
+* _"Hey, my name is Jeremy and I have some time off and would like to visit the somerset area for a day out with the family. I would like to find out what the terrain and distance of each trail. This is important as I like to know if we need to bring a picnic and if we decide to bring our bikes."_
 
 ---
 
-* Good afternoon, my name is Electra and I am on a gap year. I want to explore the best walking trail somerset has to offer, I would like to see as many pictures of each trail to determine which trail I would like to visit.
+* _"Good afternoon, my name is Electra and I am on a gap year. I want to explore the best walking trail somerset has to offer, I would like to see as many pictures of each trail to determine which trail I would like to visit."_
 
 ## Wire-Frames
 
