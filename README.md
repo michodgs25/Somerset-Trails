@@ -1,8 +1,15 @@
 [logo]: https://github.com/michodgs24/assets/images/logo/logo.jpg "Logo Title Text 2"
 
-# Somerset Trails 
+# Somerset Trails
+### Explore the west country's best trails, one step at a time.
 
-Somerset is world famous for it's beautiful countryside and spectacular hill-top views with thousands of tourists flocking to visit the area every year. Somerset boasts trails such as the **cheddar gorge**, the **weston woods** and the **Somerset coastal path.**
+---
+
+Somerset is world famous for it's beautiful countryside and spectacular hill-top views with thousands of tourists flocking to visit the area every year. Somerset boasts trails such as the **Cheddar Gorge**, the **Weston Woods**, **Somerset Coastal path** and many more.
+
+---
+
+## README Roadmap 
 
 ## UX-
 
@@ -20,7 +27,7 @@ __Somerset Trails__ site offers a user like Jeremy, John, Matt and Electra **(se
 
 * Hey, my name is Jeremy and I have some time off and would like to visit the somerset area for a day out with the family. I would like to find out what the terrain and distance of each trail. This is important as I like to know if we need to bring a picnic and if we decide to bring our bikes.
 
-***
+---
 
 * Good afternoon, my name is Electra and I am on a gap year. I want to explore the best walking trail somerset has to offer, I would like to see as many pictures of each trail to determine which trail I would like to visit.
 
@@ -38,9 +45,11 @@ __Somerset Trails__ site offers a user like Jeremy, John, Matt and Electra **(se
 
 
 
-## Features, existing features and features left to implement
+## Features and features left to implement
 
+* Features - 
 
+* Features left to be implemented - https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
 
 ## Technologies-
 
