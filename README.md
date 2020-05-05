@@ -33,6 +33,20 @@ __Somerset Trails__ site offers a user like Jeremy, John, Matt and Electra **(se
 
 * _"Good afternoon, my name is Electra and I am on a gap year. I want to explore the best walking trail somerset has to offer, I would like to see as many pictures of each trail to determine which trail I would like to visit."_
 
+### Strategy 
+
+* Firstly I had to establish target audience, somerset has popular holiday sites such as: Butlins, Haven sites, glamping& camping sites on the quantock hills, Kittisford& Barton and luxury cottages in the rolling hills. 
+This shows that the countryside is a glamorous& viable getaway for many families so having a responsive& intuitive website can display these amazing trails and how to locate them is very important.
+
+* New locals to somerset can also benefit as getting to know the area is an important part of settling into a new area; so a visually pleasing site would make a good impression and encourage user to explore further.
+
+### Scope
+
+The next problem I had to solve was that there was already a great website called: https://www.nationaltrail.co.uk/en_GB/ - so what could I offer that is different? 
+Users that come to this site aren't looking for trails in Wales or the north of England, this sites scope is specifically aimed towards users who either are local or users who are visitting the somerset area. 
+
+So the next step was figuring out how to maximise the user experience and present the best of Somerset trails via images& google maps API.
+
 ## Wire-Frames
 
 
