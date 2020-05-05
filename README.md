@@ -1,4 +1,4 @@
-# Somerset Trails
+# Somerset Trails 
 
 
 ## UX-
@@ -6,9 +6,9 @@
 
 ### User Stories
 
-* 
-* 
-* 
+* As a user I want to access each page with ease wherever I am on the website.
+* As a user I want the site to be visually appealing.
+* As a user I want the maps feature to have filters for different terrains and distance.
 
 ## Features, existing features and features left to implement
 
