@@ -1,8 +1,12 @@
+[logo]: https://github.com/michodgs24/assets/images/logo/logo.jpg "Logo Title Text 2"
+
 # Somerset Trails 
 
+Somerset is world famous for it's beautiful countryside and spectacular hill-top views with thousands of tourists flocking to visit the area every year. Somerset boasts trails such as the cheddar gorge, the weston woods and the Somerset coastal path. 
 
 ## UX-
 
+Somerset Trails site offers a user like ### Jeremey, ### John, ### Matt and ### Electra is a visually impactful site relying on images of each trail and a Google maps feature enabling them to toggle distance and terrain type to most suit their personal needs.
 
 ### User Stories
 
