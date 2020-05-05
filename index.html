@@ -4,8 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!---->
-	<link rel="stylesheet" href="#">
+	<!--WS3 Css-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<!--bootstrap-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<!--css-->
@@ -98,13 +98,16 @@
 
 
 	<section>
-		<div>
-			<h2>Somerset Trails Gallery</h2>
-            <img class="home-slides" src="../images/slideshow/home-slide/blagdon-lake-img.jpg" alt="Blagdon Lake">
-            <img class="home-slides" src="../images/slideshow/home-slide/cheddar-gorge-img.jpg" alt="Cheddar Gorge">
-            <img class="home-slides" src="../images/slideshow/home-slide/cleeve-hill-img.jpg" alt="Cleeve Hill">
-            <img class="home-slides" src="../images/slideshow/home-slide/west-somerset-coastal-path-img.jpg" alt="West Somerset">
-            <img class="home-slides" src="../images/slideshow/home-slide/weston-woods-img.jpg" alt="Weston Woods">
+    <h2 class="w3-center">Somerset Trails Gallery</h2>
+		<div class="w3-content w3-display-container">
+            <img class="home-slides" src="https://d70af523-21f0-4f56-8010-1f2606bfc299.ws-eu01.gitpod.io/mini-browser/workspace/Somerset-Trails/assets/images/slideshow/home-slide/blagdon-lake-img.jpg" alt="Blagdon Lake">
+            <img class="home-slides" src="https://d70af523-21f0-4f56-8010-1f2606bfc299.ws-eu01.gitpod.io/mini-browser/workspace/Somerset-Trails/assets/images/slideshow/home-slide/cheddar-gorge-img.jpg" alt="Cheddar Gorge">
+            <img class="home-slides" src="https://d70af523-21f0-4f56-8010-1f2606bfc299.ws-eu01.gitpod.io/mini-browser/workspace/Somerset-Trails/assets/images/slideshow/home-slide/cleeve-hill-img.jpg" alt="Cleeve Hill">
+            <img class="home-slides" src="https://d70af523-21f0-4f56-8010-1f2606bfc299.ws-eu01.gitpod.io/mini-browser/workspace/Somerset-Trails/assets/images/slideshow/home-slide/west-somerset-coastal-path-img.jpg" alt="West Somerset Coastal Path">
+            <img class="home-slides" src="https://d70af523-21f0-4f56-8010-1f2606bfc299.ws-eu01.gitpod.io/mini-browser/workspace/Somerset-Trails/assets/images/slideshow/home-slide/weston-woods-img.jpg" alt="Weston Woods">
+            <Br>
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
 		</div>
 	</section>
 
@@ -127,6 +130,9 @@
 
 	<!--Maps JS-->
 	<script src="assets/js/maps.js"></script>
+
+    <!--Slideshow JS-->
+    <script src="assets/js/slide.js"></script>
 
 	<!--Google maps scripts-->
 	<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
