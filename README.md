@@ -36,14 +36,14 @@ __Somerset Trails__ site offers a user like Jeremy, John, Matt and Electra **(se
 ### Strategy 
 
 * Firstly I had to establish target audience, somerset has popular holiday sites such as: Butlins, Haven sites, glamping& camping sites on the quantock hills, Kittisford& Barton and luxury cottages in the rolling hills. 
-This shows that the countryside is a glamorous& viable getaway for many families so having a responsive& intuitive website can display these amazing trails and how to locate them is very important.
+This shows that the countryside is a glamorous& viable getaway for many families so having a responsive& intuitive website can display these amazing trails and the location of them is very important.
 
-* New locals to somerset can also benefit as getting to know the area is an important part of settling into a new area; so a visually pleasing site would make a good impression and encourage user to explore further.
+* New locals to Somerset can also benefit as getting to know the area is an important part of settling into a new area; so a visually pleasing site would make a good impression and encourage user to explore the area further. And lastly there are many local people who have lived in Somerset for years and have never explored these trails; implementing a Google maps API raises awareness of these trails to those potential users.
 
 ### Scope
 
 The next problem I had to solve was that there was already a great website called: https://www.nationaltrail.co.uk/en_GB/ - so what could I offer that is different? 
-Users that come to this site aren't looking for trails in Wales or the north of England, this sites scope is specifically aimed towards users who either are local or users who are visitting the somerset area. 
+Users that come to this site aren't looking for trails in Wales or the north of England, this sites scope is specifically aimed towards users who either are local or users who are visitting the Somerset area. 
 
 So the next step was figuring out how to maximise the user experience and present the best of Somerset trails via images& google maps API.
 
