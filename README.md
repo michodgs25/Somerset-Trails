@@ -2,11 +2,11 @@
 
 # Somerset Trails 
 
-Somerset is world famous for it's beautiful countryside and spectacular hill-top views with thousands of tourists flocking to visit the area every year. Somerset boasts trails such as the cheddar gorge, the weston woods and the Somerset coastal path. 
+Somerset is world famous for it's beautiful countryside and spectacular hill-top views with thousands of tourists flocking to visit the area every year. Somerset boasts trails such as the **cheddar gorge**, the **weston woods** and the **Somerset coastal path.**
 
 ## UX-
 
-Somerset Trails site offers a user like Jeremy, John, Matt and Electra (see user stories below) is a visually impactful site through its application of images on each trail and a Google maps feature enabling them to toggle distance and terrain type to most suit their personal needs. 
+__Somerset Trails__ site offers a user like Jeremy, John, Matt and Electra **(see user stories below)** is a visually impactful site through its application of images on each trail and a Google maps feature enabling them to toggle distance and terrain type to most suit their personal needs. 
 
 ### User Stories
 
