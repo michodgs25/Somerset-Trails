@@ -62,9 +62,14 @@ So the next step was figuring out how to maximise the user experience and presen
 
 ## Features and features left to implement
 
-* Features - 
+### Features
 
-* Features left to be implemented - https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
+* __Navigation bar__ 
+* __Slideshow__ 
+* __Google maps API__
+
+### Features left to be implemented
+* https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
 
 ## Technologies-
 
