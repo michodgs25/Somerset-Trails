@@ -45,18 +45,27 @@ So the next step was figuring out how to maximise the user experience and presen
 
 ## Wire-Frames
 
+### Homepage
 
+* __Header and Menu section__
+https://github.com/michodgs24/Somerset-Trails/issues/2#issue-613583616
 
-### Header and Menu section
+* __Body section__
+https://github.com/michodgs24/Somerset-Trails/issues/3#issue-613586643
 
+* __Footer section__
+https://github.com/michodgs24/Somerset-Trails/issues/4#issue-613587272
 
-### Body section 
+### Results page
 
+* __header and menu__
+https://github.com/michodgs24/Somerset-Trails/issues/5#issue-613588533
 
+* __Body section__
+https://github.com/michodgs24/Somerset-Trails/issues/6#issue-613588988
 
-### Footer section
-
-
+* __Footer section__
+https://github.com/michodgs24/Somerset-Trails/issues/7#issue-613589344
 
 ## Features and features left to implement
 
