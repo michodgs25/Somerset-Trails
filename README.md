@@ -5,12 +5,8 @@
 
 *Somerset is world famous for it's beautiful countryside and spectacular hill-top views with thousands of tourists flocking to visit the area every year. Somerset boasts trails such as the **Cheddar Gorge**, the **Weston Woods**, **Somerset Coastal path** and many more.*
 
-
-## Roadmap 
-1. [UX](https://github.com/pmarre/full_stack_cert/tree/master/03_interactive_frontend_development/milestone_2#UX)
-
-
-### UX-
+### UX
+-----
 
 __Somerset Trails__ site offers a user like Jeremy, John, Matt and Electra **(see user stories below)** is a visually impactful site through its application of images on each trail and a Google maps feature enabling them to toggle distance and terrain type to most suit their personal needs. 
 * The primary goal of this website is to be a responsive, that users can easily explore different trails and learn more about each trail.
@@ -48,6 +44,7 @@ Users that come to this site aren't looking for trails in Wales or the north of 
 So the next step was figuring out how to maximise the user experience and present the best of Somerset trails via images& google maps API.
 
 ## Wire-Frames
+
 
 
 ### Header and Menu section
