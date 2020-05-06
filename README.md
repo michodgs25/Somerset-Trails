@@ -1,5 +1,3 @@
-[logo]: https://github.com/michodgs24/assets/images/logo/logo.jpg "Logo Title Text 2"
-
 # Somerset Trails
 ### Explore the west country's best trails, one step at a time.
 
