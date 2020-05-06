@@ -88,6 +88,8 @@ https://github.com/michodgs24/Somerset-Trails/issues/7#issue-613589344
 
 * Bootstrap - https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js
 
+* W3.CSS - https://www.w3schools.com/w3css/4/w3.css
+
 ## Testing-
 
 ### Testing - i.
