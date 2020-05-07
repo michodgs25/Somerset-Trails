@@ -47,17 +47,39 @@ Users that come to this site aren't looking for trails in Wales or the north of 
 So the next step was figuring out how to maximise the user experience and present the best of Somerset trails via images& google maps API.
 
 ## Wire-Frames
+----
 
-Wireframes can be found via assets on michodgs24/Somerset-Trails main page. 
+Wireframes can be found via assets on michodgs24/Somerset-Trails main code homepage. 
 
 
 ## Features and features left to implement
+----
 
 ### Features
 
-* __Navigation bar__ 
-* __Slideshow__ 
-* __Google maps API__
+__Navigation bar__ 
+
+* *The navigation bar for __homepage__ and each __trail result page__ contains a logo and two tabs: home and top trails.*
+
+* *The home tab acts a tool for the user to access the homepage at any time.*
+
+* *The top trails tab is a drop-down element, when the user clicks on the tab; a box drops down, providing every trail available to the user at a single click.*
+
+__Slideshow__ 
+
+* *The slideshow on the __homepage__ will have a picture of each trail accompanied with a caption& a button so the user can access that specific trail immediately.*
+
+* *The slideshow on each __trail results page__ will be a series of images of that trail followed by a caption.*
+
+* *Each slideshow will have a manual toggle named: "prev" and "next" accompanied with arrows.*
+
+__Google maps API__
+
+* *The map on the __homepage__ will be a map of the somerset area with pointers on trails different locations.*
+
+* *The __homepage map__ will have a terrain and distance(of trail) toggles.*
+
+* *The map on the __trail result page__ will be zoomed in on a particular trail displaying trail location.*
 
 ### Features left to be implemented
 * https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
