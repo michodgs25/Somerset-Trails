@@ -34,7 +34,7 @@ __Somerset Trails__ website offers a user **(see user stories below)** a visuall
 ### Strategy 
 -----
 
-* Firstly I had to establish target audience, somerset has popular holiday sites such as: Butlins, Haven sites, glamping& camping sites on the quantock hills, Kittisford& Barton and luxury cottages in the rolling hills. 
+* Firstly I had to establish target audience, Somerset has popular holiday sites such as: Butlins, Haven sites, glamping& camping sites on the quantock hills, Kittisford& Barton and luxury cottages in the rolling hills. 
 This shows that the countryside is a glamorous& viable getaway for many families so having a responsive& intuitive website can display these amazing trails and the location of them is very important.
 
 * New locals to Somerset can also benefit as getting to know the area is an important part of settling into a new area; so a visually pleasing site would make a good impression and encourage user to explore the area further. And lastly there are many local people who have lived in Somerset for years and have never explored these trails; implementing a Google maps API raises awareness of these trails to those potential users.
