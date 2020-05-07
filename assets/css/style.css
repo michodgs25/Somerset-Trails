@@ -21,9 +21,9 @@
 }
 
 .banner h2 {
-    color: rgb(147, 66, 245);
-    text-align: right;
-    padding: 5rem;
+    color: rgb(124, 0, 207);
+    line-height: 20rem;
+    text-decoration: underline;
 }
 
 .banner {
