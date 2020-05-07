@@ -20,6 +20,17 @@
 	background-attachment: scroll;
 }
 
+.banner h2 {
+    color: rgb(147, 66, 245);
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.banner p {
+    color: rgb(32, 5, 153);
+    text-align: center;
+}
+
 .banner {
     animation-name: trail-zoom;
     animation-duration: 2s;
@@ -40,14 +51,6 @@
     to{
         transform: scale(1);
     }
-}
-
-.banner-text h2 {
-    color: rgb(147, 66, 245);
-}
-
-.banner p {
-    color: rgb(255, 255, 255);
 }
 
 /*Introduction section*/
