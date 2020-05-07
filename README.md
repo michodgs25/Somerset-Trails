@@ -14,21 +14,21 @@ __Somerset Trails__ site offers a user like Jeremy, John, Matt and Electra **(se
 ### User Stories
 -----
 
-*_As a local businessman whom lives in the area, websites that display somerset trails are hard to look at with far too many adverts. I'd like the website to be beautiful to view like the trails themselves with little to no advertising."_
+*"As a local businessman whom lives in the area, websites that display somerset trails are hard to look at with far too many adverts. I'd like the website to be beautiful to view like the trails, with little to no advertising."*
 
 __Example of too many adverts:__ https://www.somersetlive.co.uk/news/somerset-news/11-stunning-walking-routes-around-2431780
 
 ---
 
-* _"My name is Grant, I don't like websites that are too text heavy and I lose interest quickly because of this I would like the site to have lots of images and only have text where it is necessary as I feel images tell a greater story of a website.
+*"My name is Grant, I don't like websites that are too text heavy and I lose interest quickly because of this I would like the site to have lots of images and only have text where it is necessary as I feel images tell a greater story."*
 
 ---
 
-* _"Hey, my name is Jeremy a product owner for this site. I do not like when a site that looks great on desktop but look crowded& cluttered on a mobile device as I view alot of websites via my mobile so I would like the site to be pleasurable to view on mobile devices.
+*"Hey, my name is Jeremy a product owner for this site. I do not like when a site looks great on desktop but looks crowded& cluttered on a mobile device as I view alot of websites via my mobile so I would like the site to be pleasurable to view on mobile devices."*
 
 ---
 
-* _"Good afternoon, my name is Helen, I am....
+*"Good afternoon, my name is Helen a code editor. I would like the website to be easy to navigate, as it's a pain having to scroll back to the top of each page every time I want to access a different part of a website."*
 
 ### Strategy 
 -----
