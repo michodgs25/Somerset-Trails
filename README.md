@@ -6,18 +6,18 @@
 ### UX
 -----
 
-__Somerset Trails__ website offers a user **(see user stories below)** a visually impactful site through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between distance and terrain types to suit their won personal needs. 
+__Somerset Trails__ website offers a user **(see user stories below)** a visually impactful site through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between distance and terrain types to suit their own personal needs. 
 
 * The primary goal of this website is to be a responsive, that users can easily explore different trails and learn more about each location.
 
 * The site should be easy to navigate, the menu bar follows viewer on each page so the user won't have to scroll up to access different sections of the site.
 
-* Map of each trail is clearly defined on each page, and easy to use toggles: terrain and distance.
+* Map of each trail is to be clearly defined on each page, and easy to use the toggles: terrain and distance.
 
 ### User Stories
 -----
 
-*"As a local businessman whom lives in the area, websites that display somerset trails are hard to look at with far too many adverts. I'd like the website to be beautiful to view like the trails, with little to no advertising."*
+*"As a local businessman whom lives in the area, websites that display Somerset trails are hard to look at with far too many adverts. I'd like the website to be beautiful to view like the trails, with little to no advertising."*
 
 ---
 
@@ -48,7 +48,7 @@ So the next step was figuring out how to maximise the user experience and presen
 
 ## Wire-Frames
 
-Wireframes can be found via assets on michodgs24/Somerset-Trails page. 
+Wireframes can be found via assets on michodgs24/Somerset-Trails main page. 
 
 
 ## Features and features left to implement
