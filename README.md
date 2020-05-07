@@ -6,17 +6,18 @@
 ### UX
 -----
 
-__Somerset Trails__ site offers a user like Jeremy, John, Matt and Electra **(see user stories below)** is a visually impactful site through its application of images on each trail and a Google maps feature enabling them to toggle distance and terrain type to most suit their personal needs. 
-* The primary goal of this website is to be a responsive, that users can easily explore different trails and learn more about each trail.
-* The site should be easy to navigate, menu bar scrolls down with viewer on each page and the user won't have to scroll up-down or side to side to access different sections of the site.
-* Map of each trail is clearly defined on each page, easy to use toggles: terrain and distance.
+__Somerset Trails__ website offers a user **(see user stories below)** a visually impactful site through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between distance and terrain types to suit their won personal needs. 
+
+* The primary goal of this website is to be a responsive, that users can easily explore different trails and learn more about each location.
+
+* The site should be easy to navigate, the menu bar follows viewer on each page so the user won't have to scroll up to access different sections of the site.
+
+* Map of each trail is clearly defined on each page, and easy to use toggles: terrain and distance.
 
 ### User Stories
 -----
 
 *"As a local businessman whom lives in the area, websites that display somerset trails are hard to look at with far too many adverts. I'd like the website to be beautiful to view like the trails, with little to no advertising."*
-
-__Example of too many adverts:__ https://www.somersetlive.co.uk/news/somerset-news/11-stunning-walking-routes-around-2431780
 
 ---
 
@@ -47,29 +48,8 @@ So the next step was figuring out how to maximise the user experience and presen
 
 ## Wire-Frames
 
-### Homepage
------
+Wireframes can be found via assets on michodgs24/Somerset-Trails page. 
 
-* __Header and Menu section__:
-https://github.com/michodgs24/Somerset-Trails/issues/2#issue-613583616
-
-* __Body section__:
-https://github.com/michodgs24/Somerset-Trails/issues/3#issue-613586643
-
-* __Footer section__:
-https://github.com/michodgs24/Somerset-Trails/issues/4#issue-613587272
-
-### Results page
------
-
-* __header and menu__:
-https://github.com/michodgs24/Somerset-Trails/issues/5#issue-613588533
-
-* __Body section__:
-https://github.com/michodgs24/Somerset-Trails/issues/6#issue-613588988
-
-* __Footer section__:
-https://github.com/michodgs24/Somerset-Trails/issues/7#issue-613589344
 
 ## Features and features left to implement
 
