@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700&display=swap');
 
+/*body*/
+
+body {
+    background-color: rgba(2, 1, 1, 0.904)
+}
+
 /*Navigation section*/
 
 .logo {
@@ -50,9 +56,24 @@
 
 /*Introduction section*/
 
-#Introduction {
+#introduction {
     text-align: center;
     padding-top: 5rem;
+}
+
+#introduction {
+    color: rgba(241, 255, 41, 0.904);
+}
+
+/*slide show section*/
+
+.slide .card {
+    width: 20rem;
+    height: auto;
+}
+
+.slide {
+    background-color: rgb(241, 255, 41, 0.904)
 }
 
 /*Maps section*/
@@ -66,10 +87,4 @@
     height: 100%;
     margin: 0;
     padding: 0;
-}
-
-/*slide show section*/
-
-.home-slides {
-    width: 100%;
 }
