@@ -70,6 +70,7 @@ body {
 .slide .card {
     width: 20rem;
     height: auto;
+    text-align: center;
 }
 
 .slide {
@@ -77,6 +78,15 @@ body {
 }
 
 /*Maps section*/
+
+/*homepage*/
+
+.map {
+    width: 50rem;
+    height: auto;
+}
+
+/*cheddar gorge*/
 
 .cheddar-map {
     padding-top: 10rem;
