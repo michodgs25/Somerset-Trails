@@ -37,7 +37,7 @@ __Somerset Trails__ website offers a user **(see user stories below)** a visuall
 * Firstly I had to establish target audience, Somerset has popular holiday sites such as: Butlins, Haven sites, glamping& camping sites on the quantock hills, Kittisford& Barton and luxury cottages in the rolling hills. 
 This shows that the countryside is a glamorous& viable getaway for many families so having a responsive& intuitive website can display these amazing trails and the location of them is very important.
 
-* New locals to Somerset can also benefit as getting to know the area is an important part of settling into a new area; so a visually pleasing site would make a good impression and encourage user to explore the area further. And lastly there are many local people who have lived in Somerset for years and have never explored these trails; implementing a Google maps API raises awareness of these trails to those potential users.
+* New locals to Somerset can also benefit as getting to know the area is an important part of settling in; a visually pleasing site would make a good impression and encourage user to explore the area further. And lastly there are many local people who have lived in Somerset for years and have never explored these trails; implementing a Google maps API raises awareness of these trails to those potential users.
 
 ### Scope
 -----
@@ -75,11 +75,11 @@ __Slideshow__
 
 __Google maps API__
 
-* *The map on the __homepage__ will be a map of the somerset area with pointers on trails different locations.*
+* *The map on the __homepage__ will be a map of the somerset area with pointers on each individual trail locations.*
 
-* *The __homepage map__ will have a terrain and distance(of trail) toggles.*
+* *The __homepage map__ will have a terrain and distance(of trail) toggle buttons.*
 
-* *The map on the __trail result page__ will be zoomed in on a particular trail displaying trail location.*
+* *The map on the __trail result page__ will be zoomed in on that particular trail displaying trail location.*
 
 ### Features left to be implemented
 * https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
