@@ -20,10 +20,10 @@
 	background-attachment: scroll;
 }
 
-.banner h2 {
-    color: rgb(124, 0, 207);
-    line-height: 20rem;
-    text-decoration: underline;
+.banner h6 {
+    color: rgba(241, 255, 41, 0.904);
+    text-emphasis: initial;
+    line-height: 22rem;
 }
 
 .banner {
@@ -52,6 +52,7 @@
 
 #Introduction {
     text-align: center;
+    padding-top: 5rem;
 }
 
 /*Maps section*/
