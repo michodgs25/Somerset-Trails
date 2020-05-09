@@ -11,7 +11,7 @@
 	<!--css-->
 	<link href="assets/css/style.css" rel="stylesheet">
 
-	<title>Cheddar gorge</title>
+	<title>Blagdon Lake</title>
 
 	<!--Favicon 32x32-->
 	<link rel="icon" type="image/png" sizes="32x32" href="..assets/images/favicon-32x32.png">
@@ -25,46 +25,54 @@
 
 	<!--Navigation, fixed at the top of page for ease of use.-->
 
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed top">
+    	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<img class="logo" src="https://cdn.pixabay.com/photo/2015/05/15/14/53/woods-768753_960_720.jpg" alt="Trail paths">
 
-			<!--logo part of menu bar, for better site layout-->
+		<!--logo part of menu bar, for better site layout-->
 
-			<img class="logo" src="https://cdn.pixabay.com/photo/2015/05/15/14/53/woods-768753_960_720.jpg" alt="Trail paths">
-			<a class="navbar-brand" href="#"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<a class="navbar-brand" href="#"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-  </button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
-					<li class="nav-item active">
+    </button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Somerset Trails<span class="sr-only">(current)</span></a>
+				</li>
 
-						<!--homepage tab, for user accessibility-->
+				<!--Dropdown tab, all trails in one place for user accessibility-->
 
-						<a class="nav-link" href="index.html">Somerset Trails<span class="sr-only">(current)</span></a>
-					</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Top Trails
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="cheddar-gorge.html">Cheddar Gorge</a>
+						<a class="dropdown-item" href="cleeve-hill.html">Cleeve Hill</a>
+						<a class="dropdown-item" href="somerset-coastal.html">Somerset Coastal Path</a>
+                        <a class="dropdown-item" href="weston.html">Weston Woods</a>
+                        <a class="dropdown-item" href="blagdon.html">Blagdon Lake</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-					<!--Dropdown tab, all trails in one place for user accessibility-->
-
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Top Trails
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="cheddar-gorge.html">Cheddar Gorge</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
-					</li>
-				</ul>
+<section class="blagdon-banner">
+		<div id="banner-outer">
+			<div class="container">
+				<h6><strong>Explore the best trails one step at a time</strong></h6>
 			</div>
-		</nav>
-	</header>
+		</div>
+	</section>
 
-<section class="slide">
-    <br>
-		<h2 class="w3-center">Home Gallery</h2>
+	<!--Slideshow section -->
+
+
+	<section class="slide">
+		<br>
+		<h2 class="w3-center">Blagdon Lake Gallery</h2>
 		<br>
 		<div>
 			<div class="w3-content w3-display-container">
@@ -111,14 +119,12 @@
 			</div>
 		</div>
 		<br>
-<div class="w3-center">
-  <button class="w3-button" onclick="plusDivs(-1)">&#10094; Prev</button>
-  <button class="w3-button" onclick="plusDivs(1)">Next &#10095;</button>
+		<div class="w3-center">
+			<button class="w3-button" onclick="plusDivs(-1)">&#10094; Prev</button>
+			<button class="w3-button" onclick="plusDivs(1)">Next &#10095;</button>
 	</section>
 
-
-
-	<!--<section class="cheddar-map">
+			<!--<section class="cheddar-map">
     <div
 		<h2><strong>Cheddar gorge street view</strong></h2>
 		<iframe src="https://www.google.com/maps/embed/v1/streetview" key="AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8"
@@ -126,41 +132,41 @@
     </div>
 	</section>-->
 
-	<footer>
-		<div>
-			<img class="logo" src="https://cdn.pixabay.com/photo/2015/05/15/14/53/woods-768753_960_720.jpg" alt="Trail paths">
-			<h5 href="index.html">Somerset Trails</h5>
-		</div>
-		<div>
-			<h5>Social Media</h5>
-		</div>
-		<link>
-		</link>
-		<link>
-		</link>
-	</footer>
+			<footer>
+				<div>
+					<img class="logo" src="https://cdn.pixabay.com/photo/2015/05/15/14/53/woods-768753_960_720.jpg" alt="Trail paths">
+					<h5 href="index.html">Somerset Trails</h5>
+				</div>
+				<div>
+					<h5>Social Media</h5>
+				</div>
+				<link>
+				</link>
+				<link>
+				</link>
+			</footer>
 
-	<script>
-	</script>
+			<script>
+			</script>
 
-	<!--Scripts-->
+			<!--Scripts-->
 
-	<!--Jquery-->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+			<!--Jquery-->
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 
-	<!--Popper-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+			<!--Popper-->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
-	<!--Bootstrap library-->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+			<!--Bootstrap library-->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-	<!--Maps JS-->
-	<script src="assets/js/maps.js"></script>
+			<!--Maps JS-->
+			<script src="assets/js/maps.js"></script>
 
-	<!--Google maps scripts-->
-	<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=........&callback=initMap">
-	</script>
+			<!--Google maps scripts-->
+			<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=........&callback=initMap">
+			</script>
 
 </body>
 
