@@ -16,7 +16,7 @@ body {
 
 /*header section*/
 
-.banner { 
+.banner .container { 
     width: 100%;
 	height: 30rem;
 	background: url("https://c0.wallpaperflare.com/preview/461/570/413/exmoor-pony-pony-horse-exmoor.jpg");
@@ -26,9 +26,37 @@ body {
 	background-attachment: scroll;
 }
 
+.banner {
+    animation-name: trail-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
 
+.banner-outer {
+    width: 100%;
+    height: 30rem;
+    overflow:hidden;
+    position: relative;
+}
 
-.cheddar-banner {
+.banner h6 {
+    color: rgba(241, 255, 41, 0.904);
+    text-emphasis: initial;
+    line-height: 22rem;
+}
+
+@keyframes trail-zoom {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+/*cheddar banner*/
+
+.cheddar-banner .container {
     width: 100%;
 	height: 30rem;
 	background: url("https://images.pexels.com/photos/3969285/pexels-photo-3969285.jpeg?cs=srgb&dl=cheddar-gorge-3969285.jpg&fm=jpg");
@@ -44,77 +72,7 @@ body {
     animation-fill-mode: backwards;
 }
 
-.blagdon-banner {
-    width: 100%;
-	height: 30rem;
-	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Blagdonlake2.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-attachment: scroll;
-}
-
-.blagdon-banner {
-    animation-name: trail-zoom;
-    animation-duration: 2s;
-    animation-fill-mode: backwards;
-}
-
-.cleeve-banner {
-    width: 100%;
-	height: 30rem;
-	background: url("https://upload.wikimedia.org/wikipedia/commons/7/79/The_Malverns_from_Cleeve_Hill_%284966%29.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-attachment: scroll;
-}
-
-.cleeve-banner {
-    animation-name: trail-zoom;
-    animation-duration: 2s;
-    animation-fill-mode: backwards;
-}
-
-.weston-banner {
-    width: 100%;
-	height: 30rem;
-	background: url("https://www.discoverclevedon.co.uk/wp-content/uploads/2019/03/Clevedon-21.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-attachment: scroll;
-}
-
-.weston-banner {
-    animation-name: trail-zoom;
-    animation-duration: 2s;
-    animation-fill-mode: backwards;
-}
-
-.coastal-banner {
-    width: 100%;
-	height: 30rem;
-	background: url("https://live.staticflickr.com/7433/13432939784_6087d5241b_b.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-attachment: scroll;
-}
-
-.coastal-banner {
-    animation-name: trail-zoom;
-    animation-duration: 2s;
-    animation-fill-mode: backwards;
-}
-
-.banner {
-    animation-name: trail-zoom;
-    animation-duration: 2s;
-    animation-fill-mode: backwards;
-}
-
-#banner-outer {
+.banner-outer {
     width: 100%;
     height: 30rem;
     overflow:hidden;
@@ -130,10 +88,140 @@ body {
     }
 }
 
-.banner h6 {
-    color: rgba(241, 255, 41, 0.904);
-    text-emphasis: initial;
-    line-height: 22rem;
+/*blagdon banner*/
+
+.blagdon-banner .container {
+    width: 100%;
+	height: 30rem;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Blagdonlake2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+.blagdon-banner {
+    animation-name: trail-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+.banner-outer {
+    width: 100%;
+    height: 30rem;
+    overflow:hidden;
+    position: relative;
+}
+
+@keyframes trail-zoom {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+/*cleeve banner*/
+
+.cleeve-banner .container {
+    width: 100%;
+	height: 30rem;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/7/79/The_Malverns_from_Cleeve_Hill_%284966%29.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+.cleeve-banner {
+    animation-name: trail-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+.banner-outer {
+    width: 100%;
+    height: 30rem;
+    overflow:hidden;
+    position: relative;
+}
+
+@keyframes trail-zoom {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+/*weston banner*/
+
+.weston-banner .container {
+    width: 100%;
+	height: 30rem;
+	background: url("https://www.discoverclevedon.co.uk/wp-content/uploads/2019/03/Clevedon-21.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+.weston-banner {
+    animation-name: trail-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+.banner-outer {
+    width: 100%;
+    height: 30rem;
+    overflow:hidden;
+    position: relative;
+}
+
+@keyframes trail-zoom {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+/*coastal banner*/
+
+.coastal-banner .container {
+    width: 100%;
+	height: 30rem;
+	background: url("https://live.staticflickr.com/7433/13432939784_6087d5241b_b.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+.coastal-banner {
+    animation-name: trail-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+.banner-outer {
+    width: 100%;
+    height: 30rem;
+    overflow:hidden;
+    position: relative;
+}
+
+@keyframes trail-zoom {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 
 /*Introduction section*/
