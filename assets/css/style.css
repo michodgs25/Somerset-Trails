@@ -26,6 +26,8 @@ body {
 	background-attachment: scroll;
 }
 
+
+
 .cheddar-banner {
     width: 100%;
 	height: 30rem;
@@ -36,14 +38,26 @@ body {
 	background-attachment: scroll;
 }
 
+.cheddar-banner {
+    animation-name: trail-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
 .blagdon-banner {
     width: 100%;
 	height: 30rem;
-	background: url("https://upload.wikimedia.org/wikipedia/commons/a/ac/Blagdon_and_chew_from_air_arp.jpg");
+	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Blagdonlake2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-attachment: scroll;
+}
+
+.blagdon-banner {
+    animation-name: trail-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
 }
 
 .cleeve-banner {
@@ -56,6 +70,12 @@ body {
 	background-attachment: scroll;
 }
 
+.cleeve-banner {
+    animation-name: trail-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
 .weston-banner {
     width: 100%;
 	height: 30rem;
@@ -64,6 +84,12 @@ body {
 	background-position: center;
 	background-size: cover;
 	background-attachment: scroll;
+}
+
+.weston-banner {
+    animation-name: trail-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
 }
 
 .coastal-banner {
@@ -76,10 +102,10 @@ body {
 	background-attachment: scroll;
 }
 
-.banner h6 {
-    color: rgba(241, 255, 41, 0.904);
-    text-emphasis: initial;
-    line-height: 22rem;
+.coastal-banner {
+    animation-name: trail-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
 }
 
 .banner {
@@ -88,7 +114,7 @@ body {
     animation-fill-mode: backwards;
 }
 
-#banner-out {
+#banner-outer {
     width: 100%;
     height: 30rem;
     overflow:hidden;
@@ -102,6 +128,12 @@ body {
     to{
         transform: scale(1);
     }
+}
+
+.banner h6 {
+    color: rgba(241, 255, 41, 0.904);
+    text-emphasis: initial;
+    line-height: 22rem;
 }
 
 /*Introduction section*/
