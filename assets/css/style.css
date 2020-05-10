@@ -12,6 +12,26 @@ body {
     height: 3rem;
     width: 3rem;
     border-radius: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.nav-somerset {
+    margin-right: 1rem;
+}
+
+#navbarDropdownMenuLink {
+    font-style: italic;
+}
+
+#nav-trail {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    margin-left: 2rem;
 }
 
 /*header section*/
@@ -185,7 +205,7 @@ body {
     from{
         transform: scale(1.1);
     }
-    to{
+    to {
         transform: scale(1);
     }
 }
