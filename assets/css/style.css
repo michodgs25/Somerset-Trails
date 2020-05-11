@@ -159,12 +159,6 @@ body {
     position: relative;
 }
 
-.banner h6 {
-    color: rgba(241, 255, 41, 0.904);
-    text-emphasis: initial;
-    line-height: 22rem;
-}
-
 @keyframes trail-zoom {
     from{
         transform: scale(1.1);
