@@ -25,45 +25,28 @@
 
 	<!--Navigation, fixed at the top of page for ease of use-->
 
-	<nav class="navbar">
-    <div>
-		<img class="logo" src="https://cdn.pixabay.com/photo/2015/05/15/14/53/woods-768753_960_720.jpg" alt="Trail paths">
-		<a href="index.html"><strong>Home</strong></a>
-		<a class="trail" href="#news">Trails</a>
-    </div>
+	<nav class="topnav" id="myTopnav">
+		<a href="index.html" class="active">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">Trails
+      <i class="fa fa-caret-down"></i>
+    </button>
+			<div class="dropdown-content">
+				<a href="cleeve-hill.html">Cleeve Hill</a>
+				<a href="cheddar-gorge.html">Cheddar Gorge</a>
+				<a href="blagdon.html">Blagdon Lake</a>
+				<a href="somerset-coastal.html">Somerset Coastal Path</a>
+				<a href="weston.html">Weston Woods</a>
+			</div>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 	</nav>
 
 
-	<!--logo part of menu bar, for better site layout
-
-		<div class="navbar" id="nav-trail">
-			<a class="navbar-brand" target="_self" href="#"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-
-
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav">
-						<li class="navbar-nav ml-auto skew">
-						<li class="nav-item active">
-						<li class="nav-somerset">
-							<a class="nav-link"
-								href="index.html"><strong>Somerset Trails</strong><span class="sr-only">(current)</span></a>
-						</li>
-						</li>
-						</li>-->
-
-	<!--Dropdown tab, all trails in one place for user accessibility-->
-
-
-	<!--Cover text and cover picture.
+	<!--cover picture-->
 
 	<section class="banner">
 		<div id="banner-outer">
-			<div class="container">
-				<h6><strong>Explore the best trails one step at a time</strong></h6>
-			</div>
 		</div>
 	</section>
 
@@ -127,8 +110,8 @@
 	<!--Bootstrap library-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <!--Navigation bar JS-->
-    <script src="assets/js/nav.js"></script>
+	<!--Navigation bar JS-->
+	<script src="assets/js/nav.js"></script>
 
 	<!--Maps JS-->
 	<script src="assets/js/maps.js"></script>
