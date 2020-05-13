@@ -5,7 +5,7 @@
 .logo {
     width: 3rem;
     height: 3rem;
-    border-style: 1rem;
+    border: 1rem;
 }
 
 /*body*/
@@ -22,6 +22,7 @@ body {
 }
 
 /* Style the links inside the navigation bar */
+
 .topnav a {
   float: left;
   display: block;
@@ -33,17 +34,20 @@ body {
 }
 
 /* Add an active class to highlight the current page */
+
 .active {
   background-color: rgb(2, 194, 62);
   color: rgb(255, 255, 255);
 }
 
 /* Hide the link that should open and close the topnav on small screens */
+
 .topnav .icon {
   display: none;
 }
 
 /* Dropdown container - needed to position the dropdown content */
+
 .dropdown {
   float: left;
   overflow: hidden;
@@ -51,6 +55,7 @@ body {
 }
 
 /* Style the dropdown button to fit inside the topnav */
+
 .dropdown .dropbtn {
   font-size: 2rem;
   border: none;
@@ -113,7 +118,7 @@ body {
     animation-fill-mode: backwards;
 }
 
-#banner-outer {
+.banner-outer {
     width: 100%;
     height: 30rem;
     overflow:hidden;
@@ -138,7 +143,7 @@ body {
     animation-fill-mode: backwards;
 }
 
-#banner-outer {
+.banner-outer {
     width: 100%;
     height: 30rem;
     overflow:hidden;
@@ -172,7 +177,7 @@ body {
     animation-fill-mode: backwards;
 }
 
-#banner-outer {
+.banner-outer {
     width: 100%;
     height: 30rem;
     overflow:hidden;
@@ -227,14 +232,14 @@ body {
 .weston-banner {
     width: 100%;
 	height: 30rem;
-	background: url("https://upload.wikimedia.org/wikipedia/commons/2/21/Stokeleigh_Camp_in_Leigh_Woods.jpg");
+	background: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Exmoor_National_Park.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-attachment: scroll;
 }
 
-#weston-banner {
+.weston-banner {
     animation-name: trail-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
@@ -274,7 +279,7 @@ body {
     animation-fill-mode: backwards;
 }
 
-#banner-outer {
+.banner-outer {
     width: 100%;
     height: 30rem;
     overflow:hidden;
