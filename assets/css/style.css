@@ -77,6 +77,8 @@ body {
   text-decoration: none;
   display: block;
   text-align: center;
+  font-size: 1rem;
+  font-style: italic;
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
@@ -85,7 +87,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: rgb(2, 194, 62);
   color: rgba(2, 1, 1, 0.904);
 }
 
