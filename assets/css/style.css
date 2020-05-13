@@ -71,7 +71,7 @@ body {
   display: none;
   position: relative;
   background-color: rgb(255, 255, 255);
-  min-width: 40rem;
+  min-width: 20rem;
   z-index: 99;
 }
 
@@ -227,9 +227,9 @@ body {
     }
 }
 
-/*weston banner*/
+/*exmoor banner*/
 
-.weston-banner {
+.exmoor-banner {
     width: 100%;
 	height: 30rem;
 	background: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Exmoor_National_Park.jpg");
@@ -239,7 +239,7 @@ body {
 	background-attachment: scroll;
 }
 
-.weston-banner {
+.exmoor-banner {
     animation-name: trail-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
@@ -295,6 +295,16 @@ body {
     }
 }
 
+/*banner text*/
+
+h6 {
+    text-align: center;
+    color: rgb(2, 194, 62);
+    margin-top: 1rem;
+    font-style: italic;
+    font-size: 1rem;
+}
+
 /*Introduction section*/
 
 #introduction {
@@ -320,7 +330,7 @@ body {
 
 /*Maps section*/
 
-/*homepage*/
+/*homepage
 
 .map {
     width: 50rem;
