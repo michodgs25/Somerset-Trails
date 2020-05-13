@@ -318,14 +318,50 @@ h6 {
 
 /*slide show section*/
 
-.slide .card {
-    width: 20rem;
-    height: auto;
-    text-align: center;
+/*container styling*/
+
+.container {
+	width:540px;
+	margin:40px auto;
+	overflow:auto;
 }
 
-.slide {
-    background-color: rgb(241, 255, 41, 0.904)
+.slider-inner{
+	width:500px;
+	height:300px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+	padding:3px;
+	border:#666 solid 1px;
+}
+
+.slider-inner img{
+	display:none;
+	width:500px;
+	height:300px;
+}
+
+.slider-inner img.active{
+	display:inline-block;
+}
+
+.prev,.next{
+	float:left;
+	margin-top:130px;
+	cursor: pointer;
+}
+
+.prev{
+	position:relative;
+	margin-right:-45px;
+	z-index:100;
+}
+
+.next{
+	position:relative;
+	margin-left:-45px;
+	z-index:100;
 }
 
 /*Maps section*/
