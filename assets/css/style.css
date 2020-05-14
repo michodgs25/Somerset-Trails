@@ -322,25 +322,26 @@ h6 {
 
 
 .container .slide {
-	width:540px;
-	margin:40px auto;
-	overflow:auto;
+	width: 100%;
+	margin: 5rem auto;
+    text-align: center;
+	overflow: hidden;
 }
 
 .slider-inner{
-	width:500px;
-	height:300px;
+	width: 55rem;
+	height:30rem;
 	position:relative;
 	overflow:hidden;
 	float:left;
-	padding:3px;
-	border:#666 solid 1px;
+	padding: 0.1rem;
+	border: rgba(2, 1, 1, 0.904) solid 0.5rem;
 }
 
 .slider-inner img{
 	display:none;
-	width:500px;
-	height:300px;
+	width: 55rem;
+	height: 30rem;
 }
 
 .slider-inner img.active{
@@ -349,19 +350,19 @@ h6 {
 
 .prev,.next{
 	float:left;
-	margin-top:130px;
+	margin-top: 10rem;
 	cursor: pointer;
 }
 
 .prev{
 	position:relative;
-	margin-right:-45px;
+	margin-right: -100rem;
 	z-index:100;
 }
 
 .next{
 	position:relative;
-	margin-left:-45px;
+	margin-left: -3.7rem;
 	z-index:100;
 }
 
