@@ -320,7 +320,8 @@ h6 {
 
 /*container styling*/
 
-.container {
+
+.container .slide {
 	width:540px;
 	margin:40px auto;
 	overflow:auto;
