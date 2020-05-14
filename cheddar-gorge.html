@@ -54,58 +54,23 @@
 	<!--Slideshow section -->
 
 
-	<section class="slide">
-		<br>
-		<h2 class="w3-center">Cheddar Gorge Gallery</h2>
-		<br>
-		<div>
-			<div class="w3-content w3-display-container">
-				<img class="card" src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Blagdonlake2.jpg" alt="Blagdon Lake">
-				<div class="w3-display-bottomleft w3-container w3-padding-10 w3-white">
-					Blagdon Lake
-				</div>
-			</div>
-		</div>
+	<section class="container">
+		<h2>Trails Gallery</h2>
+		<div class="slide">
+			<div class="slide-outer">
+				<img src="assets/images/arrows/arrow-left.png" class="prev" alt="Prev">
 
-		<div>
-			<div class="w3-content w3-display-container">
-				<img class="card" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Cheddar_Gorge%2C_Somerset%2C_UK_-_Diliff.jpg" alt="Cheddar Gorge">
-				<div class="w3-display-bottomleft w3-container w3-padding-10 w3-white">
-					Cheddar Gorge
+				<div class="slider-inner">
+					<img src="assets/images/banner/cover-image.jpg" class="active" alt="Home">
+					<img src="assets/images/banner/cleeve-banner.jpg" alt="Cleeve Hill">
+					<img src="assets/images/banner/cheddar-banner.jpg" alt="Cheddar Gorge">
+					<img src="assets/images/banner/coastal-banner.jpg" alt="West Somerset Coastal Path">
+					<img src="assets/images/banner/exmoor-banner.jpg" alt="Exmoor National Park">
+					<img src="assets/images/banner/blagdon-banner.jpg" alt="Blagdon Lake">
+</div>
+					<img src="assets/images/arrows/arrow-right.png" class="next" alt="Next">
+</div>
 				</div>
-			</div>
-		</div>
-
-		<div>
-			<div class="w3-content w3-display-container">
-				<img class="card" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/View_from_Cleeve_Hill_-_geograph.org.uk_-_299073.jpg" alt="Cleeve Hill">
-				<div class="w3-display-bottomleft w3-container w3-padding-10 w3-white">
-					Cleeve Hill
-				</div>
-			</div>
-		</div>
-
-		<div>
-			<div class="w3-content w3-display-container">
-				<img class="card" src="https://s0.geograph.org.uk/geophotos/05/45/08/5450898_08a5436b.jpg" alt="West Somerset Coastal Path">
-				<div class="w3-display-bottomleft w3-container w3-padding-10 w3-white">
-					West Somerset Coastal Path
-				</div>
-			</div>
-		</div>
-
-		<div>
-			<div class="w3-content w3-display-container">
-				<img class="card" src="https://live.staticflickr.com/5828/20565424828_7f416be21d_b.jpg" alt="Weston Woods">
-				<div class="w3-display-bottomleft w3-container w3-padding-10 w3-white">
-					Weston Woods
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="w3-center">
-			<button class="w3-button" onclick="plusDivs(-1)">&#10094; Prev</button>
-			<button class="w3-button" onclick="plusDivs(1)">Next &#10095;</button>
 	</section>
 
 	<!--<section class="cheddar-map">
@@ -143,6 +108,9 @@
 
 	<!--Bootstrap library-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!--Slideshow JS-->
+	<script type="text/javascript" src="assets/js/slide.js"></script>
 
 	<!--Navigation bar JS-->
 	<script src="assets/js/nav.js"></script>
