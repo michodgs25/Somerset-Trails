@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700&display=swap');
 
-/*logo*/
+/*logo for footer*/
 
 .logo {
     width: 3rem;
@@ -8,7 +8,7 @@
     border: 1rem;
 }
 
-/*body*/
+/*body styling*/
 
 body {
     background-color: rgb(255, 255, 255);
@@ -67,6 +67,7 @@ body {
 }
 
 /* Style the dropdown content*/
+
 .dropdown-content {
   display: none;
   position: relative;
@@ -300,30 +301,29 @@ body {
 h6 {
     text-align: center;
     color: rgb(2, 194, 62);
-    margin-top: 1rem;
     font-style: italic;
     font-size: 1rem;
 }
 
 /*Introduction section*/
 
-#introduction {
+.introduction h2 {
     text-align: center;
     padding-top: 5rem;
+    color: rgb(2, 194, 62);
 }
 
-#introduction {
-    color: rgba(241, 255, 41, 0.904);
+.introduction p {
+    color: rgba(2, 1, 1, 0.904);
+    font-style: italic;
 }
 
 /*slide show section*/
 
 /*container styling*/
 
-
 .container .slide {
 	width: 100%;
-	margin: 5rem auto;
     text-align: center;
 	overflow: hidden;
 }
@@ -333,18 +333,21 @@ h6 {
 	height:30rem;
 	position:relative;
 	overflow:hidden;
-	float:left;
+    text-align: center;
+	float: left;
 	padding: 0.1rem;
-	border: rgba(2, 1, 1, 0.904) solid 0.5rem;
+	border: rgba(2, 1, 1, 0.904) solid 0.3rem;
 }
 
 .slider-inner img{
 	display:none;
 	width: 55rem;
 	height: 30rem;
+    text-align: center;
 }
 
 .slider-inner img.active{
+    text-align: center;
 	display:inline-block;
 }
 
