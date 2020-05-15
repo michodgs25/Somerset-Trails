@@ -194,9 +194,9 @@ body {
     }
 }
 
-/*cleeve banner*/
+/*staple banner*/
 
-.cleeve-banner {
+.staple-banner {
     width: 100%;
 	height: 30rem;
 	background: url("https://upload.wikimedia.org/wikipedia/commons/7/79/The_Malverns_from_Cleeve_Hill_%284966%29.jpg");
@@ -206,7 +206,7 @@ body {
 	background-attachment: scroll;
 }
 
-.cleeve-banner {
+.staple-banner {
     animation-name: trail-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
@@ -406,25 +406,20 @@ img {vertical-align: middle;}
 /*Maps section*/
 
 /*homepage
-
 .map {
     width: 50rem;
     height: auto;
 }
-
 /*cheddar gorge
-
 .cheddar-map {
     padding-top: 10rem;
     margin-top: 10rem;
 }
-
 .cheddar-map {
     height: 100%;
     margin: 0;
     padding: 0;
 }
-
 /*bottom page nav*/
 
 .bottom-nav {
