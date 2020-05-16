@@ -1,7 +1,9 @@
-# Somerset Trails
+# Somerset Trails 
 ### Explore the west country's best trails, one step at a time.
 
 *Somerset is world famous for it's beautiful countryside and spectacular hill-top views with thousands of tourists flocking to visit the area every year. Somerset boasts trails such as the **Cheddar Gorge**, the **Weston Woods**, **Somerset Coastal path** and many more.*
+
+![Trails image](https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/logo/README.png)
 
 ### UX
 -----
