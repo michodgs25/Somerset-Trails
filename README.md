@@ -10,7 +10,7 @@ __Somerset Trails__ website offers a user **(see user stories below)** a visuall
 
 * The primary goal of this website is to be a responsive, that users can easily explore different trails and learn more about each location.
 
-* The site should be easy to navigate, the menu bar follows viewer on each page so the user won't have to scroll up to access different sections of the site.
+* The site should be easy to navigate, with navigation sections top, bottom and right-side cursor that takes the user back to the top.
 
 * Map of each trail is to be clearly defined on each page, and easy to use the toggles: terrain and distance.
 
