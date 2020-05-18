@@ -101,7 +101,7 @@ body {
   display: block;
 }
 
-/*header*/
+/*header section on homepage*/
 
 .banner {
     width: 100%;
@@ -113,11 +113,15 @@ body {
 	background-attachment: scroll;
 }
 
+/*animation when page loads*/
+
 .banner {
     animation-name: trail-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
 }
+
+/*ensure banner transitions smoothly*/
 
 .banner-outer {
     width: 100%;
@@ -126,7 +130,7 @@ body {
     position: relative;
 }
 
-/*cheddar banner*/
+/*cheddar header page*/
 
 .cheddar-banner {
     width: 100%;
@@ -138,11 +142,15 @@ body {
 	background-attachment: scroll;
 }
 
+/*Animation when page loads*/
+
 .cheddar-banner {
     animation-name: trail-zoom;
     animation-duration: 2s;
     animation-fill-mode: backwards;
 }
+
+/*Ensure smooth banner transition*/
 
 .banner-outer {
     width: 100%;
@@ -305,7 +313,7 @@ h6 {
     font-size: 1rem;
 }
 
-/*Introduction section*/
+/*Homepage introduction section, brief intro for user to learn what the site is about*/
 
 .introduction h2 {
     text-align: center;
@@ -318,7 +326,10 @@ h6 {
     font-style: italic;
 }
 
-/*Gallery introduction*/
+/*Slideshow section*/
+
+
+/*slidshow heading for every page, introduce viewer to slideshow*/
 
 .slide-intro h2 {
     color: rgb(2, 194, 62);
@@ -328,12 +339,14 @@ h6 {
     font-style: italic;
 }
 
-/*slideshow*/
+/*slideshow section*/
+
+/*aligning slideshow content*/
 
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
-/* Slideshow container */
+/* Slideshow container size*/
 
 .slideshow-container {
   max-width: 62.5rem;
@@ -341,7 +354,7 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
-/* Caption text */
+/* text for each slide */
 
 .text {
   color: rgb(255, 255, 255);
@@ -420,26 +433,8 @@ img {vertical-align: middle;}
     margin: 0;
     padding: 0;
 }
-/*bottom page nav*/
 
-.bottom-nav {
-  background-color: rgba(2, 1, 1, 0.904);
-  overflow: hidden;
-  margin-top: 10rem;
-  text-align: center;
-}
-
-/* Style the links inside the navigation bar */
-
-.bottom-nav a {
-  float: left;
-  display: block;
-  color: rgb(250, 255, 255);
-  text-align: right;
-  padding: 2rem;
-  text-decoration: none;
-  font-size: 2rem;
-}
+/*bottom page navigation, enable user to access other trails instantly*/
 
 /* Add an active class to highlight the current page */
 
@@ -454,56 +449,57 @@ img {vertical-align: middle;}
   display: none;
 }
 
-/*Dropdown container*/
+/*dropup button styling*/
 
-.bottom-nav .dropdown {
+.dropbtn {
+    background-color: rgb(255, 255, 255);
+    color:rgba(2, 1, 1, 0.904);
+    padding: 1rem;
+    font-size: 5rem;
+    border: none;
+}
+
+/*positioning of container*/
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+/*content styling*/
+
+.dropup-content {
+    display: none;
+    bottom: 3.125rem;
+    background-color: rgb(255, 255, 255);
+    min-width: 10rem;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
+    z-index: 1;
     text-align: center;
     overflow: hidden;
     font-style: italic;
 }
 
-/*Style the dropdown button to fit*/
+/*links inside dropup*/
 
-.bottom-nav .dropdown .dropbtn {
-  font-size: 2rem;
-  border: none;
-  outline: none;
-  color: rgb(255, 255, 255);
-  padding: 2rem;
-  background-color: inherit;
+.dropup-content a {
+    color: rgba(2, 1, 1, 0.904);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    display: block;
 }
 
-/* Style dropdown content*/
+/*change color of links when hovered over*/
 
-.bottom-nav .dropdown-content {
-  display: none;
-  position: relative;
-  background-color: rgb(255, 255, 255);
-  min-width: 20rem;
-  z-index: 99;
+.dropup-content a:hover {background-color: rgb(2, 194, 62);}
+
+/*show dropup menu*/
+
+.dropup:hover .dropup-content {
+    display: block;
 }
 
-.bottom-nav .dropdown-content a {
-  float: none;
-  color: rgb(2, 1, 1, 0.904);
-  padding: 1rem;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-size: 1rem;
-  font-style: italic;
-}
-
-.bottom-nav a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(166, 171, 167);
-  color: rgb(255, 255, 255);
-}
-
-.bottom-nav .dropdown-content a:hover {
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
   background-color: rgb(2, 194, 62);
-  color: rgba(2, 1, 1, 0.904);
-}
-
-.bottom-nav .dropdown:hover .dropdown-content {
-  display: block;
 }
