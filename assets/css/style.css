@@ -367,6 +367,7 @@ img {vertical-align: middle;}
 }
 
 /* Number text (1/6) */
+
 .numbertext {
   color: rgb(255, 255, 255);
   font-size: 1rem;
@@ -375,12 +376,14 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/*Slideshow dots/bullets/indicators */
+
 .dot {
   height: 1rem;
   width: 1rem;
   margin: 0 0.13rem;
-  background-color: #bbb;
+  color: rgb(2, 194, 62);
+  background-color: rgb(166, 171, 167);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -388,7 +391,7 @@ img {vertical-align: middle;}
 }
 
 .active {
-  background-color: rgb(166, 171, 167);
+  background-color: rgb(2, 194, 62);
 }
 
 /* Fading animation */
@@ -449,9 +452,15 @@ img {vertical-align: middle;}
   display: none;
 }
 
+/*button position*/
+
+.bottom-nav {
+    text-align: center;
+}
+
 /*dropup button styling*/
 
-.dropbtn {
+.bottom-nav .dropbtn {
     background-color: rgb(255, 255, 255);
     color:rgba(2, 1, 1, 0.904);
     padding: 1rem;
@@ -461,18 +470,19 @@ img {vertical-align: middle;}
 
 /*positioning of container*/
 
-.dropup {
+.bottom-nav .dropup {
   position: relative;
   display: inline-block;
 }
 
 /*content styling*/
 
-.dropup-content {
+.bottom-nav .dropup-content {
     display: none;
+    top: 3.125rem;
     bottom: 3.125rem;
     background-color: rgb(255, 255, 255);
-    min-width: 10rem;
+    min-width: 25rem;
     box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
     z-index: 1;
     text-align: center;
@@ -482,7 +492,7 @@ img {vertical-align: middle;}
 
 /*links inside dropup*/
 
-.dropup-content a {
+.bottom-nav .dropup-content a {
     color: rgba(2, 1, 1, 0.904);
     padding: 0.75rem 1rem;
     text-decoration: none;
@@ -491,15 +501,16 @@ img {vertical-align: middle;}
 
 /*change color of links when hovered over*/
 
-.dropup-content a:hover {background-color: rgb(2, 194, 62);}
+.bottom-nav .dropup-content a:hover {background-color: rgb(2, 194, 62);}
 
 /*show dropup menu*/
 
-.dropup:hover .dropup-content {
+.bottom-nav .dropup:hover .dropup-content {
     display: block;
 }
 
-/* Change the background color of the dropup button when the dropup content is shown */
-.dropup:hover .dropbtn {
+/* Change the background color of the dropup button when the dropup content is shown*/
+
+.bottom-nav .dropup:hover .dropbtn {
   background-color: rgb(2, 194, 62);
 }
