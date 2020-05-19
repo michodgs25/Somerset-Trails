@@ -354,16 +354,40 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
-/* text for each slide */
+/* button on each slide */
 
-.text {
-  color: rgb(255, 255, 255);
-  font-size: 1rem;
-  padding: 1rem 1rem;
+.btn .container {
+  position: relative;
+  width: 50%;
+  border-style: 0.5rem solid rgba(2, 1, 1, 0.904);
+}
+
+.btn .container a {
+    text-decoration: none;
+    font-style: none;
+}
+
+/* Style the button and place it in the middle of the container/image */
+
+.container .btn {
   position: absolute;
-  bottom: 0.5rem;
-  width: 100%;
-  text-align: center;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(2, 194, 62);
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  padding: 0.75 1.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.313;
+}
+
+/*when user hovers over, button changes color*/
+
+.container .btn:hover {
+  background-color: rgba(2, 1, 1, 0.904);
 }
 
 /* Number text (1/6) */
