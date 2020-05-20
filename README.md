@@ -51,7 +51,6 @@ Users that come to this site aren't looking for trails in Wales or the north of 
 So the next step was figuring out how to maximise the user experience and present the best of Somerset trails via images& google maps API.
 
 ## Wire-Frames
-----
 
 Wireframes can be found via assets on michodgs24/Somerset-Trails main code homepage. 
 
