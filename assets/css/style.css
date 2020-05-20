@@ -495,8 +495,13 @@ img {vertical-align: middle;}
 /*positioning of container*/
 
 .bottom-nav .dropup {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
+    font-style: italic;
+}
+
+.bottom-nav .dropbtn {
+    border: 0.2rem solid rgba(2, 1, 1, 0.904);
 }
 
 /*content styling*/
@@ -510,7 +515,6 @@ img {vertical-align: middle;}
     box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
     z-index: 1;
     text-align: center;
-    font-style: italic;
 }
 
 /*links inside dropup*/
@@ -536,4 +540,25 @@ img {vertical-align: middle;}
 
 .bottom-nav .dropup:hover .dropbtn {
   background-color: rgb(2, 194, 62);
+}
+
+/* scroll back to top button*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.875rem;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(2, 194, 62);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+}
+
+#myBtn:hover {
+    background-color: rgba(2, 1, 1, 0.904);
 }
