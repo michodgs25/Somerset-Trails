@@ -57,7 +57,6 @@ Wireframes can be found via assets on michodgs24/Somerset-Trails main code homep
 
 
 ## Features and features left to implement
-----
 
 ### Features
 
