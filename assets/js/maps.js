@@ -1,18 +1,19 @@
-const myHeading = document.querySelector("h1");
-myHeading.textContent = "Hello world!";
+//create script tag
 
-/*Homepage map*/
+var script = document.createElement("script");
+script.src = "http://maps.googleapis.com/maps/api/js?key=......&callback=initMap";
+script.defer = true;
+script.async = true;
 
-/*
-var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var labelIndex = 0;
-var map;
-var InforObj = [];
+//attach callback to window object
+window.initMap = function() {
 
-var markersOnMap = [
-    {
-        placeName: "Cheddar Gorge" < br > <a href='https://goo.gl/maps/api_key'>Get Directions and more information</a>,
-        LatLng: {
-            lat: 51.2880522,
-            lng: -2.7575527,
-        };*/
+};
+
+//append script to head
+document.head.appendChild(script);
+
+map = new google.maps.Map(document.getElementById("mapping"), {
+    center: {lat: 50.986205, lng: -3.5072334},
+    zoom: 18
+});

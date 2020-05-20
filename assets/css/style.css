@@ -445,11 +445,19 @@ img {vertical-align: middle;}
 
 /*Maps section*/
 
-/*homepage
-.map {
-    width: 50rem;
-    height: auto;
+/*homepage*/
+
+.home-map h2 {
+    font-style: italic;
+    text-align: center;
+    color: rgb(2, 194, 62);
 }
+
+#mapping {
+    width: 100%;
+    height: 100%;
+}
+
 /*cheddar gorge
 .cheddar-map {
     padding-top: 10rem;
