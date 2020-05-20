@@ -67,7 +67,7 @@ __Navigation bar__
 
 * *The home tab acts a tool for the user to access the homepage at any time.*
 
-* *The top trails tab is a drop-down element, when the user clicks on the tab; a box drops down, providing every trail available to the user at a single click.*
+* *The top trails tab is a drop-down element, when the user hovers on the tab; a box drops down, providing every trail available to the user at a single click.*
 
 __Slideshow__ 
 
@@ -84,6 +84,14 @@ __Google maps API__
 * *The __homepage map__ will have a terrain and distance(of trail) toggle buttons.*
 
 * *The map on the __trail result page__ will be zoomed in on that particular trail displaying trail location.*
+
+__Explore tab__
+
+* *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button. The box contains a link to a different trail.
+
+__Back to top of page__
+
+* *A button placed on the right hand side of the page, user can click the button and will be taken back to the top of the respective page.
 
 ### Features left to be implemented
 * https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
