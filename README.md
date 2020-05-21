@@ -5,7 +5,25 @@
 
 ![Trails image](https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/logo/README.png)
 
-### UX
+## Contents
+
+* [UX](#UX)
+* [User-Stories](#User-Stories)
+ * [Strategy](#Strategy)
+ * [Scope](#Scope)
+* [Wire-Frames](#Wire-Frames)
+ * [Feature-and-features-left-to-implement](#Features-and-features-left-to-implement)
+ * [Technologies](#Technologies)
+ * [Testing](#Testing)
+ * [Version-control](#Version-control)
+ * [Deployment](#Deployment)
+ * [issues-and-bugs](#issues-and-bugs)
+ * [Acknowledgements](#Acknowledgements)
+ * [Credits](#Credits)
+-----
+
+##UX
+
 -----
 
 __Somerset Trails__ site was born from observing that current sites such as: https://www.somersetlive.co.uk/news/somerset-news/11-stunning-walking-routes-around-2431780, had far too many ads clogging up each page which made the experience visitting the site unappealing. The trails are such beautiful places to visit, the website is many people's first impression and can be discouraging to see advertisements for various companies plastered everywhere.
@@ -52,8 +70,6 @@ So the next step was figuring out how to maximise the user experience and presen
 
 ## Wire-Frames
 
-Wireframes can be found via assets on michodgs24/Somerset-Trails main code homepage. 
-
 
 ## Features and features left to implement
 
@@ -71,9 +87,7 @@ __Slideshow__
 
 * *The slideshow on the __homepage__ will have a picture of each trail accompanied with a caption& a button so the user can access that specific trail immediately.*
 
-* *The slideshow on each __trail results page__ will be a series of images of that trail followed by a caption.*
-
-* *Each slideshow will have a manual toggle named: "prev" and "next" accompanied with arrows.*
+* *The slideshow on each __trail results page__ will be a series of images of that trail.*
 
 __Google maps API__
 
@@ -85,7 +99,7 @@ __Google maps API__
 
 __Explore tab__
 
-* *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button. The box contains a link to a different trail.
+* *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button. The box contains the other trails links so the user can access the next trail with ease.
 
 __Back to top of page__
 
