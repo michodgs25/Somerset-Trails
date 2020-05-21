@@ -22,7 +22,7 @@
  * [Credits](#Credits)
 -----
 
-##UX
+## UX
 
 -----
 
