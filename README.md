@@ -140,10 +140,9 @@ Tested html and css code formatting with https://validator.w3.org/.
 ### Testing summary of device screens: 
 
 
-## Version control-
-
-
 ## Deployment-
+
+Deployed to one platform, GitHub
 
 
 ## issues and bugs-
@@ -151,9 +150,11 @@ Tested html and css code formatting with https://validator.w3.org/.
 
 ## Acknowledgements-
 
+* W3.CSS - https://www.w3schools.com/w3css/4/w3.css.
 
+* Code institute - https://codeinstitute.net/
 
-## Credits-
+* Google Developers - https://developers.google.com/
 
 
 ## External Media 
