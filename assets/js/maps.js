@@ -11,9 +11,15 @@ window.initMap = function() {
 };
 
 //append script to head
+
 document.head.appendChild(script);
 
-map = new google.maps.Map(document.getElementById("mapping"), {
+//Initialise home map, add lat& lng
+
+var map;
+function initMap() {
+map = new google.maps.Map(document.getElementById("home-map"), {
     center: {lat: 50.986205, lng: -3.5072334},
     zoom: 18
 });
+}

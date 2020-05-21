@@ -92,13 +92,17 @@
 						<span class="dot"></span>
 					</div>
 
-					<!--<section class="cheddar-map">
- <div
-<h2><strong>Cheddar gorge street view</strong></h2>
-<iframe src="https://www.google.com/maps/embed/v1/streetview" key="AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8"
-location="51.2880522,-2.7575527" heading="210" pitch="10" fov="35"><iframe>
- </div>
-</section>-->
+					<br>
+
+					<!--Map section-->
+					<section>
+						<h2 class="map-text">Staple Hill Map</h2>
+                        <br>
+						<div id="map">
+						</div>
+					</section>
+
+
 
 					<!--Bottom navigation button, for increased user flexibility-->
 
@@ -163,10 +167,12 @@ location="51.2880522,-2.7575527" heading="210" pitch="10" fov="35"><iframe>
 					<script src="assets/js/maps.js"></script>
 
 					<!--Google maps scripts-->
+					<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
 					<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js">
 					</script>
-					<script src="https://maps.googleapis.com/maps/api/js?key=........&callback=initMap">
-					</script>
+
+					<script src="https://maps.googleapis.com/maps/api/js?key=........&callback=initMap"></script>
 
 </body>
 

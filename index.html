@@ -144,11 +144,12 @@
 		<br>
 
 		<!--Map section-->
-
-		<section class="home-map">
-			<h2>Somerset Map</h2>
-			<div id="mapping"></div>
-		</section>
+        <section>
+        <h2 class="map-text">Somerset Map</h2>
+        <br>
+		<div id="map">
+		</div>
+        </section>
 
 		<!--Bottom navigation, for user flexibility -->
 
@@ -212,10 +213,11 @@
 		<script src="assets/js/slide.js"></script>
 
 		<!--Google maps scripts-->
-		<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js">
-		</script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=......&callback=initMap">
-		</script>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+		<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=......&callback=initMap"></script>
 
 
 </body>
