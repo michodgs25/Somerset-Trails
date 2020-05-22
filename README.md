@@ -96,11 +96,9 @@ So the next step was figuring out how to maximise the user experience and presen
          </div>
     </details>
   
-  <br>
-  
   ### Results page
   
-    <details>
+   <details>
   <summary>Results page header</summary>
   <br>
   <div align="center">
@@ -108,7 +106,7 @@ So the next step was figuring out how to maximise the user experience and presen
          </div>
     </details>
     
-        <details>
+   <details>
   <summary>Results page body</summary>
   <br>
   <div align="center">
@@ -116,7 +114,7 @@ So the next step was figuring out how to maximise the user experience and presen
          </div>
     </details>
     
-            <details>
+  <details>
   <summary>Results page footer</summary>
   <br>
   <div align="center">
