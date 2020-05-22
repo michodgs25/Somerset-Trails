@@ -70,13 +70,60 @@ So the next step was figuring out how to maximise the user experience and presen
 
 ## Wire-Frames
 
+### Homepage
+
 <details>
-<summary>HomePage header WireFrame</summary>
-<br>
-![Trails image](https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/logo/README.png)
-</details>
-
-
+  <summary>Home page header wireframe</summary>
+  <br>
+<div align="center">
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-page/home-header.png" target="_blank" rel=""/>
+</div>
+  </details>
+  
+  <details>
+  <summary>Home page body wireframe</summary>
+  <br>
+<div align="center">
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-page/home-body.png" target="_blank" rel=""/>
+</div>
+  </details>
+  
+  <details>
+  <summary>Home page footer wireframe</summary>
+  <br>
+  <div align="center">
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-page/home-footer.png"
+         </div>
+    </details>
+  
+  <br>
+  
+  ### Results page
+  
+    <details>
+  <summary>Results page header</summary>
+  <br>
+  <div align="center">
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/results-page/results-header.png"
+         </div>
+    </details>
+    
+        <details>
+  <summary>Results page body</summary>
+  <br>
+  <div align="center">
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/results-page/results-page.png"
+         </div>
+    </details>
+    
+            <details>
+  <summary>Results page footer</summary>
+  <br>
+  <div align="center">
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/results-page/results-footer.png"
+         </div>
+    </details>
+    
 ## Features and features left to implement
 
 ### Features
@@ -111,8 +158,11 @@ __Back to top of page__
 
 * *A button placed on the right hand side of the page, user can click the button and will be taken back to the top of the respective page.
 
-### Features left to be implemented
-* https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
+<details>
+  <summary>Features left to implement</summary>
+  <br>
+(https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703)
+</details>
 
 ## Technologies
 
