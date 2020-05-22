@@ -345,8 +345,13 @@ h6 {
 
 /*aligning slideshow content*/
 
-.mySlides {display: none;}
-img {vertical-align: middle;}
+* {box-sizing:border-box}
+
+.mySlides {
+    display: none;
+    vertical-align: middle;
+    margin: auto;
+    }
 
 /* Slideshow container size*/
 
@@ -356,15 +361,13 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
-/* button on each slide */
-
-.btn .container {
-  position: relative;
-  width: 50%;
-  border-style: 0.5rem solid rgba(2, 1, 1, 0.904);
+.mySlides-fade .slideshow-container img {
+    height: 10rem;
+    width: 100%;
 }
 
 .btn .container a {
+
     text-decoration: none;
     font-style: none;
 }
@@ -424,9 +427,9 @@ img {vertical-align: middle;}
 
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2.5s;
+  -webkit-animation-duration: 3s;
   animation-name: fade;
-  animation-duration: 2.5s;
+  animation-duration: 3s;
 }
 
 @-webkit-keyframes fade {
