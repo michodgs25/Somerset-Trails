@@ -130,6 +130,15 @@ __Navigation bar__
 
 * *The navigation bar for __homepage__ and each __trail result page__ contains a logo and two tabs: home and top trails.*
 
+<details>
+  <summary>Navigation& Navigation dropdown</summary>
+  <br>
+<div align="center">
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/home-nav-ss.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/open-home-ss.jpg" target="_blank" rel=""/>
+  </div>
+  </details>
+  
 * *The home tab acts a tool for the user to access the homepage at any time.*
 
 * *The top trails tab is a drop-down element, when the user hovers on the tab; a box drops down, providing every trail available to the user at a single click.*
@@ -152,9 +161,29 @@ __Explore tab__
 
 * *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button. The box contains the other trails links so the user can access the next trail with ease.
 
+  <details>
+  <summary>Bottom page navigation</summary>
+  <br>
+  <div align="center">
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/button-ss.jpg"
+         target="rel"/>
+  <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/open-button-ss.jpg"
+       target="rel"/>
+</div>
+    </details>
+
 __Back to top of page__
 
-* *A button placed on the right hand side of the page, user can click the button and will be taken back to the top of the respective page.
+* *A button placed on the right hand side of the page, user can click the button and will be taken back to the top of the respective page.*
+
+<details>
+  <summary>Scroll tab</summary>
+  <br>
+  <div align="center">
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/scroll-top-ss.jpg"
+         </div>
+ </details>
+  <br>
 
 <details>
   <summary>Features left to implement</summary>
