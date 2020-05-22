@@ -73,7 +73,7 @@ So the next step was figuring out how to maximise the user experience and presen
 <details>
 <summary>HomePage header WireFrame</summary>
 <br>
-[Homepage](www.github.com/Somerset-Trails/assets/wire-frame/home-page/home-header.png)
+![Homepage](https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-page/home-header.png)
 </details>
 
 
