@@ -108,7 +108,7 @@ __Back to top of page__
 ### Features left to be implemented
 * https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
 
-## Technologies-
+## Technologies
 
 * Html, Css and Javascript language
 
@@ -120,7 +120,7 @@ __Back to top of page__
 
 * W3.CSS - https://www.w3schools.com/w3css/4/w3.css
 
-## Testing-
+## Testing
 
 ### Testing - i.
 Shared the link on google, internet explorer and yahoo to ensure the site looks and works as it should on different browers. 
@@ -140,15 +140,15 @@ Tested html and css code formatting with https://validator.w3.org/.
 ### Testing summary of device screens: 
 
 
-## Deployment-
+## Deployment
 
 Deployed to one platform, GitHub
 
 
-## issues and bugs-
+## issues and bugs
 
 
-## Acknowledgements-
+## Acknowledgements
 
 * W3.CSS - https://www.w3schools.com/w3css/4/w3.css.
 
