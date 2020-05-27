@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*logo for footer*/
 
 .logo {
@@ -103,6 +107,10 @@ body {
 
 /*header section on homepage*/
 
+h4 {
+    
+}
+
 .banner {
     width: 100%;
 	height: 30rem;
@@ -152,7 +160,7 @@ body {
 
 /*Ensure smooth banner transition*/
 
-.banner-outer {
+.cheddar-banner-outer {
     width: 100%;
     height: 30rem;
     overflow:hidden;
@@ -186,7 +194,7 @@ body {
     animation-fill-mode: backwards;
 }
 
-.banner-outer {
+.blagdon-banner-outer {
     width: 100%;
     height: 30rem;
     overflow:hidden;
@@ -220,7 +228,7 @@ body {
     animation-fill-mode: backwards;
 }
 
-.banner-outer {
+.staple-banner-outer {
     width: 100%;
     height: 30rem;
     overflow:hidden;
@@ -254,7 +262,7 @@ body {
     animation-fill-mode: backwards;
 }
 
-.banner-outer {
+.exmoor-banner-outer {
     width: 100%;
     height: 30rem;
     overflow:hidden;
@@ -288,7 +296,7 @@ body {
     animation-fill-mode: backwards;
 }
 
-.banner-outer {
+.coastal-banner-outer {
     width: 100%;
     height: 30rem;
     overflow:hidden;
@@ -304,42 +312,7 @@ body {
     }
 }
 
-/*banner text*/
-
-h6 {
-    text-align: center;
-    color: rgb(2, 194, 62);
-    font-style: italic;
-    font-size: 1rem;
-}
-
 /*Homepage introduction section, brief intro for user to learn what the site is about*/
-
-.introduction h2 {
-    text-align: center;
-    padding-top: 5rem;
-    color: rgb(2, 194, 62);
-}
-
-.introduction p {
-    color: rgba(2, 1, 1, 0.904);
-    font-style: italic;
-}
-
-/*Slideshow section*/
-
-
-/*slidshow heading for every page, introduce viewer to slideshow*/
-
-.slide-intro h2 {
-    color: rgb(2, 194, 62);
-    text-align: center;
-}
-
-.slide-intro p {
-    font-style: italic;
-    text-align: center;
-}
 
 /*slideshow section*/
 
