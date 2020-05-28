@@ -107,10 +107,6 @@ body {
 
 /*header section on homepage*/
 
-h4 {
-    
-}
-
 .banner {
     width: 100%;
 	height: 30rem;
@@ -125,7 +121,7 @@ h4 {
 
 .banner {
     animation-name: trail-zoom;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: backwards;
 }
 
@@ -154,7 +150,7 @@ h4 {
 
 .cheddar-banner {
     animation-name: trail-zoom;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: backwards;
 }
 
@@ -190,7 +186,7 @@ h4 {
 
 .blagdon-banner {
     animation-name: trail-zoom;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: backwards;
 }
 
@@ -224,7 +220,7 @@ h4 {
 
 .staple-banner {
     animation-name: trail-zoom;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: backwards;
 }
 
@@ -258,7 +254,7 @@ h4 {
 
 .exmoor-banner {
     animation-name: trail-zoom;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: backwards;
 }
 
@@ -292,7 +288,7 @@ h4 {
 
 .coastal-banner {
     animation-name: trail-zoom;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: backwards;
 }
 
@@ -340,7 +336,6 @@ h4 {
 }
 
 .btn .container a {
-
     text-decoration: none;
     font-style: none;
 }
