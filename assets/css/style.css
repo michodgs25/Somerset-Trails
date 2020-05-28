@@ -310,10 +310,13 @@ body {
 
 /*Homepage introduction section, brief intro for user to learn what the site is about*/
 
+p {
+    color: rgba(2, 1, 1, 0.904);
+}
+
 /*slideshow section*/
 
 /*aligning slideshow content*/
-
 * {box-sizing:border-box}
 
 .mySlides {
