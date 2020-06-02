@@ -198,7 +198,7 @@
 
 		<!--Scripts-->
 		<script>
-            var map;
+			var map;
             //create map object, call id map and add elements to map object such as latitude& longitude
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -206,6 +206,7 @@
           zoom: 8
         });
       }
+
 		</script>
 
 		<!--Jquery-->
@@ -234,7 +235,9 @@
 
 		<!--Google maps scripts-->
 
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8&callback=initMap"></script>
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8&callback=initMap">
+		</script>
 
 
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>

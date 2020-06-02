@@ -1,6 +1,4 @@
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
-
+//declare& get navigation class
 function myFunction() {
   var x = document.getElementsByClassName("topnav");
   if (x.className === "topnav") {
