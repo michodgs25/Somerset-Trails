@@ -21,7 +21,7 @@
 	<link
 		href="https://raw.githubusercontent.com/michodgs24/Somerset-Trails/master/assets/css/images/favicon/favicon-16x16.png"
 		rel="#">
-<!--map height& width-->
+	<!--map height& width-->
 	<style>
 		#map {
 			height: 30rem;
@@ -198,21 +198,14 @@
 
 		<!--Scripts-->
 		<script>
-			function initMap() {
-                //map option
-            var options = {
-                zoom = 8,
-                center: {lat: 51.1800, lng: -3.0000}
-            }
-            //new map
-            var map = new google.maps.Map(document.getElementById("map"), options);
-
-            //add marker
-            var marker = new google.maps.Marker({
-                position: {lat: 51.1800, lng: -3.0000},
-                map: map
-            });
-        }
+            var map;
+            //create map object, call id map and add elements to map object such as latitude& longitude
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 51.180000, lng: -3.000000},
+          zoom: 8
+        });
+      }
 		</script>
 
 		<!--Jquery-->
@@ -240,15 +233,13 @@
 		<script src="assets/js/slide.js"></script>
 
 		<!--Google maps scripts-->
+
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8&callback=initMap"></script>
+
+
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
 		<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-
-		<script async defer
-			src="https://maps.googleapis.com/maps/api/js?key=...&callback=initMap">
-		</script>
-
-
 </body>
 
 </html>
