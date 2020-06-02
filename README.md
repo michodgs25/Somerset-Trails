@@ -147,6 +147,9 @@ __Slideshow__
 
 * *The slideshow on the __homepage__ will have a picture of each trail accompanied with a caption& a button so the user can access that specific trail immediately.*
 
+<div align="center">
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/home-gallery-ss.jpg" target="_blank" rel=""/>
+
 * *The slideshow on each __trail results page__ will be a series of images of that trail.*
 
 __Google maps API__
@@ -156,6 +159,9 @@ __Google maps API__
 * *The __homepage map__ will have a terrain and distance(of trail) toggle buttons.*
 
 * *The map on the __trail result page__ will be zoomed in on that particular trail displaying trail location.*
+
+<div align="center">
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/somerset-map-ss.jpg" target="_blank" rel=""/>
 
 __Explore tab__
 
