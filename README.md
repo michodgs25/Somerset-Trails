@@ -26,13 +26,13 @@
 
 __Somerset Trails__ site was born from observing that current sites such as: https://www.somersetlive.co.uk/news/somerset-news/11-stunning-walking-routes-around-2431780, had far too many ads clogging up each page which made the experience visitting the site unappealing. The trails are such beautiful places to visit, the website is many people's first impression and can be discouraging to see advertisements for various companies plastered everywhere.
 
-__Somerset Trails__ website offers a user **(see user stories below)** a visually impactful site through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between distance and terrain types to suit their own personal needs. 
+__Somerset Trails__ website offers a user **(see user stories below)** a visually impactful site through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between satelite and terrain type to suit their own personal needs. 
 
-* A primary design goal of this website is to be a responsive, so that users can easily explore different trails and learn more about each location.
+* A primary design goal of this website is to be a responsive, so that users can easily explore different trails and learn more about each trail via images& google maps.
 
 * The site should be easy to navigate, with navigation sections top, bottom and right-side cursor that takes the user back to the top.
 
-* Map of each trail is to be clearly defined on each page, and easy to use the toggles: terrain and distance.
+* Map of each trail is to be clearly defined on each page, and easy to use the toggles: terrain and map view.
 
 ### User Stories
 -----
@@ -62,7 +62,7 @@ This shows that the countryside is a glamorous& viable getaway for many families
 ### Scope
 -----
 The next problem I had to solve was that there was already a great website called: https://www.nationaltrail.co.uk/en_GB/ - so what could I offer that is different? 
-Users that come to this site aren't looking for trails in Wales or the north of England, this sites scope is specifically aimed towards users who either are local or users who are visitting the Somerset area. 
+Users that come to this site aren't looking for trails in Wales or the north of England, this sites scope is specifically aimed towards users who either are local or who are visitting the Somerset area for a period of time. 
 
 So the next step was figuring out how to maximise the user experience and present the best of Somerset trails via images& google maps API.
 
@@ -215,6 +215,8 @@ __Back to top of page__
 
 * W3.CSS - https://www.w3schools.com/w3css/4/w3.css
 
+* Google Maps - https://developers.google.com/maps/documentation/javascript/examples
+
 ## Testing
 
 ### Testing - i.
@@ -231,6 +233,8 @@ Site was tested in safari, firefox and chrome. Site works as intended.
 
 ### Testing - iiiiii.
 Tested html and css code formatting with https://validator.w3.org/.
+
+Tested JavaScript code in JSHint - https://jshint.com/
 
 ### Testing summary of device screens: 
 
