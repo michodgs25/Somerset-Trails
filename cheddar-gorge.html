@@ -65,10 +65,9 @@
 	<!--Slideshow section -->
 
 	<div class="container">
-		<div class="slide-intro">
+		<div>
 			<br>
-			<h2>Cheddar Gorge</h2>
-			<p>Checkout Cheddar Gorge below:</p>
+			<h2>Explore Cheddar Gorge below:</h2>
 			<br>
 </div>
 		</div>
@@ -101,7 +100,7 @@
 
 					<!--Map section-->
 					<section>
-						<h2 class="map-text">Cheddar Gorge Map</h2>
+						<h2>Cheddar Gorge Map</h2>
 						<br>
 						<div id="map">
 						</div>
@@ -144,13 +143,35 @@
 					</footer>
 
 					<script>
+						var locations = [
+                        ['Cheddar Gorge', 51.2863881, -2.7690326, 1]//call map location for marker
+                    ];
+
 						var map;
-            <!--create map object, call id map and add elements to map object such as latitude& longitude-->
+            //create map object, call id map and add elements to map object such as latitude& longitude
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 51.2863881, lng: -2.7690326},
           zoom: 14
         });
+                    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+      }
       }
 					</script>
 
@@ -170,7 +191,9 @@
 						https://cdnjs.cloudflare.com/ajax/libs/timelinejs/3.6.6/js/timeline-min.js
 					</script>
 
-                    <script>https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js</script>
+					<script>
+						https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js
+					</script>
 
 					<!--texts JS-->
 					<script src="assets/js/text.js"></script>

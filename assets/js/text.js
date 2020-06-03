@@ -13,8 +13,14 @@ $("h4").on({
 /*h2 headings*/
 $("h2").css({"text-align": "center", "padding-top": "2rem"});
 
-/*p text*/
-$("p").css({"font-style": "italic", "text-align": "center"});
+$("h2").on({
+    mouseenter: function(){
+        $(this).css("font-size", "2rem");
+    },
+    mouseleave: function(){
+        $(this).css("font-size", "1rem");
+    }
+});
 
 /*navigation achor tags*/
 $("a").on({

@@ -65,10 +65,9 @@
 	<!--Slideshow section -->
 
 	<div class="container">
-		<div class="slide-intro">
+		<div>
 			<br>
-			<h2>Exmoor</h2>
-			<p>Checkout Exmoor below:</p>
+			<h2>Explore the Exmoor National Park below:</h2>
 			<br>
 </div>
 		</div>
@@ -102,7 +101,7 @@
 					<br>
 
 					<section>
-						<h2 class="map-text">Exmoor National Park Map</h2>
+						<h2>Exmoor National Park Map</h2>
 						<br>
 						<div id="map">
 						</div>
@@ -145,16 +144,35 @@
 					</footer>
 
 					<script>
-						var map;
-            <!--create map object, call id map and add elements to map object such as latitude& longitude-->
+						var locations = [
+                        ['Exmoor National Park', 51.040565, -3.5551257]//call map location for marker
+                    ];
+                    
+                    var map;
+            //create map object, call id map and add elements to map object such as latitude& longitude
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 51.040565, lng: -3.5551257},
           zoom: 14
         });
-      }
-					</script>
+                var infowindow = new google.maps.InfoWindow();
 
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+      }
 					</script>
 
 					<!--Jquery-->
@@ -171,7 +189,9 @@
 						https://cdnjs.cloudflare.com/ajax/libs/timelinejs/3.6.6/js/timeline-min.js
 					</script>
 
-                    <script>https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js</script>
+					<script>
+						https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js
+					</script>
 
 					<!--texts JS-->
 					<script src="assets/js/text.js"></script>

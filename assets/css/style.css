@@ -12,16 +12,16 @@ html {
     border: 1rem;
 }
 
-/*body styling*/
+/*h2 header color*/
 
-body {
-    background-color: rgb(255, 255, 255);
+h2 {
+    color: rgb(2, 194, 62);
 }
 
 /*Navigation section*/
 
 .topnav {
-  background-color: rgba(2, 1, 1, 0.904);
+  background-color: rgb(255, 255, 255);
   overflow: hidden;
 }
 
@@ -30,7 +30,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: rgb(250, 255, 255);
+  color: rgb(166, 171, 167);
   text-align: center;
   padding: 2rem;
   text-decoration: none;
@@ -64,7 +64,7 @@ body {
   font-size: 2rem;
   border: none;
   outline: none;
-  color: rgb(255, 255, 255);
+  color: rgb(2, 194, 62);
   padding: 2rem;
   text-align: center;
   background-color: inherit;
@@ -75,7 +75,7 @@ body {
 .dropdown-content {
   display: none;
   position: relative;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(0,0,0,0.2);
   min-width: 20rem;
   z-index: 99;
 }
@@ -92,8 +92,8 @@ body {
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(166, 171, 167);
-  color: rgb(255, 255, 255);
+  background-color: rgb rgb(2, 194, 62);
+  color: rgba(2, 1, 1, 0.904);
 }
 
 .dropdown-content a:hover {
@@ -308,12 +308,6 @@ body {
     }
 }
 
-/*Homepage introduction section, brief intro for user to learn what the site is about*/
-
-p {
-    color: rgba(2, 1, 1, 0.904);
-}
-
 /*slideshow section*/
 
 /*aligning slideshow content*/
@@ -416,32 +410,13 @@ p {
 
 /*Maps section*/
 
-/*homepage*/
-
-.map-text {
-    font-style: italic;
-    text-align: center;
-    color: rgb(2, 194, 62);
-}
-
 #map {
     height: 30rem;
     width: 100%;
-    border: 0.1rem solid rgba(2, 1, 1, 0.904);
+    border: 0.1rem solid rgb(2, 194, 62);
     box-shadow: 1rem 1rem rgb(2, 194, 62);
     padding-bottom: 6rem;
     margin-bottom: 6rem;
-}
-
-/*cheddar gorge
-.cheddar-map {
-    padding-top: 10rem;
-    margin-top: 10rem;
-}
-.cheddar-map {
-    height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 /*bottom page navigation, enable user to access other trails instantly*/
@@ -545,4 +520,8 @@ p {
 
 #myBtn:hover {
     background-color: rgba(2, 1, 1, 0.904);
+}
+
+.footer {
+    background-color: rgba(0,0,0,0.2);
 }

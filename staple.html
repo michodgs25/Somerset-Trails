@@ -67,10 +67,9 @@
 	<!--Slideshow section -->
 
 	<div class="container">
-		<div class="slide-intro">
+		<div>
 			<br>
-			<h2>Staple Hill</h2>
-			<p>Checkout Staple Hill below:</p>
+			<h2>Explore Staple Hill below:</h2>
 			<br>
 </div>
 		</div>
@@ -105,13 +104,11 @@
 
 					<!--Map section-->
 					<section>
-						<h2 class="map-text">Staple Hill Map</h2>
+						<h2>Staple Hill Map</h2>
 						<br>
 						<div id="map">
 						</div>
 					</section>
-
-
 
 					<!--Bottom navigation button, for increased user flexibility-->
 
@@ -151,6 +148,10 @@
 
 					<!--Scripts-->
 					<script>
+						var locations = [
+                        ['Staple Hill', 50.9445268, -3.0913381, 1]//call map location for marker
+                    ];
+
 						var map;
             //create map object, call id map and add elements to map object such as latitude& longitude
       function initMap() {
@@ -158,6 +159,23 @@
           center: {lat: 50.9445268, lng: -3.0913381},
           zoom: 14
         });
+        var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
       }
 					</script>
 
@@ -175,7 +193,9 @@
 						https://cdnjs.cloudflare.com/ajax/libs/timelinejs/3.6.6/js/timeline-min.js
 					</script>
 
-                    <script>https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js</script>
+					<script>
+						https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js
+					</script>
 
 					<!--texts JS-->
 					<script src="assets/js/text.js"></script>
