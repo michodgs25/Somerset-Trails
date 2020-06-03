@@ -3,15 +3,15 @@ $("h4").css({"color": "white", "font-style": "italic", "text-align": "center", "
 
 $("h4").on({
     mouseenter: function(){
-        $(this).css("font-size", "3rem");
+        $(this).css("font-size", "3rem", "z-index", "3");
     },
     mouseleave: function(){
-        $(this).css("font-size", "1.2rem");
+        $(this).css("font-size", "1.2rem", "z-index", "3");
     }
 });
 
 /*h2 headings*/
-$("h2").css({"color": "green", "text-align": "center", "padding-top": "2rem"});
+$("h2").css({"text-align": "center", "padding-top": "2rem"});
 
 /*p text*/
 $("p").css({"font-style": "italic", "text-align": "center"});
