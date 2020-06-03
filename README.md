@@ -132,7 +132,7 @@ __Navigation bar__
   <summary>Navigation& Navigation dropdown</summary>
   <br>
 <div align="center">
-<img src="/https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/home-nav-ss.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/home-nav-ss.jpg" target="_blank" rel=""/>
 <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/open-home-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
