@@ -249,6 +249,7 @@ When the code is downloaded as a .zip it can be unzipped and runned by opening t
 
 ## issues and bugs
 
+https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
 
 ## Acknowledgements
 
