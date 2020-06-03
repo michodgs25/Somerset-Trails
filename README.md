@@ -74,7 +74,7 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Home page header wireframe</summary>
   <br>
 <div align="center">
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-page/home-header.png" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-page/home-header.png.jpg" target="_blank" rel=""/>
 </div>
   </details>
   
@@ -132,7 +132,7 @@ __Navigation bar__
   <summary>Navigation& Navigation dropdown</summary>
   <br>
 <div align="center">
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/home-nav-ss.jpg" target="_blank" rel=""/>
+<img src="/https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/home-nav-ss.jpg" target="_blank" rel=""/>
 <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/open-home-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
