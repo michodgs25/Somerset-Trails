@@ -217,6 +217,8 @@ __Back to top of page__
 
 * Google Maps - https://developers.google.com/maps/documentation/javascript/examples
 
+* Jasmine - https://jasmine.github.io/
+
 ## Testing
 
 ### Testing - i.
@@ -226,7 +228,7 @@ Shared the link on google, internet explorer and yahoo to ensure the site looks 
 Opened google developer tools and toggled the site between various device screens.
 
 ### Testing - iiii. 
-
+Automated Jasmine testing of google maps - https://jasmine.github.io/
 
 ### Testing - iiiii.
 Site was tested in safari, firefox and chrome. Site works as intended.
@@ -236,12 +238,13 @@ Tested html and css code formatting with https://validator.w3.org/.
 
 Tested JavaScript code in JSHint - https://jshint.com/
 
-### Testing summary of device screens: 
-
 
 ## Deployment
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-Deployed to one platform, GitHub
+To run locally, you can clone this repository directly into the editor of your choice by entering git clone https://github.com/michodgs24/Somerset-Trails into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+When the code is downloaded as a .zip it can be unzipped and runned by opening the unzipped folder and then execute index.html The code will be executed in the browser that is set as main browser, this can be Chrome or one of the other available browsers. When executed the main screen will be shown and the options can be chosen.
 
 
 ## issues and bugs
@@ -257,3 +260,4 @@ Deployed to one platform, GitHub
 
 
 ## External Media 
+All images were take from Google images advanced search with filter: free to use or share.
