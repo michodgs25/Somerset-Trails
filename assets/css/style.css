@@ -21,8 +21,9 @@ h2 {
 /*Navigation section*/
 
 .topnav {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(252, 214, 0, 0.664);
   overflow: hidden;
+  z-index: 3;
 }
 
 /* Style the links inside the navigation bar */

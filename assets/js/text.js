@@ -1,5 +1,5 @@
 /*banner text*/
-$("h4").css({"color": "white", "font-style": "italic", "text-align": "center", "padding-top": "5rem"});
+$("h4").css({"color": "white", "font-style": "italic", "text-align": "center", "padding-top": "2rem"});
 
 $("h4").on({
     mouseenter: function(){
@@ -11,7 +11,7 @@ $("h4").on({
 });
 
 /*h2 headings*/
-$("h2").css({"text-align": "center", "padding-top": "2rem"});
+$("h2").css({"text-align": "center", "padding-top": "1rem"});
 
 $("h2").on({
     mouseenter: function(){
@@ -25,7 +25,7 @@ $("h2").on({
 /*navigation achor tags*/
 $("a").on({
     mouseenter: function(){
-        $(this).css("font-size", "1.5rem");
+        $(this).css("font-size", "1.2rem");
     },
     mouseleave: function(){
         $(this).css("font-size", "1rem");
