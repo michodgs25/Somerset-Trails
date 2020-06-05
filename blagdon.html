@@ -4,12 +4,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--WS3 Css-->
+	<!--WS3 Css, provide slideshow animation-->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<!--font awesome-->
+	<!--font awesome, add site icons-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!--bootstrap-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<!--css-->
 	<link href="assets/css/style.css" rel="stylesheet">
 
@@ -17,7 +15,7 @@
 
 	<!--Favicon 32x32-->
 	<link rel="icon" type="image/png" sizes="32x32" href="..assets/images/favicon-32x32.png">
-	<!--Favicon 16x16-->
+	<!--Favicon 16x16, site icon-->
 	<link
 		href="https://raw.githubusercontent.com/michodgs24/Somerset-Trails/master/assets/css/images/favicon/favicon-16x16.png"
 		rel="#">
@@ -52,7 +50,7 @@
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 	</nav>
 
-	<!--cover picture-->
+	<!--cover picture, welcome user to site-->
 
 	<section class="blagdon-banner">
 		<div class="blagdon-banner-outer">
@@ -63,7 +61,7 @@
 
 	<br>
 
-	<!--Slideshow section -->
+	<!--Slideshow section, provides user with different trail images -->
 
 	<div class="container">
 		<div>
@@ -94,14 +92,14 @@
 
 					</div>
 					<br>
-
+					<!--Informs user of which slide is active-->
 					<div style="text-align:center">
 						<span class="dot"></span>
 						<span class="dot"></span>
 						<span class="dot"></span>
 					</div>
 
-					<!--Map section-->
+					<!--Map section, displays physical trail location to user-->
 					<section>
 						<h2>Blagdon Lake Map</h2>
 						<br>
@@ -121,7 +119,8 @@
 								<a href="index.html" title="Home">Home</a>
 								<a href="staple.html" title="Staple Hill">Staple Hill</a>
 								<a href="cheddar-gorge.html" title="Cheddar Gorge">Cheddar Gorge</a>
-								<a href="somerset-coastal.html" title="West Somerset Coastal Path">West Somerset Coastal Path</a>
+								<a href="somerset-coastal.html" title="West Somerset Coastal Path">West Somerset Coastal
+									Path</a>
 								<a href="exmoor.html" title="Exmoor National Park">Exmoor National Park</a>
 							</div>
 						</div>
@@ -135,7 +134,7 @@
 						<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 					</div>
 
-
+					<!--footer section, social media and inform user of page end-->
 					<footer>
 						<div>
 							<img class="logo" src="https://cdn.pixabay.com/photo/2015/05/15/14/53/woods-768753_960_720.jpg" alt="Trail paths">
@@ -148,8 +147,9 @@
 
 					<!--Scripts-->
 					<script type="text/javascript">
+						//create locations variable& assign latitude& longitude to trail
 						var locations = [
-                        ['Blagdon Lake', 51.3348101, -2.7040838]//call map location for marker
+                        ['Blagdon Lake', 51.3348101, -2.7040838]
                     ];
 
 						var map;
@@ -159,6 +159,7 @@
           center: {lat: 51.3348101, lng: -2.7040838},
           zoom: 14
         });
+        //call map window& create marker variable
                     var infowindow = new google.maps.InfoWindow();
 
     var marker, i;
@@ -168,7 +169,7 @@
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
         map: map
       });
-
+//add event listener& set marker to trail location
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
           infowindow.setContent(locations[i][0]);

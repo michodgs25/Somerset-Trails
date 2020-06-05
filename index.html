@@ -4,24 +4,22 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--WS3 Css-->
+	<!--WS3 Css, provide slideshow animation-->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<!--font awesome-->
+	<!--font awesome, provides icons-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!--bootstrap-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<!--css-->
+	<!--css, provide site with color& animation-->
 	<link href="assets/css/style.css" rel="stylesheet">
 
 	<title>Somerset Trails</title>
 
 	<!--Favicon 32x32-->
 	<link rel="icon" type="image/png" sizes="32x32" href="..assets/images/favicon-32x32.png">
-	<!--Favicon 16x16-->
+	<!--Favicon 16x16, browser window icon-->
 	<link
 		href="https://raw.githubusercontent.com/michodgs24/Somerset-Trails/master/assets/css/images/favicon/favicon-16x16.png"
 		rel="#">
-	<!--map height& width-->
+	<!--Google map height& width-->
 	<style>
 		#map {
 			height: 30rem;
@@ -35,7 +33,7 @@
 	<!--Navigation, fixed at the top of page for ease of use-->
 
 	<nav class="topnav">
-        <a href="index.html" class="w3-bar-item w3-button w3-green" title="Home"><i class="fa fa-home"></i></a>
+		<a href="index.html" class="w3-bar-item w3-button w3-green" title="Home"><i class="fa fa-home"></i></a>
 		<div class="dropdown">
 			<button class="dropbtn">Somerset Trails
  <i class="fa fa-caret-down"></i>
@@ -51,7 +49,7 @@
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 	</nav>
 
-	<!--cover picture-->
+	<!--cover picture, welcomes user to page-->
 	<section>
 		<div class="banner">
 			<h4 class="headline">Explore the best trails one step at a time</h4>
@@ -60,7 +58,7 @@
 
 	<br>
 
-	<!--Slideshow section-->
+	<!--Slideshow section, display each trail with corresponding button so the user to access that page instantly-->
 
 	<div class="container">
 		<div>
@@ -114,7 +112,7 @@
 
 		</div>
 		<br>
-
+		<!--Inform user of which slide is active-->
 		<div style="text-align:center">
 			<span class="dot"></span>
 			<span class="dot"></span>
@@ -125,7 +123,7 @@
 
 		<br>
 
-		<!--Map section-->
+		<!--Map section, display the physical location for the user-->
 		<section>
 			<h2>Somerset Map</h2>
 			<br>
@@ -133,7 +131,7 @@
 			</div>
 		</section>
 
-		<!--Bottom navigation, for user flexibility -->
+		<!--Bottom navigation, for user flexibility to access different pages -->
 
 		<br>
 
@@ -154,12 +152,12 @@
 
 		<br>
 
-		<!--Scroll back to top button-->
+		<!--Scroll back to top button, add ease of use for user-->
 		<div>
 			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 		</div>
 
-		<!--Footer section-->
+		<!--Footer section, display social media& informs viewer they have reached end of page-->
 
 		<footer class="footer">
 			<div>
@@ -173,6 +171,7 @@
 
 		<!--Scripts-->
 		<script type="text/javascript">
+			//create variable locations, add latitude& longitude to each trail
 			var locations = [
       ['Exmoor National Park', 51.040565, -3.5551257, 4],
       ['Somerset Coastal Path', 51.2072165, -3.4641482, 5],
@@ -187,7 +186,7 @@
           center: {lat: 51.180000, lng: -3.000000},
           zoom: 9
         });
-
+//call map window& create marker variable
         var infowindow = new google.maps.InfoWindow();
 
     var marker, i;
@@ -197,7 +196,7 @@
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
         map: map
       });
-
+//add event listener, set markers to individual locations
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
           infowindow.setContent(locations[i][0]);

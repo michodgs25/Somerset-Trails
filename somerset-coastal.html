@@ -4,20 +4,18 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--WS3 Css-->
+	<!--WS3 Css, provides slideshow animation-->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<!--font awesome-->
+	<!--font awesome, add site icons-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!--bootstrap-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<!--css-->
+	<!--css, provide site color& animation-->
 	<link href="assets/css/style.css" rel="stylesheet">
 
 	<title>Somerset Coastal Path</title>
 
 	<!--Favicon 32x32-->
 	<link rel="icon" type="image/png" sizes="32x32" href="..assets/images/favicon-32x32.png">
-	<!--Favicon 16x16-->
+	<!--Favicon 16x16, site icon-->
 	<link
 		href="https://raw.githubusercontent.com/michodgs24/Somerset-Trails/master/assets/css/images/favicon/favicon-16x16.png"
 		rel="#">
@@ -52,7 +50,7 @@
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 	</nav>
 
-	<!--cover picture-->
+	<!--cover picture welcomes user to page-->
 
 	<section class="coastal-banner">
 		<div class="coastal-banner-outer">
@@ -63,7 +61,7 @@
 
 	<br>
 
-	<!--Slideshow section -->
+	<!--Slideshow section, provides user with images of trail-->
 
 	<div class="container">
 		<div>
@@ -93,14 +91,14 @@
 
 					</div>
 					<br>
-
+					<!--informs user of which slide is active-->
 					<div style="text-align:center">
 						<span class="dot"></span>
 						<span class="dot"></span>
 						<span class="dot"></span>
 					</div>
 
-					<!--Map section-->
+					<!--Map section, displays physical trail location-->
 					<section>
 						<h2>Somerset Coastal Path Map</h2>
 						<br>
@@ -146,6 +144,7 @@
 
 					<!--Scripts-->
 					<script type="text/javascript">
+						//create variable locations, add latitude& longitudes to trail
 						var locations = [
                         ['Somerset Coastal Path', 50.215696, -5.4903855, 1]//call map location for marker
                     ];
@@ -179,7 +178,7 @@
       }
 					</script>
 
-					<!--Jquery-->
+					<!--Jquery library-->
 					<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 
 					<!--Popper-->

@@ -4,20 +4,18 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--WS3 Css-->
+	<!--WS3 Css, provide slideshow animation-->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<!--font awesome-->
+	<!--font awesome, add site icons-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!--bootstrap-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<!--css-->
+	<!--css, site color& animation-->
 	<link href="assets/css/style.css" rel="stylesheet">
 
 	<title>Cheddar gorge</title>
 
 	<!--Favicon 32x32-->
 	<link rel="icon" type="image/png" sizes="32x32" href="..assets/images/favicon-32x32.png">
-	<!--Favicon 16x16-->
+	<!--Favicon 16x16, site icon-->
 	<link
 		href="https://raw.githubusercontent.com/michodgs24/Somerset-Trails/master/assets/css/images/favicon/favicon-16x16.png"
 		rel="#">
@@ -51,7 +49,7 @@
 		</div>
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 	</nav>
-	<!--cover picture-->
+	<!--cover picture, welcomes user to trail page-->
 
 	<section class="cheddar-banner">
 		<div class="cheddar-banner-outer">
@@ -62,7 +60,7 @@
 
 	<br>
 
-	<!--Slideshow section -->
+	<!--Slideshow section, provides user different images of trail -->
 
 	<div class="container">
 		<div>
@@ -91,14 +89,14 @@
 
 					</div>
 					<br>
-
+					<!--Informs user of which page is active-->
 					<div style="text-align:center">
 						<span class="dot"></span>
 						<span class="dot"></span>
 						<span class="dot"></span>
 					</div>
 
-					<!--Map section-->
+					<!--Map section, displays trail physical location-->
 					<section>
 						<h2>Cheddar Gorge Map</h2>
 						<br>
@@ -118,7 +116,8 @@
 								<a href="index.html" title="Home">Home</a>
 								<a href="staple.html" title="Staple Hill">Staple Hill</a>
 								<a href="blagdon.html" title="Blagdon Lake">Blagdon Lake</a>
-								<a href="somerset-coastal.html" title="West Somerset Coastal Path">West Somerset Coastal Path</a>
+								<a href="somerset-coastal.html" title="West Somerset Coastal Path">West Somerset Coastal
+									Path</a>
 								<a href="exmoor.html" title="Exmoor National Park">Exmoor National Park</a>
 							</div>
 						</div>
@@ -131,7 +130,7 @@
 					<div>
 						<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 					</div>
-
+					<!--Footer, inform user the page has ended& provides social media-->
 					<footer>
 						<div>
 							<img class="logo" src="https://cdn.pixabay.com/photo/2015/05/15/14/53/woods-768753_960_720.jpg" alt="Trail paths">
@@ -143,19 +142,20 @@
 					</footer>
 
 					<script type="text/javascript">
+						//create locations variable& assigns latitude& longitude to trail
 						var locations = [
-                        ['Cheddar Gorge', 51.2863881, -2.7690326, 1]//call map location for marker
+                        ['Cheddar Gorge', 51.2863881, -2.7690326, 1]
                     ];
 
 						var map;
-            //create map object, call id map and add elements to map object such as latitude& longitude
+            //create map object, call id map and add elements to map object
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 51.2863881, lng: -2.7690326},
           zoom: 14
         });
+        //call map window& create marker variable
                     var infowindow = new google.maps.InfoWindow();
-
     var marker, i;
 
     for (i = 0; i < locations.length; i++) {  
@@ -163,7 +163,7 @@
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
         map: map
       });
-
+//add event listener& set marker to trail location
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
           infowindow.setContent(locations[i][0]);
@@ -196,7 +196,9 @@
 
 					<!--Google maps scripts-->
 
-					<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8&callback=initMap"></script>
+					<script async defer
+						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8&callback=initMap">
+					</script>
 
 
 					<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
