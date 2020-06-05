@@ -19,7 +19,6 @@
  * [Deployment](#Deployment)
  * [issues-and-bugs](#issues-and-bugs)
  * [Acknowledgements](#Acknowledgements)
- * [Credits](#Credits)
 -----
 
 ## UX
