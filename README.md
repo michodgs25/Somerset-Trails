@@ -227,6 +227,19 @@ Shared the link on google, internet explorer and yahoo to ensure the site looks 
 ### Testing - ii. 
 Opened google developer tools and toggled the site between various device screens.
 
+### Testing - iii.
+Applied google developer tool lighthouse to analyse mobile performance:
+
+<details>
+  <summary>Lighthouse Results</summary>
+  <br>
+  <div align="center">
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/lighthouse-ss.jpg"
+         </div>
+ </details>
+
+Results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
+
 ### Testing - iiii. 
 Automated Jasmine testing of google maps - https://jasmine.github.io/
 
@@ -238,7 +251,6 @@ Tested html and css code formatting with https://validator.w3.org/.
 
 Tested JavaScript code in JSHint - https://jshint.com/
 
-
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
@@ -246,9 +258,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 When the code is downloaded as a .zip it can be unzipped and runned by opening the unzipped folder and then execute index.html The code will be executed in the browser that is set as main browser, this can be Chrome or one of the other available browsers. When executed the main screen will be shown and the options can be chosen.
 
-
 ## issues and bugs
-
 https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
 
 ## Acknowledgements
