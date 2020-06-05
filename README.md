@@ -132,8 +132,8 @@ __Navigation bar__
   <summary>Navigation& Navigation dropdown</summary>
   <br>
 <div align="center">
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/home-nav-ss.jpg" target="_blank" rel=""/>
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/open-home-ss.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/home-nav-ss.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/open-home-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
   
@@ -148,7 +148,7 @@ __Slideshow__
 <details>
   <summary>Slideshow</summary>
 <div align="center">
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/home-gallery-ss.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/home-gallery-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
 
@@ -165,7 +165,7 @@ __Google maps API__
 <details>
   <summary>Somerset Maps</summary>
 <div align="center">
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/somerset-map-ss.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/somerset-map-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
 
@@ -177,9 +177,9 @@ __Explore tab__
   <summary>Bottom page navigation</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/button-ss.jpg"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/button-ss.jpg"
          target="rel"/>
-  <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/open-button-ss.jpg"
+  <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/open-button-ss.jpg"
        target="rel"/>
 </div>
     </details>
@@ -192,7 +192,7 @@ __Back to top of page__
   <summary>Scroll tab</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/homepage-ss/scroll-top-ss.jpg"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/scroll-top-ss.jpg"
          </div>
  </details>
   <br>
