@@ -73,7 +73,7 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Home page header wireframe</summary>
   <br>
 <div align="center">
-<img src="https://github.com/michodgs24/https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-page/home-header.png.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-page/home-header.png" target="_blank" rel=""/>
 </div>
   </details>
   
@@ -131,8 +131,8 @@ __Navigation bar__
   <summary>Navigation& Navigation dropdown</summary>
   <br>
 <div align="center">
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/home-nav-ss.jpg" target="_blank" rel=""/>
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/open-home-ss.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/home-nav-ss.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/open-home-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
   
@@ -164,7 +164,7 @@ __Google maps API__
 <details>
   <summary>Somerset Maps</summary>
 <div align="center">
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/somerset-map-ss.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/somerset-map-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
 
@@ -176,9 +176,9 @@ __Explore tab__
   <summary>Bottom page navigation</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/button-ss.jpg"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/button-ss.jpg"
          target="rel"/>
-  <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/open-button-ss.jpg"
+  <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/open-button-ss.jpg"
        target="rel"/>
 </div>
     </details>
@@ -191,7 +191,7 @@ __Back to top of page__
   <summary>Scroll tab</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/scroll-top-ss.jpg"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/scroll-top-ss.jpg"
          </div>
  </details>
   <br>
@@ -216,15 +216,21 @@ __Back to top of page__
 
 * Google Maps - https://developers.google.com/maps/documentation/javascript/examples
 
-* Jasmine - https://jasmine.github.io/
-
 ## Testing
 
 ### Testing - i.
 Shared the link on google, internet explorer and yahoo to ensure the site looks and works as it should on different browers. 
 
 ### Testing - ii. 
-Opened google developer tools and toggled the site between various device screens.
+Opened google developer tools and toggled the site between various devices, that include:
+
+* iphone X
+* Moto G4
+* Pixel 2
+* Pixel 2 XL
+* iphone 5/SE
+* iphone 6/7/8 & plus
+* ipad and ipad pro
 
 ### Testing - iii.
 Applied google developer tool lighthouse to analyse mobile performance:
@@ -233,29 +239,36 @@ Applied google developer tool lighthouse to analyse mobile performance:
   <summary>Lighthouse Results</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme-screen-shots/lighthouse-ss.jpg"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/lighthouse-ss.jpg"
          </div>
  </details>
 
 Results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
 
-### Testing - iiii. 
-Automated Jasmine testing of google maps - https://jasmine.github.io/
-
-### Testing - iiiii.
+### Testing - iiii.
 Site was tested in safari, firefox and chrome. Site works as intended.
 
-### Testing - iiiiii.
-Tested html and css code formatting with https://validator.w3.org/.
+### Testing - iiiii.
+Tested html and css code formatting with https://validator.w3.org/ - done by copying& pasting the code via direct input into the site text box. 
 
-Tested JavaScript code in JSHint - https://jshint.com/
+Tested the JavaScript code with https://jshint.com/ - done by copying& pasting the code via direct imput into the site text-area. 
 
 ## Deployment
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+* This site is hosted using GitHub pages, deployed directly from the master branch. 
 
-To run locally, you can clone this repository directly into the editor of your choice by entering git clone https://github.com/michodgs24/Somerset-Trails into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+* The deployed site will update automatically upon new commits to the master branch. 
 
-When the code is downloaded as a .zip it can be unzipped and runned by opening the unzipped folder and then execute index.html The code will be executed in the browser that is set as main browser, this can be Chrome or one of the other available browsers. When executed the main screen will be shown and the options can be chosen.
+* In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+* To run locally, you can clone this repository directly into the editor of your choice by entering git clone
+https://github.com/michodgs24/Somerset-Trails into your terminal. 
+
+* To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+* When the code is downloaded as a .zip it can be unzipped and runned by opening the unzipped folder and then execute index.html. 
+
+* The code will be executed in the browser that is set as main browser, this can be Chrome or one of the other available browsers. 
+When executed the main screen will be shown and the options can be chosen.
 
 ## issues and bugs
 https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
