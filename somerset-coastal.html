@@ -102,7 +102,7 @@
 					<section>
 						<h2>Somerset Coastal Path Map</h2>
 						<br>
-						<div id="map">
+						<div class="map-custom">
 						</div>
 					</section>
 
@@ -143,18 +143,17 @@
 					</footer>
 
 					<!--Scripts-->
-					<script type="text/javascript">
+					<script>
 						//create variable locations, add latitude& longitudes to trail
 						var locations = [
-                        ['Somerset Coastal Path', 50.215696, -5.4903855, 1]//call map location for marker
+                        ["Somerset Coastal Path", 50.215696, -5.4903855, 1]//call map location for marker
                     ];
-
-
-						var map;
+                    
+                    var map;
             //create map object, call id map and add elements to map object such as latitude& longitude
       function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 50.215696, lng: -5.4903855},
+map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
+          center: {lat: 51.180000, lng: -3.000000},
           zoom: 14
         });
         
@@ -168,7 +167,7 @@
         map: map
       });
 
-      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      google.maps.event.addListener(marker, "click", (function(marker, i) {
         return function() {
           infowindow.setContent(locations[i][0]);
           infowindow.open(map, marker);
@@ -185,27 +184,21 @@
 					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
 					<!--texts JS-->
-					<script src="assets/js/text.js"></script>
+					<script src="scripts/js/text.js"></script>
 
 					<!--Scroll button JS-->
-					<script src="assets/js/scroll.js"></script>
+					<script src="scripts/js/scroll.js"></script>
 
 					<!--Navigation bar JS-->
-					<script src="assets/js/nav.js"></script>
+					<script src="scripts/js/nav.js"></script>
 
 					<!--Slideshow JS-->
-					<script src="assets/js/slide.js"></script>
+					<script src="scripts/js/slide.js"></script>
 
 					<!--Google maps scripts-->
 
 					<script async defer
 						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8&callback=initMap">
-					</script>
-
-
-					<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-
-					<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js">
 					</script>
 </body>
 

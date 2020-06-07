@@ -1,5 +1,5 @@
 /*banner text*/
-$("h4").css({"color": "white", "font-style": "italic", "text-align": "center", "padding-top": "2rem"});
+$("h4").css({"color": "white", "font-style": "italic", "text-align": "center"});
 
 $("h4").on({
     mouseenter: function(){
