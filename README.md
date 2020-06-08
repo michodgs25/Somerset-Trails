@@ -164,7 +164,8 @@ __Google maps API__
 <details>
   <summary>Somerset Maps</summary>
 <div align="center">
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/somerset-map-ss.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/somerset-map-ss.jpg" 
+     target="_blank" rel=""/>
   </div>
   </details>
 
@@ -194,6 +195,19 @@ __Back to top of page__
     <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/scroll-top-ss.jpg"
          </div>
  </details>
+  <br>
+  
+  __Footer Section__
+  
+  * *Footer section signals to the user that the page has ended and provides links to social media and also a link to a nationally recognised trails page which opens a new tab and the user can explore other trails that are available across the United Kingdom. The links are center horizontally, with a light orange background& styled green. Two social medias: Facebook and twitter which opens a new tab when clicked on that takes the user to either their facebook or login page if not signed in.  
+  
+  <details>
+  <summary>Footer section</summary>
+  <br>
+  <div align="center">
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/footer-ss.jpg"
+  </div>
+  </details>
   <br>
 
 <details>
@@ -271,8 +285,8 @@ https://github.com/michodgs24/Somerset-Trails into your terminal.
 When executed the main screen will be shown and the options can be chosen.
 
 ## issues and bugs
-Slideshow - https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128
-Banner -  https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
+* __Slideshow__ - https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128
+* __Banner__ -  https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
 
 ## Acknowledgements
 
