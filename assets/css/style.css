@@ -4,14 +4,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/*logo for footer*/
-
-.logo {
-    width: 3rem;
-    height: 3rem;
-    border: 1rem;
-}
-
 /*h2 header color*/
 
 h2 {
@@ -93,7 +85,7 @@ h2 {
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb rgb(2, 194, 62);
+  background-color: rgb(2, 194, 62);
   color: rgba(2, 1, 1, 0.904);
 }
 
@@ -330,7 +322,6 @@ h2 {
 
 .btn .container a {
     text-decoration: none;
-    font-style: none;
 }
 
 /* Style the button and place it in the middle of the container/image */
@@ -344,10 +335,10 @@ h2 {
   background-color: rgb(2, 194, 62);
   color: rgb(255, 255, 255);
   font-size: 1rem;
-  padding: 0.75 1.5rem;
+  padding: 0.75rem 1.5rem;
   border: none;
   cursor: pointer;
-  border-radius: 0.313;
+  border-radius: 0.313rem;
 }
 
 /*when user hovers over, button changes color*/
@@ -458,6 +449,7 @@ h2 {
     position: relative;
     display: inline-block;
     font-style: italic;
+    padding-bottom: 3rem;
 }
 
 .bottom-nav .dropbtn {
@@ -523,6 +515,45 @@ h2 {
     background-color: rgba(2, 1, 1, 0.904);
 }
 
+/*footer section*/
+
 .footer {
-    background-color: rgba(0,0,0,0.2);
+    height: 10rem;
+    background-color: rgba(255, 232, 168);
+    color: rgb(2, 194, 62);
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+}
+
+/*footer objects positioning*/
+
+.footer li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer a {
+    display: inline;
+}
+
+.footer i {
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+/*logo for footer*/
+
+.logo {
+    width: 3rem;
+    height: 3rem;
+}
+
+.logo img a {
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
 }
