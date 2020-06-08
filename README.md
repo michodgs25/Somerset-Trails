@@ -243,7 +243,7 @@ Applied google developer tool lighthouse to analyse mobile performance:
          </div>
  </details>
 
-Results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
+Results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/10#issue-634894703
 
 ### Testing - iiii.
 Site was tested in safari, firefox and chrome. Site works as intended.
@@ -271,7 +271,8 @@ https://github.com/michodgs24/Somerset-Trails into your terminal.
 When executed the main screen will be shown and the options can be chosen.
 
 ## issues and bugs
-https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
+Slideshow - https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128
+Banner -  https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
 
 ## Acknowledgements
 
