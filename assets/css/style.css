@@ -512,7 +512,7 @@ h2 {
 }
 
 #myBtn:hover {
-    background-color: rgba(2, 1, 1, 0.904);
+    background-color: rgb(2, 1, 1, 0.904);
 }
 
 /*footer section*/
@@ -524,7 +524,7 @@ h2 {
     justify-content: center;
     align-items: center;
     display: grid;
-    grid-template-columns: 10% 1fr 1fr 10%;
+    grid-template-columns: 0.1rem, 1fr, 1fr, 0.1rem;
 }
 
 /*footer objects positioning*/
