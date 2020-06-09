@@ -171,7 +171,7 @@ __Google maps API__
 
 __Explore tab__
 
-* *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button. The box contains the other trails links so the user can access the next trail with ease.
+* *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button. The box contains the other trails links so the user can access the next trail with ease.*
 
   <details>
   <summary>Bottom page navigation</summary>
@@ -199,7 +199,9 @@ __Back to top of page__
   
   __Footer Section__
   
-  * *Footer section signals to the user that the page has ended and provides links to social media and also a link to a nationally recognised trails page which opens a new tab and the user can explore other trails that are available across the United Kingdom. The links are center horizontally, with a light orange background& styled green. Two social medias: Facebook and twitter which opens a new tab when clicked on that takes the user to either their facebook or login page if not signed in.  
+  * *Footer section signals to the user that the page has ended and provides links to social media and also a link to a nationally recognised trails page which opens a new tab and the user can explore other trails that are available across the United Kingdom.*
+  
+  * *The links are center horizontally, with a light orange background& styled green. Social media: Facebook and twitter in icon form that opens a new browser tab when clicked on, which takes the user to either our facebook page or login page if not signed in.*  
   
   <details>
   <summary>Footer section</summary>
@@ -209,12 +211,9 @@ __Back to top of page__
   </div>
   </details>
   <br>
-
-<details>
-  <summary>Features left to implement</summary>
-  <br>
-(https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703)
-</details>
+  
+ ## Features left to implement
+ https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
 
 ## Technologies
 
