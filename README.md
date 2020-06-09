@@ -44,7 +44,7 @@ __Somerset Trails__ website offers a user **(see user stories below)** a visuall
 
 *"My name is Grant, I don't like websites that are too text heavy and I lose interest quickly because of this I would like the site to have lots of images and only have text where it is necessary as I feel images tell a greater story."*
 
-  - Solution: The only texts used were headings and universally known icons applied such as home or Facebook. 
+  - Solution: The only texts used were headings and universally known icons applied such as home or Facebook. In addition a slideshow on each page displaying different images.
 
 ---
 
@@ -56,7 +56,7 @@ __Somerset Trails__ website offers a user **(see user stories below)** a visuall
 
 *"Good afternoon, my name is Helen a code editor. I would like the website to be easy to navigate, as it's a pain having to scroll back to the top of each page every time I want to access a different part of a website."*
 
-  - Solution: Fixed navigation bar, bottom navigation button plus a scroll back to the top button.
+  - Solution: Fixed navigation bar, bottom navigation button plus a scroll back to the top button. In addition on the homepage slideshow on each slide is a button that accesses that particular trail page.
 
 ### Strategy 
 -----
