@@ -25,7 +25,7 @@
 
 __Somerset Trails__ site was born from observing that current sites such as: https://www.somersetlive.co.uk/news/somerset-news/11-stunning-walking-routes-around-2431780, had far too many ads clogging up each page which made the experience visitting the site unappealing. The trails are such beautiful places to visit, the website is many people's first impression and can be discouraging to see advertisements for various companies plastered everywhere.
 
-__Somerset Trails__ website offers a user **(see user stories below)** a visually impactful site through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between satelite and terrain type to suit their own personal needs. 
+__Somerset Trails__ website offers a user **(see user stories below)** a visually impactful site through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between satelite, terrain type and even go street view to visit each trail virtually.
 
 * A primary design goal of this website is to be a responsive, so that users can easily explore different trails and learn more about each trail via images& google maps.
 
@@ -38,17 +38,25 @@ __Somerset Trails__ website offers a user **(see user stories below)** a visuall
 
 *"As a local businessman whom lives in the area, websites that display Somerset trails are hard to look at with far too many adverts. I'd like the website to be beautiful to view like the trails, with little to no advertising."*
 
+  - Solution to meet user expectation: no advertisement were used on this website, the full focus is the trails themselves.
+
 ---
 
 *"My name is Grant, I don't like websites that are too text heavy and I lose interest quickly because of this I would like the site to have lots of images and only have text where it is necessary as I feel images tell a greater story."*
+
+  - Solution: The only texts used were headings and universally known icons applied such as home or Facebook. 
 
 ---
 
 *"Hey, my name is Jeremy a product owner for this site. I do not like when a site looks great on desktop but looks crowded& cluttered on a mobile device as I view alot of websites via my mobile so I would like the site to be pleasurable to view on mobile devices."*
 
+  - Solution: Ensure each section was spaced adequately& minimal colors(five) to ensure site looked clean.
+
 ---
 
 *"Good afternoon, my name is Helen a code editor. I would like the website to be easy to navigate, as it's a pain having to scroll back to the top of each page every time I want to access a different part of a website."*
+
+  - Solution: Fixed navigation bar, bottom navigation button plus a scroll back to the top button.
 
 ### Strategy 
 -----
@@ -282,6 +290,9 @@ https://github.com/michodgs24/Somerset-Trails into your terminal.
 
 * The code will be executed in the browser that is set as main browser, this can be Chrome or one of the other available browsers. 
 When executed the main screen will be shown and the options can be chosen.
+
+## Project barriers and the solutions
+* Navigation bar barrier& solution- https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
 
 ## issues and bugs
 * __Slideshow__ - https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128
