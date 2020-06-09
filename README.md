@@ -127,13 +127,17 @@ So the next step was figuring out how to maximise the user experience and presen
          </div>
     </details>
     
-## Features and features left to implement
-
-### Features
+## Features
 
 __Navigation bar__ 
 
-* *The navigation bar for __homepage__ and each __trail result page__ contains a logo and two tabs: home and top trails.*
+* *The navigation bar for __homepage__ and each __trail result page__ contains two tabs: home and Somerset trails.*
+
+* *The home tab acts a tool for the user to access the homepage.*
+
+* *The Somerset trails tab is a hover drop-down element, when the user hovers on the tab; the navigation bar expands and a box drops down.*
+
+* *The dropdown box provides every trail available to the user at a single click and whilst hovering over each trail name the background lights up green& text size increases.*
 
 <details>
   <summary>Navigation& Navigation dropdown</summary>
@@ -143,14 +147,12 @@ __Navigation bar__
 <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/open-home-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
-  
-* *The home tab acts a tool for the user to access the homepage at any time.*
-
-* *The top trails tab is a drop-down element, when the user hovers on the tab; a box drops down, providing every trail available to the user at a single click.*
 
 __Slideshow__ 
 
 * *The slideshow on the __homepage__ will have a picture of each trail accompanied with a caption& a button so the user can access that specific trail immediately.*
+
+* *The slideshow on each __trail results page__ will be a series of images of that trail.*
 
 <details>
   <summary>Slideshow</summary>
@@ -159,8 +161,6 @@ __Slideshow__
   </div>
   </details>
 
-* *The slideshow on each __trail results page__ will be a series of images of that trail.*
-
 __Google maps API__
 
 * *The map on the __homepage__ will be a map of the somerset area with pointers on each individual trail locations.*
@@ -168,6 +168,8 @@ __Google maps API__
 * *The __homepage map__ will have a terrain and distance(of trail) toggle buttons.*
 
 * *The map on the __trail result page__ will be zoomed in on that particular trail displaying trail location.*
+
+* *Each map has the ability to access street view of each trail, by dropping the little figure onto the map.*
 
 <details>
   <summary>Somerset Maps</summary>
@@ -179,7 +181,11 @@ __Google maps API__
 
 __Explore tab__
 
-* *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button. The box contains the other trails links so the user can access the next trail with ease.*
+* *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button.
+
+* *The dropup button is interactive& shrinks once the user hovers over it.*
+
+* The box contains the other trails links so the user can access the next trail with ease.*
 
   <details>
   <summary>Bottom page navigation</summary>
