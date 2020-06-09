@@ -21,7 +21,7 @@ function dropUpNavigation() {
 //get button
 mybutton = document.getElementById("myBtn");
 
-//when user scrolls 10rem from top of page, show button
+/*when user scrolls 10rem from top of page, show button*/
 
 window.onscroll = function() {scrollFunction()};
 
@@ -33,18 +33,18 @@ function scrollFunction() {
     }
 }
 
-//when user clicks, scroll to top of document
+//when user clicks, scroll to top of document*/
 
 function topFunction () {
-    document.body.scrollTop = 0; //safari
-    document.documentElement.scrollTop = 0; //for chrome, firefox, IE and opera
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0; /*for chrome, firefox, IE and opera*/
 }
 /*End of scroll code*/
 
 var slideIndex = 0;
 showSlides();
 
-//slideshow function
+/*slideshow function*/
 
 function showSlides() {
   var i;
@@ -60,7 +60,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 2000); /* Change image every 2 seconds*/
 }
 /*end of slideshow code*/
 
@@ -101,9 +101,22 @@ $("a").on({
 /*button*/
 $("button").on({
     mouseenter: function(){
-        $(this).css("font-size", "2.5rem");
+        $(this).css("font-size", "1.5rem");
     },
     mouseleave: function(){
         $(this).css("font-size", "2rem");
     }
 });
+
+/*footer icons& text*/
+$("span").css("padding", "0.5rem");
+
+$("span").on({
+    mouseenter: function(){
+        $(this).css("font-size", "1.5rem");
+    },
+    mouseleave: function(){
+        $(this).css("font-size", "2rem");
+    }
+});
+/*end of footer*/
