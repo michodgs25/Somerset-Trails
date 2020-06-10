@@ -18,15 +18,15 @@
 
 	<!--Favicon 32x32-->
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-	
-    <!--Favicon 16x16, site icon-->
+
+	<!--Favicon 16x16, site icon-->
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
 </head>
 
 <body>
 
-	<!--Navigation, fixed at the top of page for ease of use.-->
-    <nav class="topnav">
+	<!--Navigation, fixed at the top of page for ease of use. Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_topnav.asp-->
+	<nav class="topnav">
 		<a href="index.html" class="w3-bar-item w3-button w3-green"><i class="fa fa-home"></i></a>
 		<div class="dropdown">
 			<button class="dropbtn">Somerset Trails
@@ -45,7 +45,7 @@
 	<!--end of navigation-->
 
 	<!--cover picture, welcome user to site-->
-    <section class="blagdon-banner">
+	<section class="blagdon-banner">
 		<div class="blagdon-banner-outer">
 			<br>
 			<h4>Explore the best trails one step at a time</h4>
@@ -56,7 +56,7 @@
 	<br>
 
 	<!--Slideshow section, provides user with different trail images -->
-    <div class="container">
+	<div class="container">
 		<div>
 			<br>
 			<h2>Explore Blagdon Lake below:</h2>
@@ -65,6 +65,8 @@
 		</div>
 
 		<br>
+
+		<!--Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_slideshow.asp-->
 
 		<div class="slideshow-container">
 
@@ -94,7 +96,7 @@
 					<!--end of slideshow-->
 
 					<!--Map section, displays physical trail location to user-->
-                    <section>
+					<section>
 						<h2>Blagdon Lake Map</h2>
 						<br>
 						<div class="map-custom">
@@ -104,8 +106,8 @@
 
 					<br>
 
-					<!--Bottom navigation, for user flexibility-->
-                    <section class="bottom-nav">
+					<!--Bottom navigation, for user flexibility. Code adapted from WS3 Schools - https://www.w3schools.com/howto/howto_css_dropup.asp-->
+					<section class="bottom-nav">
 						<h6>Explore our trails</h6>
 						<div class="dropup">
 							<button class="dropbtn">Explore</button>
@@ -124,18 +126,18 @@
 
 					<br>
 
-					<!--Scroll back to top button-->
-                    <div>
+					<!--Scroll back to top button. Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+					<div>
 						<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 					</div>
 					<!--end of scroll button-->
 
 					<!--footer section, social media and inform user of page end-->
-                    <footer class="footer">
+					<footer class="footer">
 						<div class="align-vertically">
 							<span class="pr-4 ml-auto"><img title="Somerset Trails" class="logo" src="https://cdn.pixabay.com/photo/2015/05/15/14/53/woods-768753_960_720.jpg" alt="Trail paths"></span>
 							<span class="pr-4-ml-auto"><a href="index.html" title="Home">Home</a></span>
-                            <span class="pr-4 ml-auto"><a href="https://www.facebook.com/" title="Facebook" target="_blank"
+							<span class="pr-4 ml-auto"><a href="https://www.facebook.com/" title="Facebook" target="_blank"
 						rel="noopener"><i class="fab fa-facebook-square"></i></a></span>
 							<span class="pr-4 ml-auto"><a href="https://twitter.com/explore" title="Twitter" target="_blank"
 						rel="noopener"><i class="fab fa-twitter-square"></i></a></span>
@@ -146,12 +148,13 @@
 					<!--Scripts-->
 					<script>
 						//create locations variable& assign latitude& longitude to trail
+                        //Code adapted from google developer documentation - https://developers.google.com/maps/documentation
 						var locations = [
                         ["Blagdon Lake", 51.3348101, -2.7040838]
                     ];
 
 						var map;
-            //create map object, call id map and add elements to map object such as latitude& longitude
+ 
       function initMap() {
 map = new google.maps.Map(document.getElementsByClassName('map-custom')[0], {
           center: {lat: 51.180000, lng: -3.000000},

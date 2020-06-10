@@ -25,7 +25,7 @@
 
 <body>
 
-	<!--Navigation, fixed at the top of page for ease of use.-->
+	<!--Navigation, fixed at the top of page for ease of use. Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_topnav.asp-->
     <nav class="topnav">
 		<a href="index.html" class="w3-bar-item w3-button w3-green"><i class="fa fa-home"></i></a>
 		<div class="dropdown">
@@ -63,6 +63,10 @@
 			<br>
 </div>
 		</div>
+
+        <br>
+
+        <!--Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_slideshow.asp-->
 
 		<div class="slideshow-container">
 
@@ -104,7 +108,7 @@
 
                     <br>
 
-					<!--Bottom navigation button, for increased user flexibility-->
+					<!--Bottom navigation button, for increased user flexibility. Code adapted from WS3 Schools - https://www.w3schools.com/howto/howto_css_dropup.asp-->
                     <section class="bottom-nav">
 						<h6>Explore our trails</h6>
 						<div class="dropup">
@@ -124,7 +128,7 @@
 
 					<br>
 
-					<!--Scroll back to top button-->
+					<!--Scroll back to top button. Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
                     <div>
 						<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 					</div>
@@ -151,6 +155,7 @@
 
 						var map;
             //create map object, call id map and add elements to map object such as latitude& longitude
+            //Code adapted from google developer documentation - https://developers.google.com/maps/documentation
       function initMap() {
 map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
           center: {lat: 51.180000, lng: -3.000000},

@@ -1,4 +1,5 @@
 /*declare& get navigation class, increase user accessibility*/
+/*Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_topnav.asp*/
 function dropDownNavigation() {
     var x = document.getElementsByClassName("topnav");/*top navigation*/
     if (x.className === "topnav") {
@@ -19,6 +20,7 @@ function dropUpNavigation() {
 /*end of navigation code*/
 
 /*scroll to to top button, increase user accessibility*/
+/*Code adapted from WS3 Schools -  https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
 mybutton = document.getElementById("myBtn");
 
 /*when user scrolls 10rem from top of page, show button*/
@@ -40,6 +42,7 @@ function topFunction() {
 /*End of scroll code*/
 
 /*slideshow function,styling& animation, ensure slideshow is appealing and works effectively*/
+/*Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 var slideIndex = 0;
 showSlides();
 
@@ -123,6 +126,7 @@ $("span").on({
 /*end of footer comment*/
 
 /*scroll event-listener, ensure smooth scroll on mobile devices*/
+/*Code taken from - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener*/
 let passiveIfSupported = false;
 
 try {
