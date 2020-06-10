@@ -16,23 +16,21 @@
 
 	<title>Exmoor National Park</title>
 
-	<!--Favicon 32x32-->
-	<link rel="icon" type="image/png" sizes="32x32" href="..assets/images/favicon-32x32.png" alt="Browser icon">
-	<!--Favicon 16x16, site icon-->
-	<link
-		href="https://raw.githubusercontent.com/michodgs24/Somerset-Trails/master/assets/css/images/favicon/favicon-16x16.png"
-		alt="Browser icon" rel="#">
+    	<!--Favicon 32x32-->
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+	
+    <!--Favicon 16x16, site icon-->
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
 </head>
 
 <body>
 
 	<!--Navigation, fixed at the top of page for ease of use.-->
-
-	<nav class="topnav">
-		<a href="index.html" class="w3-bar-item w3-button w3-green"><i class="fa fa-home" alt="Home icon"></i></a>
+    <nav class="topnav">
+		<a href="index.html" class="w3-bar-item w3-button w3-green"><i class="fa fa-home"></i></a>
 		<div class="dropdown">
 			<button class="dropbtn">Somerset Trails
- <i class="fa fa-caret-down" alt="Dropdown icon"></i>
+ <i class="fa fa-caret-down"></i>
  </button>
 			<div class="dropdown-content">
 				<a href="staple.html" title="Staple Hill">Staple Hill</a>
@@ -44,19 +42,19 @@
 		</div>
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 	</nav>
+    <!--end of navigation-->
 
 	<!--cover picture, welcome user to page-->
-
-	<section class="exmoor-banner">
+    <section class="exmoor-banner">
 		<div class="exmoor-banner-outer">
 			<br>
 			<h4>Explore the best trails one step at a time</h4>
 		</div>
 	</section>
+    <!--end of banner-->
 
 	<!--Slideshow section, provide user different images of trail -->
-
-	<div class="container">
+    <div class="container">
 		<div>
 			<br>
 			<h2>Explore the Exmoor National Park below:</h2>
@@ -89,24 +87,26 @@
 						<span class="dot"></span>
 						<span class="dot"></span>
 					</div>
+                    <!--end of slideshow-->
 
 					<br>
 
+                    <!--map, displays the physical location of the trail-->
 					<section>
 						<h2>Exmoor National Park Map</h2>
 						<br>
 						<div class="map-custom">
 						</div>
 					</section>
+                    <!--end of map-->
+
+                    <br>
 
 					<!--Bottom navigation, for user flexibility-->
-
-					<br>
-					<!--allow user to navigate to a new trail whilst at bottom of page-->
-					<section class="bottom-nav">
+                    <section class="bottom-nav">
 						<h6>Explore our trails</h6>
 						<div class="dropup">
-							<button class="dropbtn" alt="Dropup button">Explore</button>
+							<button class="dropbtn">Explore</button>
 							<div class="dropup-content">
 								<a href="index.html" title="Home">Home</a>
 								<a href="staple.html" title="Staple Hill">Staple Hill</a>
@@ -118,27 +118,28 @@
 						</div>
 						<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 					</section>
+                    <!--end of bottom navigation-->
 
 					<br>
 
 					<!--Scroll back to top button-->
-
-					<div>
-						<button onclick="topFunction()" id="myBtn" title="Go to top" alt="Scroll to top button">Top</button>
+                    <div>
+						<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 					</div>
+                    <!--end of scroll button-->
 
 					<!--footer section, social media and inform user that the page has ended-->
-
-					<footer class="footer">
+                    <footer class="footer">
 						<div class="align-vertically">
 							<span class="pr-4 ml-auto"><img title="Somerset Trails" class="logo" src="https://cdn.pixabay.com/photo/2015/05/15/14/53/woods-768753_960_720.jpg" alt="Trail paths"></span>
-                            <span class="pr-4-ml-auto"><a href="index.html" title="Home">Home</a>
+                            <span class="pr-4-ml-auto"><a href="index.html" title="Home">Home</a></span>
 							<span class="pr-4 ml-auto"><a href="https://www.facebook.com/" title="Facebook" target="_blank"
-						rel="noopener"><i class="fab fa-facebook-square" alt="Facebook icon"></i></a></span>
+						rel="noopener"><i class="fab fa-facebook-square"></i></a></span>
 							<span class="pr-4 ml-auto"><a href="https://twitter.com/explore" title="Twitter" target="_blank"
-						rel="noopener"><i class="fab fa-twitter-square" alt="Twitter icon"></i></a></span>
+						rel="noopener"><i class="fab fa-twitter-square"></i></a></span>
 						</div>
 					</footer>
+                    <!--end of footer-->
 
 					<script>
 						//create location variable& assign latitude& longitude to trail

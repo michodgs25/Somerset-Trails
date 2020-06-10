@@ -5,13 +5,11 @@ html {
 }
 
 /*h2 header color*/
-
 h2 {
     color: rgb(2, 194, 62);
 }
 
 /*Navigation section*/
-
 .topnav {
   background-color: rgba(252, 214, 0, 0.664);
   overflow: hidden;
@@ -19,7 +17,6 @@ h2 {
 }
 
 /* Style the links inside the navigation bar */
-
 .topnav a {
   float: left;
   display: block;
@@ -31,20 +28,17 @@ h2 {
 }
 
 /* Add an active class to highlight the current page */
-
 .active {
   background-color: rgb(2, 194, 62);
   color: rgb(255, 255, 255);
 }
 
 /* Hide the link that should open and close the topnav on small screens */
-
 .topnav .icon {
   display: none;
 }
 
 /* Dropdown container - needed to position the dropdown content */
-
 .dropdown {
   float: left;
   overflow: hidden;
@@ -52,7 +46,6 @@ h2 {
 }
 
 /* Style the dropdown button to fit inside the topnav */
-
 .dropdown .dropbtn {
   font-size: 2rem;
   border: none;
@@ -64,7 +57,6 @@ h2 {
 }
 
 /* Style the dropdown content*/
-
 .dropdown-content {
   display: none;
   position: relative;
@@ -73,6 +65,7 @@ h2 {
   z-index: 99;
 }
 
+/*style achor tags*/
 .dropdown-content a {
   float: none;
   color: rgb(2, 1, 1, 0.904);
@@ -84,6 +77,7 @@ h2 {
   font-style: italic;
 }
 
+/*add interactive features to dropdown items*/
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(2, 194, 62);
   color: rgba(2, 1, 1, 0.904);
@@ -99,7 +93,6 @@ h2 {
 }
 
 /*header section on homepage*/
-
 .banner {
     width: 100%;
 	height: 30rem;
@@ -111,7 +104,6 @@ h2 {
 }
 
 /*animation when page loads*/
-
 .banner {
     animation-name: trail-zoom;
     animation-duration: 1s;
@@ -119,7 +111,6 @@ h2 {
 }
 
 /*ensure banner transitions smoothly*/
-
 .banner-outer {
     width: 100%;
     height: 30rem;
@@ -128,7 +119,6 @@ h2 {
 }
 
 /*cheddar header page*/
-
 .cheddar-banner {
     width: 100%;
 	height: 30rem;
@@ -140,7 +130,6 @@ h2 {
 }
 
 /*Animation when page loads*/
-
 .cheddar-banner {
     animation-name: trail-zoom;
     animation-duration: 1s;
@@ -148,7 +137,6 @@ h2 {
 }
 
 /*Ensure smooth banner transition*/
-
 .cheddar-banner-outer {
     width: 100%;
     height: 30rem;
@@ -166,7 +154,6 @@ h2 {
 }
 
 /*blagdon banner*/
-
 .blagdon-banner {
     width: 100%;
 	height: 30rem;
@@ -200,7 +187,6 @@ h2 {
 }
 
 /*staple banner*/
-
 .staple-banner {
     width: 100%;
 	height: 30rem;
@@ -234,7 +220,6 @@ h2 {
 }
 
 /*exmoor banner*/
-
 .exmoor-banner {
     width: 100%;
 	height: 30rem;
@@ -268,7 +253,6 @@ h2 {
 }
 
 /*coastal banner*/
-
 .coastal-banner {
     width: 100%;
 	height: 30rem;
@@ -302,9 +286,7 @@ h2 {
 }
 
 /*slideshow section*/
-
-/*aligning slideshow content*/
-* {box-sizing:border-box}
+* {box-sizing:border-box}/*aligning slideshow content*/
 
 .mySlides {
     display: none;
@@ -313,7 +295,6 @@ h2 {
     }
 
 /* Slideshow container size*/
-
 .slideshow-container {
   max-width: 62.5rem;
   position: relative;
@@ -325,7 +306,6 @@ h2 {
 }
 
 /* Style the button and place it in the middle of the container/image */
-
 .container .btn {
   position: absolute;
   top: 80%;
@@ -342,13 +322,11 @@ h2 {
 }
 
 /*when user hovers over, button changes color*/
-
 .container .btn:hover {
   background-color: rgba(2, 1, 1, 0.904);
 }
 
 /* Number text (1/6) */
-
 .numbertext {
   color: rgb(255, 255, 255);
   font-size: 1rem;
@@ -358,7 +336,6 @@ h2 {
 }
 
 /*Slideshow dots/bullets/indicators */
-
 .dot {
   height: 1rem;
   width: 1rem;
@@ -376,7 +353,6 @@ h2 {
 }
 
 /* Fading animation */
-
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 3s;
@@ -395,13 +371,11 @@ h2 {
 }
 
 /* On smaller screens, decrease text size */
-
 @media only screen and (max-width: 1rem) {
   .text {font-size: 1rem}
 }
 
 /*Maps section*/
-
 .map-custom {
     height: 30rem;
     width: 100%;
@@ -412,28 +386,22 @@ h2 {
 }
 
 /*bottom page navigation, enable user to access other trails instantly*/
-
-/* Add an active class to highlight the current page */
-
 .active {
-  background-color: rgb(2, 194, 62);
+  background-color: rgb(2, 194, 62);/* Add an active class to highlight the current page */
   color: rgb(255, 255, 255);
 }
 
 /* Hide link that should open and close the dropdown on small screens*/
-
 .bottom-nav .icon {
   display: none;
 }
 
 /*button position*/
-
 .bottom-nav {
     text-align: center;
 }
 
 /*dropup button styling*/
-
 .bottom-nav .dropbtn {
     background-color: rgb(255, 255, 255);
     color:rgba(2, 1, 1, 0.904);
@@ -444,7 +412,6 @@ h2 {
 }
 
 /*positioning of container*/
-
 .bottom-nav .dropup {
     position: relative;
     display: inline-block;
@@ -457,7 +424,6 @@ h2 {
 }
 
 /*content styling*/
-
 .bottom-nav .dropup-content {
     display: none;
     position: absolute;
@@ -470,7 +436,6 @@ h2 {
 }
 
 /*links inside dropup*/
-
 .bottom-nav .dropup-content a {
     color: rgba(2, 1, 1, 0.904);
     padding: 0.75rem 1rem;
@@ -479,23 +444,19 @@ h2 {
 }
 
 /*change color of links when hovered over*/
-
 .bottom-nav .dropup-content a:hover {background-color: rgb(2, 194, 62);}
 
 /*show dropup menu*/
-
 .bottom-nav .dropup:hover .dropup-content {
     display: block;
 }
 
 /* Change the background color of the dropup button when the dropup content is shown*/
-
 .bottom-nav .dropup:hover .dropbtn {
   background-color: rgb(2, 194, 62);
 }
 
 /* scroll back to top button*/
-
 #myBtn {
     display: none;
     position: fixed;
@@ -516,7 +477,6 @@ h2 {
 }
 
 /*footer section*/
-
 .footer {
     height: 10rem;
     background-color: rgba(255, 232, 168);
@@ -528,7 +488,6 @@ h2 {
 }
 
 /*footer objects positioning*/
-
 .footer li {
     text-decoration: none;
     list-style: none;
@@ -546,7 +505,6 @@ h2 {
 }
 
 /*logo for footer*/
-
 .logo {
     width: 3rem;
     height: 3rem;
