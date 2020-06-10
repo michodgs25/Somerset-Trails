@@ -146,38 +146,201 @@ window.addEventListener("scroll", function (event) {
     /*if browser cannot use event.preventDefault();*/
 }, passiveIfSupported);
 
-/*maps section*/
-//create variable locations, add latitude& longitude to each trail. Code adapted from google developer documentation - https://developers.google.com/maps/documentation
-			var locations = [
-      ["Exmoor National Park", 51.040565, -3.5551257, 4],
-      ["Somerset Coastal Path", 51.2072165, -3.4641482, 5],
-      ["Staple Hill", 50.9445268, -3.0913381, 3],
-      ["Blagdon Lake", 51.3348101, -2.7040838, 2],
-      ["Cheddar Gorge", 51.2863881, -2.7690326, 1]
-    ];
-			var map;
-            //create map object, call id map and add elements to map object such as latitude& longitude
-      function initMap() {
-map = new google.maps.Map(document.getElementsByClassName("home-map-custom")[0], {
-          center: {lat: 51.180000, lng: -3.000000},
-          zoom: 9
-        });
-//call map window& create marker variable
-        var infowindow = new google.maps.InfoWindow();
+/*home map section*/
+//create variable locations, add latitude& longitude to each trail. 
+//All maps coding was adapted from google developer documentation - https://developers.google.com/maps/documentation
+var locations = [
+    ["Exmoor National Park", 51.040565, -3.5551257, 4],
+    ["Somerset Coastal Path", 51.2072165, -3.4641482, 5],
+    ["Staple Hill", 50.9445268, -3.0913381, 3],
+    ["Blagdon Lake", 51.3348101, -2.7040838, 2],
+    ["Cheddar Gorge", 51.2863881, -2.7690326, 1]
+];
+var map;
+//create map object, call id map and add elements to map object such as latitude& longitude
+function initMap() {
+    map = new google.maps.Map(document.getElementsByClassName("home-map-custom")[0], {
+        center: { lat: 51.180000, lng: -3.000000 },
+        zoom: 9
+    });
+    //call map window& create marker variable
+    var infowindow = new google.maps.InfoWindow();
 
     var marker, i;
 
-    for (i = 0; i < locations.length; i++) {  
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map
-      });
-//add event listener, set markers to individual locations
-      google.maps.event.addListener(marker, "click", (function(marker, i) {
-        return function() {
-          infowindow.setContent(locations[i][0]);
-          infowindow.open(map, marker);
-        }
-      })(marker, i));
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+        });
+        //add event listener, set markers to individual locations
+        google.maps.event.addListener(marker, "click", (function (marker, i) {
+            return function () {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
     }
-      }
+}
+
+/*Somerset coastal path map*/
+//create variable locations, add latitude& longitudes to trail
+var locations = [
+    ["Somerset Coastal Path", 50.215696, -5.4903855, 1]//call map location for marker
+];
+
+var map;
+//create map object, call id map and add elements to map object such as latitude& longitude. 
+function initMap() {
+    map = new google.maps.Map(document.getElementsByClassName("somerset-map-custom")[0], {
+        center: { lat: 51.180000, lng: -3.000000 },
+        zoom: 14
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+        });
+
+        google.maps.event.addListener(marker, "click", (function (marker, i) {
+            return function () {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
+    }
+}
+
+/*staple hill map*/
+var locations = [
+    ["Staple Hill", 50.9445268, -3.0913381, 1]//call map location for marker
+];
+
+var map;
+//create map object, call id map and add elements to map object such as latitude& longitude
+function initMap() {
+    map = new google.maps.Map(document.getElementsByClassName("staple-map-custom")[0], {
+        center: { lat: 51.180000, lng: -3.000000 },
+        zoom: 14
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+        });
+
+        google.maps.event.addListener(marker, "click", (function (marker, i) {
+            return function () {
+                infowindow.setContent(locations[i][2]);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
+    }
+}
+
+/*Exmoor map*/
+//create location variable& assign latitude& longitude to trail
+var locations = [
+    ["Exmoor National Park", 51.040565, -3.5551257]
+];
+
+var map;
+//create map object, call id map and add elements to map object such as latitude& longitude
+function initMap() {
+    map = new google.maps.Map(document.getElementsByClassName("exmoor-map-custom")[0], {
+        center: { lat: 51.180000, lng: -3.000000 },
+        zoom: 14
+    });
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+    //call map window& create marker variable
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+        });
+        //add event listener, set markers to individual locations
+        google.maps.event.addListener(marker, "click", (function (marker, i) {
+            return function () {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
+    }
+}
+
+/*cheddar gorge map*/
+//create locations variable& assigns latitude& longitude to trail
+var locations = [
+    ["Cheddar Gorge", 51.2863881, -2.7690326, 1]
+];
+
+var map;
+//create map object, call id map and add elements to map object
+function initMap() {
+    map = new google.maps.Map(document.getElementsByClassName("cheddar-map-custom")[0], {
+        center: { lat: 51.180000, lng: -3.000000 },
+        zoom: 14
+    });
+    //call map window& create marker variable
+    var infowindow = new google.maps.InfoWindow();
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+        });
+        //add event listener& set marker to trail location
+        google.maps.event.addListener(marker, "click", (function (marker, i) {
+            return function () {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
+    }
+}
+
+/*blagdon hill map*/
+//create locations variable& assign latitude& longitude to trail
+var locations = [
+    ["Blagdon Lake", 51.3348101, -2.7040838]
+];
+
+var map;
+
+function initMap() {
+    map = new google.maps.Map(document.getElementsByClassName("blagdon-map-custom")[0], {
+        center: { lat: 51.180000, lng: -3.000000 },
+        zoom: 14
+    });
+    //call map window& create marker variable
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+        });
+        //add event listener& set marker to trail location
+        google.maps.event.addListener(marker, "click", (function (marker, i) {
+            return function () {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
+    }
+}

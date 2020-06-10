@@ -99,7 +99,7 @@
                     <section>
 						<h2>Cheddar Gorge Map</h2>
 						<br>
-						<div class="map-custom">
+						<div class="cheddar-map-custom">
 						</div>
 					</section>
 					<!--end of map-->
@@ -145,39 +145,7 @@
 					</footer>
 					<!--end of footer-->
 
-					<script>
-                        //create locations variable& assigns latitude& longitude to trail
-                        //Code adapted from google developer documentation - https://developers.google.com/maps/documentation
-						var locations = [
-                        ["Cheddar Gorge", 51.2863881, -2.7690326, 1]
-                    ];
-
-						var map;
-            //create map object, call id map and add elements to map object
-      function initMap() {
-map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
-          center: {lat: 51.180000, lng: -3.000000},
-          zoom: 14
-        });
-        //call map window& create marker variable
-                    var infowindow = new google.maps.InfoWindow();
-    var marker, i;
-
-    for (i = 0; i < locations.length; i++) {  
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map
-      });
-//add event listener& set marker to trail location
-      google.maps.event.addListener(marker, "click", (function(marker, i) {
-        return function() {
-          infowindow.setContent(locations[i][0]);
-          infowindow.open(map, marker);
-        }
-      })(marker, i));
-    }
-      }
-					</script>
+                    <!--scripts-->
 
 					<!--Jquery-->
 					<script src="https://code.jquery.com/jquery-3.5.1.min.js"

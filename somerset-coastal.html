@@ -99,7 +99,7 @@
 					<section>
 						<h2>Somerset Coastal Path Map</h2>
 						<br>
-						<div class="map-custom">
+						<div class="somerset-map-custom">
 						</div>
 					</section>
                     <!--end of map-->
@@ -145,40 +145,6 @@
                     <!--end of footer-->
 
 					<!--Scripts-->
-					<script>
-						//create variable locations, add latitude& longitudes to trail
-						var locations = [
-                        ["Somerset Coastal Path", 50.215696, -5.4903855, 1]//call map location for marker
-                    ];
-                    
-                    var map;
-            //create map object, call id map and add elements to map object such as latitude& longitude. 
-            //Code adapted from google developer documentation - https://developers.google.com/maps/documentation
-      function initMap() {
-map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
-          center: {lat: 51.180000, lng: -3.000000},
-          zoom: 14
-        });
-        
-        var infowindow = new google.maps.InfoWindow();
-
-    var marker, i;
-
-    for (i = 0; i < locations.length; i++) {  
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map
-      });
-
-      google.maps.event.addListener(marker, "click", (function(marker, i) {
-        return function() {
-          infowindow.setContent(locations[i][0]);
-          infowindow.open(map, marker);
-        }
-      })(marker, i));
-    }
-      }
-					</script>
 
 					<!--Jquery library-->
 					<script src="https://code.jquery.com/jquery-3.5.1.min.js"

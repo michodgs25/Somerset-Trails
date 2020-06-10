@@ -99,7 +99,7 @@
 					<section>
 						<h2>Blagdon Lake Map</h2>
 						<br>
-						<div class="map-custom">
+						<div class="blagdon-map-custom">
 						</div>
 					</section>
 					<!--end of map-->
@@ -146,41 +146,6 @@
 					<!--end of footer-->
 
 					<!--Scripts-->
-					<script>
-						//create locations variable& assign latitude& longitude to trail
-                        //Code adapted from google developer documentation - https://developers.google.com/maps/documentation
-						var locations = [
-                        ["Blagdon Lake", 51.3348101, -2.7040838]
-                    ];
-
-						var map;
- 
-      function initMap() {
-map = new google.maps.Map(document.getElementsByClassName('map-custom')[0], {
-          center: {lat: 51.180000, lng: -3.000000},
-          zoom: 14
-        });
-        //call map window& create marker variable
-                    var infowindow = new google.maps.InfoWindow();
-
-    var marker, i;
-
-    for (i = 0; i < locations.length; i++) {  
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map
-      });
-//add event listener& set marker to trail location
-      google.maps.event.addListener(marker, "click", (function(marker, i) {
-        return function() {
-          infowindow.setContent(locations[i][0]);
-          infowindow.open(map, marker);
-        }
-      })(marker, i));
-    }
-      }
-
-					</script>
 
 					<!--Jquery-->
 					<script src="https://code.jquery.com/jquery-3.5.1.min.js"
