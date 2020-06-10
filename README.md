@@ -97,7 +97,7 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Home page footer wireframe</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-page/home-footer.png"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/footer.png"
          </div>
     </details>
   
@@ -123,7 +123,7 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Results page footer</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/results-page/results-footer.png"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/footer.png"
          </div>
     </details>
     
