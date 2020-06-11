@@ -71,7 +71,7 @@ This shows that the countryside is a glamorous& viable getaway for many families
 The next problem to solve was that there was already a great website called: https://www.nationaltrail.co.uk/en_GB/ - so what could I offer that is different? 
 Users that come to this site aren't looking for trails in Wales or the north of England, this sites scope is specifically aimed towards users who either are local or who are visitting the Somerset area for a period of time. 
 
-So the next step was figuring out how to maximise the user experience and present the best of Somerset trails via images& google maps API.
+So the next step was figuring out how to maximise the user experience and present the best of Somerset trails using imagery as primary source of information for the user. The solution came in the form of two major features - a slideshow& a Google map on each page, this provides images sourced from Google images and applies Google's powerful maps application which is known worldwide for its quality user experience.
 
 ## Wire-Frames
 
