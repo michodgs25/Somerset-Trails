@@ -298,10 +298,15 @@ https://github.com/michodgs24/Somerset-Trails into your terminal.
 When executed the main screen will be shown and the options can be chosen.
 
 ## Project barriers and the solutions
-* Navigation bar barrier& solution- https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
+* Navigation bar barriers& solutions - https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
+
+* Slideshow barriers& solutions - https://github.com/michodgs24/Somerset-Trails/issues/12#issue-635778916
+
+* Google Maps barriers& solutions - https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865
 
 ## issues and bugs
 * __Slideshow__ - https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128
+
 * __Banner__ -  https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
 
 ## Acknowledgements
