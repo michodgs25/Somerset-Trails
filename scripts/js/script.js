@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
       var js_file = document.createElement("script");
     js_file.type = "text/javascript";
     js_file.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8&callback=initMap";
-    document.getElementsByTagName("head")[0].appendChild(js_file);
+    document.getElementsByTagName("script")[0].appendChild(js_file);
   }
 });
