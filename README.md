@@ -81,7 +81,7 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Home page header wireframe</summary>
   <br>
 <div align="center">
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-page/home-header.png" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-header.png" target="_blank" rel=""/>
 </div>
   </details>
   
@@ -89,7 +89,7 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Home page body wireframe</summary>
   <br>
 <div align="center">
-<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-page/home-body.png" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/home-body.png" target="_blank" rel=""/>
 </div>
   </details>
   
@@ -107,7 +107,7 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Results page header</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/results-page/results-header.png"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/results-header.png"
          </div>
     </details>
     
@@ -115,7 +115,7 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Results page body</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/results-page/results-page.png"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/results-page.png"
          </div>
     </details>
     
@@ -123,7 +123,7 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Results page footer</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/footer.png"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/results-page.png"
          </div>
     </details>
     
