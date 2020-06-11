@@ -379,9 +379,7 @@ h2 {
 }
 
 /*Maps section*/
-
-/*home page map*/
-.home-map-custom {
+.map-custom {
     height: 30rem;
     width: 100%;
     border: 0.1rem solid rgb(2, 194, 62);
@@ -389,36 +387,7 @@ h2 {
     padding-bottom: 6rem;
     margin-bottom: 6rem;
 }
-
-/*somerset coastal path map*/
-.somerset-map-custom {
-    height: 30rem;
-    width: 100%;
-    border: 0.1rem solid rgb(2, 194, 62);
-    box-shadow: 1rem 1rem rgb(2, 194, 62);
-    padding-bottom: 6rem;
-    margin-bottom: 6rem;
-}
-
-/*staple hill map*/
-.staple-map-custom {
-    height: 30rem;
-    width: 100%;
-    border: 0.1rem solid rgb(2, 194, 62);
-    box-shadow: 1rem 1rem rgb(2, 194, 62);
-    padding-bottom: 6rem;
-    margin-bottom: 6rem;
-}
-
-/*exmoor map*/
-.exmoor-map-custom {
-    height: 30rem;
-    width: 100%;
-    border: 0.1rem solid rgb(2, 194, 62);
-    box-shadow: 1rem 1rem rgb(2, 194, 62);
-    padding-bottom: 6rem;
-    margin-bottom: 6rem;
-}
+/*end of map*/
 
 /*bottom page navigation, enable user to access other trails instantly*/
 .active {
