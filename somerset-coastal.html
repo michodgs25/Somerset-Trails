@@ -99,7 +99,7 @@
 					<section>
 						<h2>Somerset Coastal Path Map</h2>
 						<br>
-						<div class="somerset-map-custom">
+						<div class="map-custom">
 						</div>
 					</section>
 					<!--end of map-->
@@ -145,13 +145,7 @@
 					<!--end of footer-->
 
 					<!--Scripts-->
-					<script src="script.js" defer>
-						/*Somerset coastal path map*/
-//create variable locations, add latitude& longitudes to trail
-var locations = [
-    ["Somerset Coastal Path", 50.215696, -5.4903855, 1]//call map location for marker
-];
-
+					<script src="scripts/js/script.js" defer>
 var map;
 //create map object, call id map and add elements to map object such as latitude& longitude. 
 function initMap() {
@@ -160,6 +154,38 @@ function initMap() {
         zoom: 14
     });
 
+        //plotting the markers
+    fetch("scripts/js/markers.json")
+    .then(function(response){return response.json()})
+    .then(plotMarkers);
+}
+
+var markers;
+var bounds;
+
+function plotMarkers(m)
+{
+  markers = [];
+  bounds = new google.maps.LatLngBounds();
+
+  m.forEach(function (marker) {
+    var position = new google.maps.LatLng(marker.lat, marker.lng);
+
+    markers.push(
+      new google.maps.Marker({
+        position: position,
+        map: map,
+        animation: google.maps.Animation.DROP
+      })
+    );
+
+    bounds.extend(position);
+  });
+
+  map.fitBounds(bounds);
+}
+
+    //call map window& create marker info - title of marker
     var infowindow = new google.maps.InfoWindow();
 
     var marker, i;
@@ -188,20 +214,11 @@ function initMap() {
 					<!--Popper-->
 					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
-					<!--Google maps script-->
-					<script src="scripts/js/script.js"></script>
-
 					<!--Navigation, slideshow, scroll& text JS-->
 					<script src="scripts/js/app.js"></script>
 
 					<!--Bootstrap, for footer icon positioning-->
 					<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-					<!--Google maps scripts-->
-
-					<script async defer
-						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8&callback=initMap">
-					</script>
 </body>
 
 </html>

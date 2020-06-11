@@ -173,24 +173,50 @@
 		<!--end of footer-->
 
 		<!--scripts-->
-		<script src="script.js" defer>
+		<script src="scripts/js/script.js" defer>
 			//create variable locations, add latitude& longitude to each trail. 
 //All maps coding was adapted from google developer documentation - https://developers.google.com/maps/documentation
-var locations = [
-    ["Exmoor National Park", 51.040565, -3.5551257, 4],
-    ["Somerset Coastal Path", 51.2072165, -3.4641482, 5],
-    ["Staple Hill", 50.9445268, -3.0913381, 3],
-    ["Blagdon Lake", 51.3348101, -2.7040838, 2],
-    ["Cheddar Gorge", 51.2863881, -2.7690326, 1]
-];
+
 var map;
-//create map object, call id map and add elements to map object such as latitude& longitude
+//create map object, call map and add elements to map object such as latitude& longitude
 function initMap() {
     map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
         center: { lat: 51.180000, lng: -3.000000 },
         zoom: 9
     });
-    //call map window& create marker variable
+
+    //plotting the markers
+    fetch("scripts/js/markers.json")
+    .then(function(response){return response.json()})
+    .then(plotMarkers);
+}
+
+var markers;
+var bounds;
+
+function plotMarkers(m)
+{
+  markers = [];
+  bounds = new google.maps.LatLngBounds();
+
+  m.forEach(function (marker) {
+    var position = new google.maps.LatLng(marker.lat, marker.lng);
+
+    markers.push(
+      new google.maps.Marker({
+        position: position,
+        map: map,
+        animation: google.maps.Animation.DROP
+      })
+    );
+
+    bounds.extend(position);
+  });
+
+  map.fitBounds(bounds);
+}
+
+    //call map window& create marker info - title of marker
     var infowindow = new google.maps.InfoWindow();
 
     var marker, i;
@@ -218,20 +244,11 @@ function initMap() {
 		<!--Popper-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
-		<!--Google maps script-->
-		<script src="scripts/js/script.js" 
-        
-        <!--Navigation, slideshow, scroll& text JS-->
+		<!--Navigation, slideshow, scroll& text JS-->
 		<script src="scripts/js/app.js"></script>
 
 		<!--Bootstrap, for footer icon positioning-->
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-		<!--Google maps scripts-->
-
-		<script async defer
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8&callback=initMap">
-		</script>
 </body>
 
 </html>
