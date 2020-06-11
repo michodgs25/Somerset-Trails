@@ -307,13 +307,19 @@ When executed the main screen will be shown and the options can be chosen.
 ## Acknowledgements
 
 * W3.CSS - https://www.w3schools.com/w3css/4/w3.css.
+  - Credit to W3.schools for navigation, slideshow, bottom-nav and scroll to the top button.
 
 * Code institute - https://codeinstitute.net/
+  - Credit to code institute walk project for the banner animation.
 
 * Google Developers - https://developers.google.com/
+  - Credit to google developers documentation for mapping code.
 
 * Mozilla - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+  - Credit to Mozilla documentation for scroll event listener code implementation
 
+* Site point - https://www.sitepoint.com/google-maps-javascript-api-the-right-way/
+  - Credit site point documentation on how to plot markers& appending api key to html document head.
 
 ## External Media 
-All images were take from Google images advanced search with filter: free to use or share.
+All images were take from Google images advanced search with filter - free to use or share.
