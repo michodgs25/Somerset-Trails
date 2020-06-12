@@ -17,6 +17,7 @@
  * [Testing](#Testing)
  * [Version-control](#Version-control)
  * [Deployment](#Deployment)
+ * [Project-barriers-and-the-solutions](#Project-barriers-and-the-solutions)
  * [issues-and-bugs](#issues-and-bugs)
  * [Acknowledgements](#Acknowledgements)
 -----
@@ -233,6 +234,8 @@ __Back to top of page__
 
 * Html, Css and Javascript language
 
+* Balslamiq - https://balsamiq.com/
+
 * JQuery library - https://code.jquery.com/jquery-3.2.1.slim.min.js         
 
 * Popper library - https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js
@@ -242,6 +245,10 @@ __Back to top of page__
 * W3.CSS - https://www.w3schools.com/w3css/4/w3.css
 
 * Google Maps - https://developers.google.com/maps/documentation/javascript/examples
+
+* JS hint - https://jshint.com/
+
+* W3S html& css validator - https://validator.w3.org/
 
 ## Testing
 
@@ -325,6 +332,12 @@ When executed the main screen will be shown and the options can be chosen.
 
 * Site point - https://www.sitepoint.com/google-maps-javascript-api-the-right-way/
   - Credit site point documentation on how to plot markers& appending api key to html document head.
+  
+* W3S validator -  https://validator.w3.org/
+  - Credit W3S for ensuring html& css code is error free.
+
+* JSHint -  https://jshint.com/
+  - Credit JSHint for ensuring JavaScript code is error free.
 
 ## External Media 
 All images were take from Google images advanced search with filter - free to use or share.
