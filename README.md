@@ -305,11 +305,22 @@ When executed the main screen will be shown and the options can be chosen.
 
 ## Project barriers and the solutions
 
-* Navigation bar barriers& solutions - https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
+* Navigation bar barriers& solutions - 
+  - Summary: *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. Future iterations of the site will aim to add the site logo to the navigation bar, as will make this feature more personalised to this website."*
 
-* Slideshow barriers& solutions - https://github.com/michodgs24/Somerset-Trails/issues/12#issue-635778916
+#### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
 
-* Google Maps barriers& solutions - https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865
+* Slideshow barriers& solutions - 
+  - Summary:
+  *"The slideshow works as intended, albeit a slight jolt with some images due to varying heights but is barely noticeable. Future iterations of the site will address this."*
+
+#### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/12#issue-635778916
+
+* Google Maps barriers& solutions - 
+  - Summary:
+*"Although the implementation of maps did present significant challenges, the value of the maps to the user experience is immense as it adds a different dimension with its virtual capability.  Improvement still to be made though, as the maps inline script on each page is bloated."*
+
+#### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865
 
 ## issues and bugs
 
