@@ -225,7 +225,6 @@ __Back to top of page__
     <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/footer-ss.jpg"
   </div>
   </details>
-  <br>
   
  ## Features left to implement
  https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
@@ -305,6 +304,7 @@ https://github.com/michodgs24/Somerset-Trails into your terminal.
 When executed the main screen will be shown and the options can be chosen.
 
 ## Project barriers and the solutions
+
 * Navigation bar barriers& solutions - https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
 
 * Slideshow barriers& solutions - https://github.com/michodgs24/Somerset-Trails/issues/12#issue-635778916
@@ -312,6 +312,7 @@ When executed the main screen will be shown and the options can be chosen.
 * Google Maps barriers& solutions - https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865
 
 ## issues and bugs
+
 * __Slideshow__ - https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128
 
 * __Banner__ -  https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
@@ -331,7 +332,7 @@ When executed the main screen will be shown and the options can be chosen.
   - Credit to Mozilla documentation for scroll event listener code implementation
 
 * Site point - https://www.sitepoint.com/google-maps-javascript-api-the-right-way/
-  - Credit site point documentation on how to plot markers& appending api key to html document head.
+  - Credit site point documentation on how to plot markers
   
 * W3S validator -  https://validator.w3.org/
   - Credit W3S for ensuring html& css code is error free.
