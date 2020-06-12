@@ -182,11 +182,11 @@ __Google maps API__
 
 __Explore tab__
 
-* *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button.
+* *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button.*
 
 * *The dropup button is interactive& shrinks once the user hovers over it.*
 
-* The box contains the other trails links so the user can access the next trail with ease.*
+* *The box contains the other trails links so the user can access the next trail with ease.*
 
   <details>
   <summary>Bottom page navigation</summary>
@@ -279,9 +279,6 @@ Applied google developer tool lighthouse to analyse mobile performance:
 Results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/10#issue-634894703
 
 ### Testing - iiii.
-Site was tested in safari, firefox and chrome. Site works as intended.
-
-### Testing - iiiii.
 Tested html and css code formatting with https://validator.w3.org/ - done by copying& pasting the code via direct input into the site text box. 
 
 Tested the JavaScript code with https://jshint.com/ - done by copying& pasting the code via direct imput into the site text-area. 
