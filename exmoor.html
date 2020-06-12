@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
 
 	<!--WS3 Css, provide slideshow animation-->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -147,9 +148,8 @@
 
 					<!--scripts-->
 
-					<script src="scripts/js/script.js" defer>
-
-var map;
+					<script>
+						var map;
 //create map object, call id map and add elements to map object - latitude& longitude
 function initMap() {
     map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
@@ -206,7 +206,6 @@ function plotMarkers(m)
             };
         })(marker, i));
     }
-}
 					</script>
 
 					<!--Jquery-->
@@ -222,6 +221,11 @@ function plotMarkers(m)
 
 					<!--Bootstrap, for footer icon positioning-->
 					<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+					<!--Map API key-->
+					<script async defer
+						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwkm-Zl_LpT63IFWXzmGhS8i6vZFf9dM8&callback=initMap">
+					</script>
 </body>
 
 </html>
