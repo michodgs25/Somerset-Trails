@@ -1,22 +1,8 @@
 /*declare& get navigation class, increase user accessibility*/
 /*Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_topnav.asp*/
-function dropDownNavigation() {
-    var x = document.getElementsByClassName("topnav");/*top navigation*/
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
+$(".topnav.response").removeClass("responsive").addClass("topnav");
 
-function dropUpNavigation() {
-    var x = document.getElementsByClassName("bottom-nav");/*bottom navigation*/
-    if (x.className === "bottom-nav") {
-        x.className += " responsive";
-    } else {
-        x.className = "bottom-nav";
-    }
-}
+$(".bottom-nav.response").removeClass("responsive").addClass("bottom-nav");
 /*end of navigation code*/
 
 /*scroll to to top button, increase user accessibility*/
