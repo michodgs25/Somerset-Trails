@@ -26,11 +26,11 @@
 
 __Somerset Trails__ site was born from observing that current sites such as: https://www.somersetlive.co.uk/news/somerset-news/11-stunning-walking-routes-around-2431780, had far too many ads clogging up each page which made the experience visitting the site unappealing. The trails are such beautiful places to visit, the website is many people's first impression and can be discouraging to see advertisements for various companies plastered everywhere.
 
-__Somerset Trails__ website offers a user **(see user stories below)** a visually impactful site through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between satelite, terrain type and even go street view to visit each trail virtually.
+__Somerset Trails__ website offers a user **(see user stories below)** a visually impactful experience through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between satelite, terrain type and even go street view to visit each trail virtually.
 
-* A primary design goal of this website is to be a responsive, so that users can easily explore different trails and learn more about each trail via images& google maps.
+* A primary design goal of this website is to be easy to navigate, so users can explore each different trail and learn more about each trail via images& google maps seamlessly.
 
-* The site should be easy to navigate, with navigation sections top, bottom and right-side cursor that takes the user back to the top.
+* The site should be clean with matching color contrast that set the focus on the content itself.
 
 * Map of each trail is to be clearly defined on each page, and easy to use the toggles: terrain and map view.
 
