@@ -227,7 +227,9 @@ __Back to top of page__
   </details>
   
  ## Features left to implement
- https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
+   - Summary *"With future iterations of the website, the primary aims are to expand the number of trails and enhance the content of each trail with further images and Google maps capabilities as these are the main features."*
+ 
+ #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
 
 ## Technologies
 
