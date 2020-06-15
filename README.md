@@ -1,7 +1,7 @@
 # Somerset Trails 
 ### Explore the west country's best trails, one step at a time.
 
-*Somerset is world famous for it's beautiful countryside and spectacular hill-top views with thousands of tourists flocking to visit the area every year. Somerset boasts trails such as the **Cheddar Gorge**, the **Weston Woods**, **Somerset Coastal path** and many more.*
+*Somerset is world famous for it's beautiful countryside and spectacular hill-top views with thousands of tourists flocking to visit the area every year. Somerset boasts trails such as the **Cheddar Gorge**, the **Exmoor national park**, **Somerset Coastal path** and many more.*
 
 ![Trails image](https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/logo/README.png)
 
@@ -130,7 +130,7 @@ So the next step was figuring out how to maximise the user experience and presen
     
 ## Features
 
-__Navigation bar__ 
+__Navigation bar feature__ 
 
 * *The navigation bar for __homepage__ and each __trail result page__ contains two tabs: home and Somerset trails.*
 
@@ -148,8 +148,13 @@ __Navigation bar__
 <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/open-home-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
+  
+  #### Navigation bar Summary: 
+   - *This feature was inspired by user stories, specifically, user Helen who asked for the site to be easy to navigate.*
+   
+   <br>
 
-__Slideshow__ 
+__Slideshow feature__ 
 
 * *The slideshow on the __homepage__ will have a picture of each trail accompanied with a caption& a button so the user can access that specific trail immediately.*
 
@@ -161,8 +166,13 @@ __Slideshow__
 <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/home-gallery-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
+  
+  #### Slideshow Summary:
+   - *This feature was inspired by user stories, in particular, user Grant who who wanted lots of images and minimal text.*
+   
+   <br>
 
-__Google maps API__
+__Google maps feature__
 
 * *The map on the __homepage__ will be a map of the somerset area with pointers on each individual trail locations.*
 
@@ -179,8 +189,13 @@ __Google maps API__
      target="_blank" rel=""/>
   </div>
   </details>
+  
+  #### Google Maps Summary:
+   - *The Google maps feature was inspired by user stories and the ambition to exceed user expectations by adding not only imagery but virtual reality which each user can use to explore each trail and the general area.*
+   
+   <br>
 
-__Explore tab__
+__Explore tab feature__
 
 * *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button.*
 
@@ -198,10 +213,15 @@ __Explore tab__
        target="rel"/>
 </div>
     </details>
+    
+   #### Explore tab Summary:
+   - *The explore tab was inspired by user story regarding navigation, also because of the difficulty of creating a fixed navigation bar feature that would follow the user as he/she scrolled the page(See https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825 for further details on navigation difficulties). The explore tab is a compromise as once the user reaches the bottom of the page, the user can just hover over the tab and each trail will be available with one click.*
 
-__Back to top of page__
+__Scroll back to top of page button feature__
 
 * *A button placed on the right hand side of the page, user can click the button and will be taken back to the top of the respective page.*
+
+* *The button only appears once the user has scrolled past the top navigation bar, the button hovers on the far right of the screen as to not be distracting but still noticeable.* 
 
 <details>
   <summary>Scroll tab</summary>
@@ -210,11 +230,15 @@ __Back to top of page__
     <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/scroll-top-ss.jpg"
          </div>
  </details>
-  <br>
   
-  __Footer Section__
+  #### Scroll Summary:
+   - *The scroll back to top button was inspired by navigation, so if the user did want to return back to the top of the page, just one click of the scroll button it will ease up automatically.* 
+   
+   <br>
   
-  * *Footer section signals to the user that the page has ended and provides links to social media and also a link to a nationally recognised trails page which opens a new tab and the user can explore other trails that are available across the United Kingdom.*
+  __Footer feature__
+  
+  * *Footer section signals to the user that the page has ended and provides links to homepage social media.*
   
   * *The links are center horizontally, with a light orange background& styled green. Social media: Facebook and twitter in icon form that opens a new browser tab when clicked on, which takes the user to either our facebook page or login page if not signed in.*  
   
@@ -225,6 +249,11 @@ __Back to top of page__
     <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/footer-ss.jpg"
   </div>
   </details>
+  
+ #### Footer Summary:
+   - *Although the footer signals the end of the page, it is still important as spreading the word of the website via social media is such an important tool to raise awareness of the site plus.*
+   
+   <br>
   
  ## Features left to implement
    - Summary *"With future iterations of the website, the primary aims are to expand the number of trails and enhance the content of each trail with further images and Google maps capabilities as these are the main features."*
