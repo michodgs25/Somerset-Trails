@@ -352,9 +352,19 @@ When executed the main screen will be shown and the options can be chosen.
 
 ## issues and bugs
 
-* __Slideshow__ - https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128
+* __Slideshow__ - 
 
-* __Banner__ -  https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
+  - Summary 
+  *"Images are such an important aspect of this website, beginning with user stories that asked for the site to be primarily images instead of text and the subject being outdoor trails. Future iterations will not only look into resolving existing issues but also look to expand and increase the quality of each image."*
+
+#### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128
+
+* __Banner__ -  
+
+  - Summary 
+  *"The banner works as intended once the page is refreshed, future iterations to look at ways to resolve the issue by reducing the file size or a way to help the browser load an image of that size more efficiently."*
+
+#### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
 
 ## Acknowledgements
 
