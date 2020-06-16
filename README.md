@@ -57,18 +57,19 @@ __Somerset Trails__ website offers a user **(see user stories below)** a visuall
 
 *"Good afternoon, my name is Helen a code editor. I would like the website to be easy to navigate, as it's a pain having to scroll back to the top of each page every time I want to access a different part of a website."*
 
-  - Solution: Fixed navigation bar, bottom navigation button plus a scroll back to the top button. In addition on the homepage slideshow on each slide is a button that accesses that particular trail page.
+  - Solution: Top horizontal navigation bar, bottom navigation button plus a scroll back to the top button. In addition on the homepage slideshow on each slide is a button that accesses that particular trail page.
+  
+  <br>
 
-### Strategy 
------
+## Strategy 
 
 * Firstly I had to establish target audience, Somerset has popular holiday sites such as: Butlins, Haven sites, glamping& camping sites on the quantock hills, Kittisford& Barton and luxury cottages in the rolling hills. 
 This shows that the countryside is a glamorous& viable getaway for many families so having a responsive& intuitive website can display these amazing trails and the location of them is very important.
 
 * New locals to Somerset can also benefit as getting to know the area is an important part of settling in; a visually pleasing site would make a good impression and encourage user to explore the area further. And lastly there are many local people who have lived in Somerset for years and have never explored these trails; implementing a Google maps API raises awareness of these trails to those potential users.
 
-### Scope
------
+## Scope
+
 The next problem to solve was that there was already a great website called: https://www.nationaltrail.co.uk/en_GB/ - so what could I offer that is different? 
 Users that come to this site aren't looking for trails in Wales or the north of England, this sites scope is specifically aimed towards users who either are local or who are visitting the Somerset area for a period of time. 
 
@@ -124,13 +125,13 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Results page footer</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/results-page.png"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/wire-frame/footer.png"
          </div>
     </details>
     
 ## Features
 
-__Navigation bar feature__ 
+### Navigation bar feature
 
 * *The navigation bar for __homepage__ and each __trail result page__ contains two tabs: home and Somerset trails.*
 
@@ -152,13 +153,15 @@ __Navigation bar feature__
   #### Navigation bar Summary: 
    - *This feature was inspired by user stories, specifically, user Helen who asked for the site to be easy to navigate.*
    
-   <br>
+   ----
 
-__Slideshow feature__ 
+### Slideshow feature
 
 * *The slideshow on the __homepage__ will have a picture of each trail accompanied with a caption& a button so the user can access that specific trail immediately.*
 
 * *The slideshow on each __trail results page__ will be a series of images of that trail.*
+
+* *The slideshow is automatic, with each slide changing every two seconds.*
 
 <details>
   <summary>Slideshow</summary>
@@ -170,9 +173,9 @@ __Slideshow feature__
   #### Slideshow Summary:
    - *This feature was inspired by user stories, in particular, user Grant who who wanted lots of images and minimal text.*
    
-   <br>
+   ----
 
-__Google maps feature__
+### Google maps feature
 
 * *The map on the __homepage__ will be a map of the somerset area with pointers on each individual trail locations.*
 
@@ -193,9 +196,9 @@ __Google maps feature__
   #### Google Maps Summary:
    - *The Google maps feature was inspired by user stories and the ambition to exceed user expectations by adding not only imagery but virtual reality which each user can use to explore each trail and the general area.*
    
-   <br>
+   ----
 
-__Explore tab feature__
+### Explore tab feature
 
 * *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button.*
 
@@ -216,8 +219,10 @@ __Explore tab feature__
     
    #### Explore tab Summary:
    - *The explore tab was inspired by user story regarding navigation, also because of the difficulty of creating a fixed navigation bar feature that would follow the user as he/she scrolled the page(See https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825 for further details on navigation difficulties). The explore tab is a compromise as once the user reaches the bottom of the page, the user can just hover over the tab and each trail will be available with one click.*
+   
+   ----
 
-__Scroll back to top of page button feature__
+### Scroll back to top of page button feature
 
 * *A button placed on the right hand side of the page, user can click the button and will be taken back to the top of the respective page.*
 
@@ -234,9 +239,9 @@ __Scroll back to top of page button feature__
   #### Scroll Summary:
    - *The scroll back to top button was inspired by navigation, so if the user did want to return back to the top of the page, just one click of the scroll button it will ease up automatically.* 
    
-   <br>
+   ----
   
-  __Footer feature__
+### Footer feature
   
   * *Footer section signals to the user that the page has ended and provides links to homepage social media.*
   
@@ -253,9 +258,7 @@ __Scroll back to top of page button feature__
  #### Footer Summary:
    - *Although the footer signals the end of the page, it is still important as spreading the word of the website via social media is such an important tool to raise awareness of the site plus.*
    
-   <br>
-  
- ## Features left to implement
+## Features left to implement
    - Summary *"With future iterations of the website, the primary aims are to expand the number of trails and enhance the content of each trail with further images and Google maps capabilities as these are the main features."*
  
  #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
@@ -307,7 +310,7 @@ Applied google developer tool lighthouse to analyse mobile performance:
          </div>
  </details>
 
-Results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/10#issue-634894703
+#### Results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/10#issue-634894703
 
 ### Testing - iiii.
 Tested html and css code formatting with https://validator.w3.org/ - done by copying& pasting the code via direct input into the site text box. 
@@ -329,28 +332,36 @@ https://github.com/michodgs24/Somerset-Trails into your terminal.
 * When the code is downloaded as a .zip it can be unzipped and runned by opening the unzipped folder and then execute index.html. 
 
 * The code will be executed in the browser that is set as main browser, this can be Chrome or one of the other available browsers. 
-When executed the main screen will be shown and the options can be chosen.
+When executed the homepage will appear.
 
 ## Project barriers and the solutions
+*This section looks into the barriers that occurred during the process of this building this project and what solutions were chosen to hurdle the barriers:*
+
+<br>
 
 * Navigation bar barriers& solutions - 
   - Summary: *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. Future iterations of the site will aim to add the site logo to the navigation bar, as will make this feature more personalised to this website."*
 
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
 
-* Slideshow barriers& solutions - 
+-----
+
+#### Slideshow barriers& solutions - 
   - Summary:
   *"The slideshow works as intended, albeit a slight jolt with some images due to varying heights but is barely noticeable. Future iterations of the site will address this."*
 
 #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/12#issue-635778916
 
-* Google Maps barriers& solutions - 
+-----
+
+#### Google Maps barriers& solutions - 
   - Summary:
 *"Although the implementation of maps did present significant challenges, the value of the maps to the user experience is immense as it adds a different dimension with its virtual capability.  Improvement still to be made though, as the maps inline script on each page is bloated."*
 
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865
 
 ## issues and bugs
+*This section looks into what existing issues that are still present in the project& what future iterations could do to resolve these issues:*
 
 * __Slideshow__ - 
 
@@ -359,12 +370,20 @@ When executed the main screen will be shown and the options can be chosen.
 
 #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128
 
+-----
+
+<br>
+
 * __Banner__ -  
 
   - Summary 
   *"The banner works as intended once the page is refreshed, future iterations to look at ways to resolve the issue by reducing the file size or a way to help the browser load an image of that size more efficiently."*
 
 #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
+
+-----
+
+<br>
 
 ## Acknowledgements
 
