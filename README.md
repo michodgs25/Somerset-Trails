@@ -312,6 +312,8 @@ Opened Google developer tools and toggled the site between various devices, that
     <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/lighthouse-ss.jpg"
          </div>
  </details>
+  
+   - Summary: *""*
 
 #### Lighthouse results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/10#issue-634894703
 
@@ -329,6 +331,12 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
 <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/google-test-ss.jpg" target="_blank" rel=""/>
          </div>
  </details>
+ 
+  - Summary: *""*
+ 
+ #### Google mobile friendliness results discussed here - https://github.com/michodgs24/Somerset-Trails/issues/14#issue-639764387
+ 
+ ----
 
 ### mobiReady mobile test:
   - Enter website link as indicated into enter bar on homepage, press enter and the site automates the website to whether it will be mobile ready.
@@ -342,9 +350,9 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
          </div>
  </details>
 
-  - Summary: *""*
+   - Summary: *""*
   
-#### Google& mobiReady results discussed here - https://github.com/michodgs24/Somerset-Trails/issues/14#issue-639764387
+#### mobiReady results discussed here - https://github.com/michodgs24/Somerset-Trails/issues/15#issue-639850820
 
 ----
 
