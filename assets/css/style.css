@@ -19,7 +19,7 @@ h2 {
   z-index: 3;
 }
 
-/* Style the links inside the navigation bar */
+/* Style the links inside the nav-bar */
 .topnav a {
   float: left;
   display: block;
@@ -30,25 +30,25 @@ h2 {
   font-size: 2rem;
 }
 
-/* Add an active class to highlight the current page */
+/* Add active class to highlight the current page */
 .active {
   background-color: rgb(2, 194, 62);
   color: rgb(255, 255, 255);
 }
 
-/* Hide the link that should open and close the topnav on small screens */
+/* Hide the link that opens& closes topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
-/* Dropdown container - needed to position the dropdown content */
+/* Dropdown container - to position dropdown content */
 .dropdown {
   float: left;
   overflow: hidden;
   font-style: italic;
 }
 
-/* Style the dropdown button to fit inside the topnav */
+/* Style the dropdown button to fit inside topnav */
 .dropdown .dropbtn {
   font-size: 2rem;
   border: none;
@@ -59,7 +59,7 @@ h2 {
   background-color: inherit;
 }
 
-/* Style the dropdown content*/
+/* Style dropdown content*/
 .dropdown-content {
   display: none;
   position: relative;
@@ -308,7 +308,7 @@ h2 {
     text-decoration: none;
 }
 
-/* Style the button and place it in the middle of the container/image */
+/* Style the button& center the container/image */
 .container .btn {
   position: absolute;
   top: 80%;
@@ -324,7 +324,7 @@ h2 {
   border-radius: 0.313rem;
 }
 
-/*when user hovers over, button changes color*/
+/*cursur hovers over, button changes color*/
 .container .btn:hover {
   background-color: rgba(2, 1, 1, 0.904);
 }
@@ -387,15 +387,14 @@ h2 {
     padding-bottom: 6rem;
     margin-bottom: 6rem;
 }
-/*end of map*/
 
-/*bottom page navigation, enable user to access other trails instantly*/
+/*bottom page navigation, enable access other trails*/
 .active {
-  background-color: rgb(2, 194, 62);/* Add an active class to highlight the current page */
+  background-color: rgb(2, 194, 62);
   color: rgb(255, 255, 255);
 }
 
-/* Hide link that should open and close the dropdown on small screens*/
+/* Hide link that open& close dropdown on small screens*/
 .bottom-nav .icon {
   display: none;
 }
@@ -491,7 +490,7 @@ h2 {
     grid-template-columns: 0.1rem, 1fr, 1fr, 0.1rem;
 }
 
-/*footer objects positioning*/
+/*footer object position*/
 .footer li {
     text-decoration: none;
     list-style: none;
