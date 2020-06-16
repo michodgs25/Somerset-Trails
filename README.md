@@ -210,10 +210,8 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Bottom page navigation</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/button-ss.jpg"
-         target="rel"/>
-  <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/open-button-ss.jpg"
-       target="rel"/>
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/button-ss.jpg" target="_blank" rel=""/>
+  <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/open-button-ss.jpg" target="_blank" rel=""/>
 </div>
     </details>
     
@@ -232,7 +230,7 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Scroll tab</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/scroll-top-ss.jpg"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/scroll-top-ss.jpg" target="_blank" rel=""/>
          </div>
  </details>
   
@@ -251,7 +249,7 @@ So the next step was figuring out how to maximise the user experience and presen
   <summary>Footer section</summary>
   <br>
   <div align="center">
-    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/footer-ss.jpg"
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/footer-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
   
@@ -285,11 +283,11 @@ So the next step was figuring out how to maximise the user experience and presen
 
 ## Testing
 
-### Testing - i.
+### Testing site on different browsers - i.
 Shared the link on google, internet explorer and yahoo to ensure the site looks and works as it should on different browers. 
 
-### Testing - ii. 
-Opened google developer tools and toggled the site between various devices, that include:
+### Testing device on various screen sizes - ii. 
+Opened Google developer tools and toggled the site between various devices, that include:
 
 * iphone X
 * Moto G4
@@ -299,8 +297,13 @@ Opened google developer tools and toggled the site between various devices, that
 * iphone 6/7/8 & plus
 * ipad and ipad pro
 
-### Testing - iii.
-Applied google developer tool lighthouse to analyse mobile performance:
+ - Summary: Device looked& worked as intended on every device and screen size that was available.
+
+### Testing mobile friendliness - iii.
+*Applied three different verified automated online testing tools to ensure website is ready for mobile:*
+
+### Google developer tool lighthouse:
+   - Opened Google developer tools on-site, find lighthouse on navigation bar(next to security) and click generate report.
 
 <details>
   <summary>Lighthouse Results</summary>
@@ -310,9 +313,42 @@ Applied google developer tool lighthouse to analyse mobile performance:
          </div>
  </details>
 
-#### Results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/10#issue-634894703
+#### Lighthouse results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/10#issue-634894703
 
-### Testing - iiii.
+----
+
+ ### Google mobile friendly test:
+   - Entered website link as indicated into enter bar on homepage, an automated testing tool to verify if site is equipped for mobile devices follow link below to see the results:
+
+https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
+
+   <details>
+  <summary>Google mobile test</summary>
+  <br>
+  <div align="center">
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/google-test-ss.jpg" target="_blank" rel=""/>
+         </div>
+ </details>
+
+### mobiReady mobile test:
+  - Enter website link as indicated into enter bar on homepage, press enter and the site automates the website to whether it will be mobile ready.
+    
+  <details>
+  <summary>mobiReady</summary>
+  <br>
+  <div align="center">
+ <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/mobi-ss.jpg" target="_blank" rel=""/>
+ <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/mobi-results-ss.jpg" target="_blank" rel=""/>
+         </div>
+ </details>
+
+  - Summary: *""*
+  
+#### Google& mobiReady results discussed here - https://github.com/michodgs24/Somerset-Trails/issues/14#issue-639764387
+
+----
+
+### Testing Code validity - iiii.
 Tested html and css code formatting with https://validator.w3.org/ - done by copying& pasting the code via direct input into the site text box. 
 
 Tested the JavaScript code with https://jshint.com/ - done by copying& pasting the code via direct imput into the site text-area. 
@@ -407,6 +443,12 @@ When executed the homepage will appear.
 
 * JSHint -  https://jshint.com/
   - Credit JSHint for ensuring JavaScript code is error free.
+
+* mobiReady - https://ready.mobi/
+  - Credit mobiReady for automated mobile testing service to ensure site is fit for mobile
+  
+* Google mobile friendly test - https://search.google.com/test/mobile-friendly
+  - Credit Google mobile testing to ensure site is error free and mobile friendly 
 
 ## External Media 
 All images were take from Google images advanced search with filter - free to use or share.
