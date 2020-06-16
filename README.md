@@ -313,7 +313,9 @@ Opened Google developer tools and toggled the site between various devices, that
          </div>
  </details>
   
-   - Summary: *""*
+   - Summary: *"The lighthouse tool provided a good insight into the website mobile performance and assisted the development process by suggesting the scroll event-listener to improve scroll on mobile.
+Although this suggestion helped the scroll performance on mobile, re-running the lighthouse tool again, there was no improvement. 
+During the evaluation of the feedback, it is clear the chrome extensions have a negative impact on every category of the site, performance is also negatively impacted due to the number of unique domains called such as font awesome or JQuery. I estimate that the site does indeed meet the required standard for mobile and the results attained from Google mobile test& mobiReady back this estimation. Future iterations of the site to look further into solutions to improve these statistics, in particular, the performance category by reducing the special domains and reducing file size."*
 
 #### Lighthouse results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/10#issue-634894703
 
