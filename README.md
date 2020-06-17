@@ -254,7 +254,7 @@ So the next step was figuring out how to maximise the user experience and presen
   </details>
   
  #### Footer Summary:
-   - *Although the footer signals the end of the page, it is still important as spreading the word of the website via social media is such an important tool to raise awareness of the site plus.*
+   - *Although the footer signals the end of the page, it is still important as spreading the word of the website via social media is such an important tool to raise awareness of the site.*
    
 ## Features left to implement
    - Summary *"With future iterations of the website, the primary aims are to expand the number of trails and enhance the content of each trail with further images and Google maps capabilities as these are the main features."*
@@ -270,8 +270,6 @@ So the next step was figuring out how to maximise the user experience and presen
 * JQuery library - https://code.jquery.com/jquery-3.2.1.slim.min.js         
 
 * Popper library - https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js
-
-* Bootstrap - https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js
 
 * W3.CSS - https://www.w3schools.com/w3css/4/w3.css
 
