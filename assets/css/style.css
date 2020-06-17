@@ -480,30 +480,24 @@ h2 {
 }
 
 /*footer section*/
-.footer {
+footer {
+    text-align: center;
     height: 10rem;
     background-color: rgba(255, 232, 168);
     color: rgb(2, 194, 62);
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 0.1rem, 1fr, 1fr, 0.1rem;
 }
 
-/*footer object position*/
-.footer li {
-    text-decoration: none;
-    list-style: none;
-}
-
-.footer a {
+.other-trails li {
+    list-style-type: none;
+    text-align: center;
     display: inline;
 }
 
-.footer i {
-    font-size: 2rem;
-    padding: 1rem;
-    margin: 1rem;
+footer i {
+    font-size: 3rem;
+    padding: 0.5rem;
+    padding-top: 2.5rem;
+    margin: 0.5rem;
     text-align: center;
 }
 
