@@ -2,7 +2,7 @@
 /*Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_topnav.asp*/
 $(".topnav.response").removeClass("responsive").addClass("topnav");
 $(".bottom-nav.response").removeClass("responsive").addClass("bottom-nav");
-/*end of navigation code*/
+
 /*scroll to to top button, increase user accessibility*/
 /*Code adapted from WS3 Schools -  https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
 mybutton = document.getElementById("myBtn");
@@ -41,60 +41,61 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 2000); /* Change image every 2 seconds*/
 }
-/*end of slideshow code*/
+
 /*banner text, introduce viewer to page and increase interactivity*/
 $("h4").css({ "color": "white", "font-style": "italic", "text-align": "center" });
 $("h4").on({
     mouseenter: function () {
-        $(this).css("font-size", "3rem", "z-index", "3");
+        $(this).css("font-size", "3em", "z-index", "3");
     },
     mouseleave: function () {
-        $(this).css("font-size", "1.2rem", "z-index", "3");
+        $(this).css("font-size", "2em", "z-index", "3");
     }
 });
-/*end of banner text*/
+
 /*h2 headings, increase visibility& interactivity*/
-$("h2").css({ "text-align": "center", "padding-top": "1rem" });
+$("h2").css({ "text-align": "center", "padding": "2em" });
+
 $("h2").on({
     mouseenter: function () {
-        $(this).css("font-size", "2rem");
+        $(this).css("font-size", "1.5em");
     },
     mouseleave: function () {
-        $(this).css("font-size", "1rem");
+        $(this).css("font-size", "1em");
     }
 });
-/*end of h2 code*/
-/*achor tags, increase interactivity*/
-$("a").on({
+/*icon tags, increase interactivity*/
+$("i").on({
     mouseenter: function () {
-        $(this).css("font-size", "1.2rem");
+        $(this).css("font-size", "2em");
     },
     mouseleave: function () {
-        $(this).css("font-size", "1rem");
+        $(this).css("font-size", "2.5em");
     }
 });
-/*end of achor tags code*/
-/*button elements, increase button interactivity*/
-$("button").on({
+
+/*topnav, increase topnav interactivity*/
+$("button", "top-nav").on({
     mouseenter: function () {
-        $(this).css("font-size", "1.5rem");
+        $(this).css("font-size", "2em");
     },
     mouseleave: function () {
-        $(this).css("font-size", "2rem");
+        $(this).css("font-size", "2.1em");
     }
 });
-/*end of button element*/
+
 /*footer icons& text, increase footer interactivity*/
-$("span").css("padding", "0.5rem");
-$("span").on({
+$("span", "other-trails").css("padding", "0.111em");
+
+$("span", "other-trails").on({
     mouseenter: function () {
-        $(this).css("font-size", "1.5rem");
+        $(this).css("font-size", "0.8em");
     },
     mouseleave: function () {
-        $(this).css("font-size", "2rem");
+        $(this).css("font-size", "1em");
     }
 });
-/*end of footer comment*/
+
 /*scroll event-listener, ensure smooth scroll on mobile devices*/
 /*Code taken from - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener*/
 let passiveIfSupported = false;

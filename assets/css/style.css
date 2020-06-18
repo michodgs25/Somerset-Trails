@@ -25,9 +25,9 @@ h2 {
   display: block;
   color: rgb(166, 171, 167);
   text-align: center;
-  padding: 2rem;
+  padding: 2em;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 /* Add active class to highlight the current page */
@@ -50,11 +50,11 @@ h2 {
 
 /* Style the dropdown button to fit inside topnav */
 .dropdown .dropbtn {
-  font-size: 2rem;
+  font-size: 2em;
   border: none;
   outline: none;
   color: rgb(2, 194, 62);
-  padding: 2rem;
+  padding: 2em;
   text-align: center;
   background-color: inherit;
 }
@@ -63,8 +63,8 @@ h2 {
 .dropdown-content {
   display: none;
   position: relative;
-  background-color: rgba(0,0,0,0.2);
-  min-width: 20rem;
+  background-color: rgb(0,0,0,0.2);
+  min-width: 20em;
   z-index: 99;
 }
 
@@ -72,23 +72,23 @@ h2 {
 .dropdown-content a {
   float: none;
   color: rgb(2, 1, 1, 0.904);
-  padding: 1rem;
+  padding: 1em;
   text-decoration: none;
   display: block;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1em;
   font-style: italic;
 }
 
 /*add interactive features to dropdown items*/
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(2, 194, 62);
-  color: rgba(2, 1, 1, 0.904);
+  color: rgb(2, 1, 1, 0.904);
 }
 
 .dropdown-content a:hover {
   background-color: rgb(2, 194, 62);
-  color: rgba(2, 1, 1, 0.904);
+  color: rgb(2, 1, 1, 0.904);
 }
 
 .dropdown:hover .dropdown-content {
@@ -98,7 +98,7 @@ h2 {
 /*header section on homepage*/
 .banner {
     width: 100%;
-	height: 30rem;
+	height: 30em;
 	background: url("https://c0.wallpaperflare.com/preview/461/570/413/exmoor-pony-pony-horse-exmoor.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -116,7 +116,7 @@ h2 {
 /*ensure banner transitions smoothly*/
 .banner-outer {
     width: 100%;
-    height: 30rem;
+    height: 30em;
     overflow:hidden;
     position: relative;
 }
@@ -124,7 +124,7 @@ h2 {
 /*cheddar header page*/
 .cheddar-banner {
     width: 100%;
-	height: 30rem;
+	height: 30em;
 	background: url("https://images.pexels.com/photos/3969285/pexels-photo-3969285.jpeg?cs=srgb&dl=cheddar-gorge-3969285.jpg&fm=jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -142,7 +142,7 @@ h2 {
 /*Ensure smooth banner transition*/
 .cheddar-banner-outer {
     width: 100%;
-    height: 30rem;
+    height: 30em;
     overflow:hidden;
     position: relative;
 }
@@ -159,7 +159,7 @@ h2 {
 /*blagdon banner*/
 .blagdon-banner {
     width: 100%;
-	height: 30rem;
+	height: 30em;
 	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Blagdonlake2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -175,7 +175,7 @@ h2 {
 
 .blagdon-banner-outer {
     width: 100%;
-    height: 30rem;
+    height: 30em;
     overflow:hidden;
     position: relative;
 }
@@ -192,7 +192,7 @@ h2 {
 /*staple banner*/
 .staple-banner {
     width: 100%;
-	height: 30rem;
+	height: 30em;
 	background: url("https://upload.wikimedia.org/wikipedia/commons/7/79/The_Malverns_from_Cleeve_Hill_%284966%29.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -208,7 +208,7 @@ h2 {
 
 .staple-banner-outer {
     width: 100%;
-    height: 30rem;
+    height: 30em;
     overflow:hidden;
     position: relative;
 }
@@ -225,7 +225,7 @@ h2 {
 /*exmoor banner*/
 .exmoor-banner {
     width: 100%;
-	height: 30rem;
+	height: 30em;
 	background: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Exmoor_National_Park.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -241,7 +241,7 @@ h2 {
 
 .exmoor-banner-outer {
     width: 100%;
-    height: 30rem;
+    height: 30em;
     overflow:hidden;
     position: relative;
 }
@@ -258,7 +258,7 @@ h2 {
 /*coastal banner*/
 .coastal-banner {
     width: 100%;
-	height: 30rem;
+	height: 30em;
 	background: url("https://live.staticflickr.com/7433/13432939784_6087d5241b_b.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -274,7 +274,7 @@ h2 {
 
 .coastal-banner-outer {
     width: 100%;
-    height: 30rem;
+    height: 30em;
     overflow:hidden;
     position: relative;
 }
@@ -299,7 +299,7 @@ h2 {
 
 /* Slideshow container size*/
 .slideshow-container {
-  max-width: 62.5rem;
+  max-width: 62.5em;
   position: relative;
   margin: auto;
 }
@@ -317,11 +317,11 @@ h2 {
   -ms-transform: translate(-50%, -50%);
   background-color: rgb(2, 194, 62);
   color: rgb(255, 255, 255);
-  font-size: 1rem;
-  padding: 0.75rem 1.5rem;
+  font-size: 1em;
+  padding: 0.75em 1.5em;
   border: none;
   cursor: pointer;
-  border-radius: 0.313rem;
+  border-radius: 0.313em;
 }
 
 /*cursur hovers over, button changes color*/
@@ -332,23 +332,23 @@ h2 {
 /* Number text (1/6) */
 .numbertext {
   color: rgb(255, 255, 255);
-  font-size: 1rem;
-  padding: 1rem 1rem;
+  font-size: 1em;
+  padding: 1em 1em;
   position: absolute;
   top: 0;
 }
 
 /*Slideshow dots/bullets/indicators */
 .dot {
-  height: 1rem;
-  width: 1rem;
-  margin: 0 0.13rem;
+  height: 1em;
+  width: 1em;
+  margin: 0 0.11em;
   color: rgb(2, 194, 62);
   background-color: rgb(166, 171, 167);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  margin-bottom: 5rem;
+  margin-bottom: 5em;
 }
 
 .active {
@@ -374,18 +374,18 @@ h2 {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 1rem) {
-  .text {font-size: 1rem}
+@media only screen and (max-width: 1em) {
+  .text {font-size: 1em}
 }
 
 /*Maps section*/
 .map-custom {
-    height: 30rem;
+    height: 30em;
     width: 100%;
-    border: 0.1rem solid rgb(2, 194, 62);
-    box-shadow: 1rem 1rem rgb(2, 194, 62);
-    padding-bottom: 6rem;
-    margin-bottom: 6rem;
+    border: 0.1em solid rgb(2, 194, 62);
+    box-shadow: 1em 1em rgb(2, 194, 62);
+    padding-bottom: 6em;
+    margin-bottom: 6em;
 }
 
 /*bottom page navigation, enable access other trails*/
@@ -408,9 +408,9 @@ h2 {
 .bottom-nav .dropbtn {
     background-color: rgb(255, 255, 255);
     color:rgba(2, 1, 1, 0.904);
-    box-shadow: 1rem 1rem rgb(2, 194, 62);
-    padding: 1rem;
-    font-size: 5rem;
+    box-shadow: 0.5em 0.5em rgb(2, 194, 62);
+    padding: 1em;
+    font-size: 3em;
     border: none;
 }
 
@@ -419,21 +419,23 @@ h2 {
     position: relative;
     display: inline-block;
     font-style: italic;
-    padding-bottom: 3rem;
+    padding-bottom: 3em;
 }
 
 .bottom-nav .dropbtn {
-    border: 0.2rem solid rgba(2, 1, 1, 0.904);
+    border: 0.1em solid rgba(2, 1, 1, 0.904);
 }
 
 /*content styling*/
 .bottom-nav .dropup-content {
     display: none;
     position: absolute;
-    bottom: 3rem;
+    left: 0.5em;
+    bottom: 5em;
     background-color: rgb(255, 255, 255);
-    min-width: 20rem;
-    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
+    min-height: 10em;
+    min-width: 20em;
+    box-shadow: 0em 0em 0em 0em rgba(0,0,0,0.2);
     z-index: 1;
     text-align: center;
 }
@@ -441,7 +443,7 @@ h2 {
 /*links inside dropup*/
 .bottom-nav .dropup-content a {
     color: rgba(2, 1, 1, 0.904);
-    padding: 0.75rem 1rem;
+    padding: 1em;
     text-decoration: none;
     display: block;
 }
@@ -463,16 +465,16 @@ h2 {
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 1.25rem;
-    right: 1.875rem;
+    bottom: 1.25em;
+    right: 0.555em;
     z-index: 99;
     border: none;
     outline: none;
     background-color: rgb(2, 194, 62);
     color: rgb(255, 255, 255);
     cursor: pointer;
-    border-radius: 0.5rem;
-    font-size: 2rem;
+    border-radius: 0.5em;
+    font-size: 1.8em;
 }
 
 #myBtn:hover {
@@ -482,7 +484,7 @@ h2 {
 /*footer section*/
 footer {
     text-align: center;
-    height: 10rem;
+    height: 10em;
     background-color: rgba(255, 232, 168);
     color: rgb(2, 194, 62);
 }
@@ -494,16 +496,16 @@ footer {
 }
 
 footer i {
-    font-size: 2rem;
-    padding: 0.5rem;
-    padding-top: 3rem;
+    font-size: 2em;
+    padding: 0.5em;
+    padding-top: 2em;
     text-align: center;
 }
 
 /*logo for footer*/
 .logo {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5em;
+    height: 2.5em;
 }
 
 .logo img a {
