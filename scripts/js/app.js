@@ -77,10 +77,10 @@ $("i").on({
 /*topnav, increase topnav interactivity*/
 $("button", "top-nav").on({
     mouseenter: function () {
-        $(this).css("font-size", "2em");
+        $(this).css("font-size", "1.5em");
     },
     mouseleave: function () {
-        $(this).css("font-size", "2.1em");
+        $(this).css("font-size", "1.8em");
     }
 });
 
