@@ -54,7 +54,7 @@ $("h4").on({
 });
 
 /*h2 headings, increase visibility& interactivity*/
-$("h2").css({ "text-align": "center", "padding": "2em" });
+$("h2").css({ "text-align": "center", "padding": "0.5em" });
 
 $("h2").on({
     mouseenter: function () {

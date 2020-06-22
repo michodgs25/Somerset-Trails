@@ -348,7 +348,7 @@ h2 {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 
 .active {
@@ -382,10 +382,10 @@ h2 {
 .map-custom {
     height: 30em;
     width: 100%;
-    border: 0.1em solid rgb(2, 194, 62);
+    border: 0.1em solid rgb(2, 1, 1, 0.904);
     box-shadow: 1em 1em rgb(2, 194, 62);
-    padding-bottom: 6em;
-    margin-bottom: 6em;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
 }
 
 /*bottom page navigation, enable access other trails*/
@@ -408,7 +408,7 @@ h2 {
 .bottom-nav .dropbtn {
     background-color: rgb(255, 255, 255);
     color:rgba(2, 1, 1, 0.904);
-    box-shadow: 0.5em 0.5em rgb(2, 194, 62);
+    box-shadow: 0.2em 0.2em rgb(2, 194, 62);
     padding: 1em;
     font-size: 3em;
     border: none;
