@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700&display=swap");
 
 /* Credit code sources for slideshow, navigation, bottom nav and scroll to top button - https://www.w3schools.com/*/
-/*Find links to each individual site page in README.md*/
+/*Find links to each individual site page in README.md& homepage*/
 
 html {
     scroll-behavior: smooth;
 }
 
-/*h2 header color*/
+/*header color*/
 h2 {
     color: rgb(2, 194, 62);
 }
@@ -19,7 +19,7 @@ h2 {
   z-index: 3;
 }
 
-/* Style the links inside the nav-bar */
+/*links inside the nav-bar */
 .topnav a {
   float: left;
   display: block;
@@ -30,25 +30,25 @@ h2 {
   font-size: 2em;
 }
 
-/* Add active class to highlight the current page */
+/*highlight the current page */
 .active {
   background-color: rgb(2, 194, 62);
   color: rgb(255, 255, 255);
 }
 
-/* Hide the link that opens& closes topnav on small screens */
+/* Hide link that opens& closes topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
-/* Dropdown container - to position dropdown content */
+/*position dropdown content */
 .dropdown {
   float: left;
   overflow: hidden;
   font-style: italic;
 }
 
-/* Style the dropdown button to fit inside topnav */
+/*dropdown button to fit inside topnav */
 .dropdown .dropbtn {
   font-size: 2em;
   border: none;
@@ -59,7 +59,7 @@ h2 {
   background-color: inherit;
 }
 
-/* Style dropdown content*/
+/*dropdown content*/
 .dropdown-content {
   display: none;
   position: relative;
@@ -68,7 +68,7 @@ h2 {
   z-index: 99;
 }
 
-/*style achor tags*/
+/*achor tags*/
 .dropdown-content a {
   float: none;
   color: rgb(2, 1, 1, 0.904);
@@ -80,7 +80,7 @@ h2 {
   font-style: italic;
 }
 
-/*add interactive features to dropdown items*/
+/*interactive feature to dropdown items*/
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(2, 194, 62);
   color: rgb(2, 1, 1, 0.904);
@@ -95,7 +95,7 @@ h2 {
   display: block;
 }
 
-/*header section on homepage*/
+/*homepage header*/
 .banner {
     width: 100%;
 	height: 35em;
@@ -113,7 +113,7 @@ h2 {
     animation-fill-mode: backwards;
 }
 
-/*ensure banner transitions smoothly*/
+/*smooth transitions*/
 .banner-outer {
     width: 100%;
     height: 35em;
@@ -288,8 +288,8 @@ h2 {
     }
 }
 
-/*slideshow section*/
-* {box-sizing:border-box}/*aligning slideshow content*/
+/*slideshow*/
+* {box-sizing:border-box}
 
 .mySlides {
     display: none;
@@ -297,7 +297,7 @@ h2 {
     margin: auto;
     }
 
-/* Slideshow container size*/
+/* Slideshow container*/
 .slideshow-container {
   max-width: 62.5em;
   position: relative;
@@ -308,7 +308,7 @@ h2 {
     text-decoration: none;
 }
 
-/* Style the button& center the container/image */
+/*button center container/image */
 .container .btn {
   position: absolute;
   top: 80%;
@@ -324,7 +324,7 @@ h2 {
   border-radius: 0.313em;
 }
 
-/*cursur hovers over, button changes color*/
+/*cursur hovers, btn change color*/
 .container .btn:hover {
   background-color: rgba(2, 1, 1, 0.904);
 }
@@ -338,7 +338,7 @@ h2 {
   top: 0;
 }
 
-/*Slideshow dots/bullets/indicators */
+/*Slideshow dots*/
 .dot {
   height: 1em;
   width: 1em;
@@ -373,7 +373,7 @@ h2 {
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
+/*smaller screens, decrease text size */
 @media only screen and (max-width: 1em) {
   .text {font-size: 1em}
 }
@@ -455,7 +455,7 @@ h2 {
     display: block;
 }
 
-/* Change the background color of the dropup button when the dropup content is shown*/
+/* Change the background color of dropup button when dropup content is shown*/
 .bottom-nav .dropup:hover .dropbtn {
   background-color: rgb(2, 194, 62);
 }

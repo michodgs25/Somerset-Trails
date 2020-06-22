@@ -4,18 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <!--WS3 Css, provide slideshow animation-->
+    <!--WS3, slideshow animation-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <!--font awesome, provides social media icons-->
+    <!--font awesome, social media icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <!--css, provide site with color& animation-->
+    <!--css, site color& animation-->
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Somerset Trails</title>
-    <!--Favicon 16x16, site icon-->
+    <!--Favicon, site icon-->
     <link id="favicon" rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
   </head>
   <body>
-    <!--Navigation, at the top of page for ease of use. Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_topnav.asp-->
+    <!--sources used on features, applied to every page:-->
+    <!--nav-bar: https://www.w3schools.com/howto/howto_js_topnav.asp-->
+    <!--slideshow: https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+    <!--scroll btn: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <!--bottom nav: https://www.w3schools.com/howto/howto_css_dropup.asp -->
+    <!--maps: https://developers.google.com/maps/documentation-->
+    <!--https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener-->
+    <!--Navigation, at the top of page for ease of use-->
     <nav class="topnav">
       <a href="index.html" class="w3-bar-item w3-button w3-green"><i class="fa fa-home"></i></a>
       <div class="dropdown">
@@ -32,7 +39,7 @@
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </nav>
-    <!--cover picture, welcomes user to page-->
+    <!--cover picture, welcome to page-->
     <section class="banner">
       <div class="banner-outer">
         <br>
@@ -40,7 +47,7 @@
       </div>
     </section>
     <br>
-    <!--Slideshow section, display each trail with corresponding button so the user to access that page instantly-->
+    <!--Slideshow, display trails& user access-->
     <div class="container">
       <div>
         <br>
@@ -49,7 +56,6 @@
       </div>
     </div>
     <br>
-    <!--Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_slideshow.asp-->
     <div class="slideshow-container">
       <div class="mySlides fade">
         <div class="numbertext">2 / 6</div>
@@ -88,7 +94,7 @@
       </div>
     </div>
     <br>
-    <!--Inform user of which slide is active-->
+    <!--Inform user which slide is active-->
     <div style="text-align:center">
       <span class="dot"></span>
       <span class="dot"></span>
@@ -97,7 +103,7 @@
       <span class="dot"></span>
     </div>
     <br>
-    <!--Map section, display the physical location for the user-->
+    <!--Map section, display location-->
     <section>
       <h2>Somerset Map</h2>
       <br>
@@ -105,7 +111,7 @@
       </div>
     </section>
     <br>
-    <!--Bottom navigation, for user flexibility to access different pages. Code adapted from WS3 Schools - https://www.w3schools.com/howto/howto_css_dropup.asp -->
+    <!--Bottom navigation, access different pages.-->
     <section class="bottom-nav">
       <h6>Our trails</h6>
       <div class="dropup">
@@ -121,11 +127,11 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </section>
     <br>
-    <!--Scroll back to top button, add ease of use for user. Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <!--Scroll back to top button, ease of use-->
     <div>
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </div>
-    <!--Footer section, display social media& informs viewer they have reached end of page-->
+    <!--Footer section, social media& page end-->
     <footer class="footer">
       <div class="align-vertically">
         <div class="other-trails">
@@ -141,7 +147,7 @@
     </footer>
     <!--scripts-->
     <script>
-      //All maps coding was adapted from google developer documentation - https://developers.google.com/maps/documentation
+    //create locations object
       var locations = [
       ["Exmoor National Park", 51.040565, -3.5551257, 4],
       ["Somerset Coastal Path", 51.2072165, -3.4641482, 5],
@@ -150,63 +156,33 @@
       ["Cheddar Gorge", 51.2863881, -2.7690326, 1]
       ];
       var map;
-      //create map object, call id map and add elements to map object such as latitude& longitude
+      //create map object
       function initMap() {
       map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
         center: { lat: 51.180000, lng: -3.000000 },
         zoom: 9
       });
-      //call map window& create marker variable
-      var infowindow = new google.maps.InfoWindow();
+
+                //call map window& create marker variable
+          var infowindow = new google.maps.InfoWindow();
       
-      var marker, i;
+          var marker, i;
       
-      for (i = 0; i < locations.length; i++) {
-        marker = new google.maps.Marker({
-            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-            map: map
-        });
-        //add event listener, set markers to individual locations
-        google.maps.event.addListener(marker, "click", (function (marker, i) {
-            return function () {
-                infowindow.setContent(locations[i][0]);
-                infowindow.open(map, marker);
-            };
-        })(marker, i));
+          for (i = 0; i < locations.length; i++) {
+              marker = new google.maps.Marker({
+                  position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                  map: map
+              });
+              //add event listener, set markers to locations
+              google.maps.event.addListener(marker, "click", (function (marker, i) {
+                  return function () {
+                      infowindow.setContent(locations[i][0]);
+                      infowindow.open(map, marker);
+                  };
+              })(marker, i));
+          }
       }
-      }var locations = [
-      ["Exmoor National Park", 51.040565, -3.5551257, 4],
-      ["Somerset Coastal Path", 51.2072165, -3.4641482, 5],
-      ["Staple Hill", 50.9445268, -3.0913381, 3],
-      ["Blagdon Lake", 51.3348101, -2.7040838, 2],
-      ["Cheddar Gorge", 51.2863881, -2.7690326, 1]
-      ];
-      var map;
-      //create map object, call id map and add elements to map object such as latitude& longitude
-      function initMap() {
-      map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
-        center: { lat: 51.180000, lng: -3.000000 },
-        zoom: 9
-      });
-      //call map window& create marker variable
-      var infowindow = new google.maps.InfoWindow();
-      
-      var marker, i;
-      
-      for (i = 0; i < locations.length; i++) {
-        marker = new google.maps.Marker({
-            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-            map: map
-        });
-        //add event listener, set markers to individual locations
-        google.maps.event.addListener(marker, "click", (function (marker, i) {
-            return function () {
-                infowindow.setContent(locations[i][0]);
-                infowindow.open(map, marker);
-            };
-        })(marker, i));
-      }
-      }
+
     </script>
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"

@@ -11,13 +11,12 @@
     <!--css, add color& animation-->
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Staple Hill</title>
-    <!--Favicon 32x32-->
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <!--Favicon 16x16, site icon-->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
   </head>
   <body>
-    <!--Navigation, at the top of page for ease of use. Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_topnav.asp-->
+  <!--see homepage or readme for sources-->
+    <!--Navigation, at the top of page for ease of use-->
     <nav class="topnav">
       <a href="index.html" class="w3-bar-item w3-button w3-green"><i class="fa fa-home"></i></a>
       <div class="dropdown">
@@ -34,7 +33,7 @@
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </nav>
-    <!--cover picture, welcomes user to page-->
+    <!--cover picture, welcome to page-->
     <section class="staple-banner">
       <div class="staple-banner-outer">
         <br>
@@ -42,7 +41,7 @@
       </div>
     </section>
     <br>
-    <!--Slideshow section, provide with different images of trail -->
+    <!--Slideshow section, images of trails -->
     <div class="container">
       <div>
         <br>
@@ -51,7 +50,6 @@
       </div>
     </div>
     <br>
-    <!--Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_slideshow.asp-->
     <div class="slideshow-container">
       <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
@@ -67,7 +65,6 @@
       </div>
     </div>
     <br>
-    <!--informs user of which slide is active-->
     <div style="text-align:center">
       <span class="dot"></span>
       <span class="dot"></span>
@@ -82,7 +79,7 @@
       </div>
     </section>
     <br>
-    <!--Bottom navigation button, for increased user flexibility. Code adapted from WS3 Schools - https://www.w3schools.com/howto/howto_css_dropup.asp-->
+    <!--Bottom navigation button, for user flexibility-->
     <section class="bottom-nav">
       <h6>Explore our trails</h6>
       <div class="dropup">
@@ -99,11 +96,11 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </section>
     <br>
-    <!--Scroll back to top button. Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <!--Scroll back to top button-->
     <div>
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </div>
-    <!--Footer section, display social media& informs viewer they have reached end of page-->
+    <!--Footer section, display social media& end of page-->
     <footer class="footer">
       <div class="align-vertically">
         <div class="other-trails">
@@ -123,7 +120,7 @@
           ["Staple Hill", 50.9445268, -3.0913381, 3],
       ];
       var map;
-      //create map object, call id map and add elements to map object such as latitude& longitude
+      //create map object
       function initMap() {
           map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
               center: { lat: 51.180000, lng: -3.000000 },
@@ -139,7 +136,7 @@
                   position: new google.maps.LatLng(locations[i][1], locations[i][2]),
                   map: map
               });
-              //add event listener, set markers to individual locations
+              //add event listener, set markers to locations
               google.maps.event.addListener(marker, "click", (function (marker, i) {
                   return function () {
                       infowindow.setContent(locations[i][0]);

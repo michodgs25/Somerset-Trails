@@ -42,7 +42,7 @@ function showSlides() {
     setTimeout(showSlides, 2000); /* Change image every 2 seconds*/
 }
 
-/*banner text, introduce viewer to page and increase interactivity*/
+/*banner text, introduce viewer to page*/
 $("h4").css({ "color": "white", "font-style": "italic", "text-align": "center" });
 $("h4").on({
     mouseenter: function () {
@@ -53,7 +53,7 @@ $("h4").on({
     }
 });
 
-/*h2 headings, increase visibility& interactivity*/
+/*h2, visibility& interactivity*/
 $("h2").css({ "text-align": "center", "padding": "0.5em" });
 
 $("h2").on({
@@ -64,7 +64,7 @@ $("h2").on({
         $(this).css("font-size", "1em");
     }
 });
-/*icon tags, increase interactivity*/
+/*icons for interactivity*/
 $("i").on({
     mouseenter: function () {
         $(this).css("font-size", "2em");
@@ -74,7 +74,7 @@ $("i").on({
     }
 });
 
-/*topnav, increase topnav interactivity*/
+/*topnav, for interactivity*/
 $("button", "top-nav").on({
     mouseenter: function () {
         $(this).css("font-size", "1.5em");
@@ -84,7 +84,7 @@ $("button", "top-nav").on({
     }
 });
 
-/*footer icons& text, increase footer interactivity*/
+/*footer icons& text, for interactivity*/
 $("span", "other-trails").css("padding", "0.111em", "padding-top", "1em");
 
 $("span", "other-trails").on({
@@ -96,8 +96,7 @@ $("span", "other-trails").on({
     }
 });
 
-/*scroll event-listener, ensure smooth scroll on mobile devices*/
-/*Code taken from - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener*/
+/*event-listener, smooth scroll on mobile device*/
 let passiveIfSupported = false;
 try {
     window.addEventListener("test", null,
@@ -111,6 +110,5 @@ try {
     );
 } catch (err) { }
 window.addEventListener("scroll", function (event) {
-    /*do something*/
     /*if browser cannot use event.preventDefault();*/
 }, passiveIfSupported);
