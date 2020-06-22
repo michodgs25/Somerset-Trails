@@ -70,7 +70,7 @@ $("i").on({
         $(this).css("font-size", "2em");
     },
     mouseleave: function () {
-        $(this).css("font-size", "2.5em");
+        $(this).css("font-size", "1.5em");
     }
 });
 
@@ -80,12 +80,12 @@ $("button", "top-nav").on({
         $(this).css("font-size", "1.5em");
     },
     mouseleave: function () {
-        $(this).css("font-size", "1.8em");
+        $(this).css("font-size", "1em");
     }
 });
 
 /*footer icons& text, increase footer interactivity*/
-$("span", "other-trails").css("padding", "0.111em");
+$("span", "other-trails").css("padding", "0.111em", "padding-top", "1em");
 
 $("span", "other-trails").on({
     mouseenter: function () {
