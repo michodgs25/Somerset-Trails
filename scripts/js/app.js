@@ -1,10 +1,8 @@
+/*please visit readme.md for code credits*/
 /*declare& get navigation class, increase user accessibility*/
-/*Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_topnav.asp*/
 $(".topnav.response").removeClass("responsive").addClass("topnav");
 $(".bottom-nav.response").removeClass("responsive").addClass("bottom-nav");
-
 /*scroll to to top button, increase user accessibility*/
-/*Code adapted from WS3 Schools -  https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
 mybutton = document.getElementById("myBtn");
 /*when user scrolls 10rem from top of page, show button*/
 window.onscroll = function () { scrollFunction() };
@@ -20,9 +18,7 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0; /*for chrome, firefox, IE and opera*/
 }
-/*End of scroll code*/
 /*slideshow function,styling& animation*/
-/*Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 var slideIndex = 0;
 showSlides();
 function showSlides() {
@@ -41,7 +37,6 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 2000); /* Change image every 2 seconds*/
 }
-
 /*banner text, introduce viewer to page*/
 $("h4").css({ "color": "white", "font-style": "italic", "text-align": "center" });
 $("h4").on({
@@ -52,10 +47,8 @@ $("h4").on({
         $(this).css("font-size", "2em", "z-index", "3");
     }
 });
-
 /*h2, visibility& interactivity*/
 $("h2").css({ "text-align": "center", "padding": "0.5em" });
-
 $("h2").on({
     mouseenter: function () {
         $(this).css("font-size", "1.5em");
@@ -73,7 +66,6 @@ $("i").on({
         $(this).css("font-size", "1.5em");
     }
 });
-
 /*topnav interactivity*/
 $("button", "top-nav").on({
     mouseenter: function () {
@@ -83,10 +75,8 @@ $("button", "top-nav").on({
         $(this).css("font-size", "1em");
     }
 });
-
 /*footer icons& text interactivity*/
 $("span", "other-trails").css("padding", "0.111em", "padding-top", "1em");
-
 $("span", "other-trails").on({
     mouseenter: function () {
         $(this).css("font-size", "0.8em");
@@ -95,7 +85,6 @@ $("span", "other-trails").on({
         $(this).css("font-size", "1em");
     }
 });
-
 /*event-listener, smooth scroll*/
 let passiveIfSupported = false;
 try {

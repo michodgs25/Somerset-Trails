@@ -15,15 +15,8 @@
     <link id="favicon" rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
   </head>
   <body>
-    <!--sources used on features, apply to every page:-->
-    <!--credit w3s schools for navigation bar, slideshow, bottom navigation and scroll to top btn code - 
-    visit them here: 
-    https://www.w3schools.com-->
-    <!--credit google developer& mozilla for help& implementing google maps - 
-    visit them here:
-     https://developers.google.com/maps/documentation& 
-    https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener-->
-    <!--Navigation, at the top of page for ease of use-->
+    <!--please visit readme.md for resource credits->
+      <!--Navigation, at the top of page for ease of use-->
     <nav class="topnav">
       <a href="index.html" class="w3-bar-item w3-button w3-green"><i class="fa fa-home"></i></a>
       <div class="dropdown">
@@ -148,42 +141,42 @@
     </footer>
     <!--scripts-->
     <script>
-    //create locations object
-      var locations = [
-      ["Exmoor National Park", 51.040565, -3.5551257, 4],
-      ["Somerset Coastal Path", 51.2072165, -3.4641482, 5],
-      ["Staple Hill", 50.9445268, -3.0913381, 3],
-      ["Blagdon Lake", 51.3348101, -2.7040838, 2],
-      ["Cheddar Gorge", 51.2863881, -2.7690326, 1]
-      ];
-      var map;
-      //create map object
-      function initMap() {
-      map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
-        center: { lat: 51.180000, lng: -3.000000 },
-        zoom: 9
-      });
-
-                //call map window& create marker variable
-          var infowindow = new google.maps.InfoWindow();
+      //create locations object
+        var locations = [
+        ["Exmoor National Park", 51.040565, -3.5551257, 4],
+        ["Somerset Coastal Path", 51.2072165, -3.4641482, 5],
+        ["Staple Hill", 50.9445268, -3.0913381, 3],
+        ["Blagdon Lake", 51.3348101, -2.7040838, 2],
+        ["Cheddar Gorge", 51.2863881, -2.7690326, 1]
+        ];
+        var map;
+        //create map object
+        function initMap() {
+        map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
+          center: { lat: 51.180000, lng: -3.000000 },
+          zoom: 9
+        });
       
-          var marker, i;
+                  //call map window& create marker variable
+            var infowindow = new google.maps.InfoWindow();
+        
+            var marker, i;
+        
+            for (i = 0; i < locations.length; i++) {
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                    map: map
+                });
+                //add event listener, set markers to locations
+                google.maps.event.addListener(marker, "click", (function (marker, i) {
+                    return function () {
+                        infowindow.setContent(locations[i][0]);
+                        infowindow.open(map, marker);
+                    };
+                })(marker, i));
+            }
+        }
       
-          for (i = 0; i < locations.length; i++) {
-              marker = new google.maps.Marker({
-                  position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-                  map: map
-              });
-              //add event listener, set markers to locations
-              google.maps.event.addListener(marker, "click", (function (marker, i) {
-                  return function () {
-                      infowindow.setContent(locations[i][0]);
-                      infowindow.open(map, marker);
-                  };
-              })(marker, i));
-          }
-      }
-
     </script>
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
