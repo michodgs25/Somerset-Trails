@@ -15,13 +15,13 @@ function scrollFunction() {
         mybutton.style.display = "none";
     }
 }
-//when user clicks, scroll to top of document*/
+//scroll to top*/
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0; /*for chrome, firefox, IE and opera*/
 }
 /*End of scroll code*/
-/*slideshow function,styling& animation, ensure slideshow is appealing and works effectively*/
+/*slideshow function,styling& animation*/
 /*Code adapted from WS3 schools - https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 var slideIndex = 0;
 showSlides();
@@ -64,7 +64,7 @@ $("h2").on({
         $(this).css("font-size", "1em");
     }
 });
-/*icons for interactivity*/
+/*icons interactivity*/
 $("i").on({
     mouseenter: function () {
         $(this).css("font-size", "2em");
@@ -74,7 +74,7 @@ $("i").on({
     }
 });
 
-/*topnav, for interactivity*/
+/*topnav interactivity*/
 $("button", "top-nav").on({
     mouseenter: function () {
         $(this).css("font-size", "1.5em");
@@ -84,7 +84,7 @@ $("button", "top-nav").on({
     }
 });
 
-/*footer icons& text, for interactivity*/
+/*footer icons& text interactivity*/
 $("span", "other-trails").css("padding", "0.111em", "padding-top", "1em");
 
 $("span", "other-trails").on({
@@ -96,7 +96,7 @@ $("span", "other-trails").on({
     }
 });
 
-/*event-listener, smooth scroll on mobile device*/
+/*event-listener, smooth scroll*/
 let passiveIfSupported = false;
 try {
     window.addEventListener("test", null,
