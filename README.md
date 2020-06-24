@@ -360,6 +360,10 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
   
 #### mobiReady results discussed here - https://github.com/michodgs24/Somerset-Trails/issues/15#issue-639850820
 
+*Automated testing provided great value to shedding light on issues within the site as human error is very prevalent in the development process. The downside to this testing is that the testing was done virtually at the end of the process and some features such as the images. Due to the sheer amount(twenty-five) of images, it causes delays in loading times and being the end of the process there is not enough time to re-package a more effective& efficient use of those images.*
+
+*Future iterations of the project, each feature will be tested individually as the project goes through development phase, although this may take more time it will cause less issues when the project is at the end and the site will be more robust.*
+
 ----
 
 ### Testing Code validity - iiii.
@@ -433,8 +437,6 @@ When executed the homepage will appear.
 #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008
 
 -----
-
-<br>
 
 ## Acknowledgements
 
