@@ -5,6 +5,8 @@
 
 ![Trails image](https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/logo/README.png)
 
+#### Live demo here: https://michodgs24.github.io/Somerset-Trails/
+
 ## Contents
 
 * [UX](#UX)
@@ -299,7 +301,9 @@ Opened Google developer tools and toggled the site between various devices, that
 * iphone 6/7/8 & plus
 * ipad and ipad pro
 
-#### Summary: Device looked& worked as intended on every device and screen size that was available.
+
+#### Summary: 
+*Device looked& worked as intended on every device and screen size that was available, the primary mobile testing screen was the iphone X as this had the ratio of 375 x 812 (width x height), with it being such a narrow width ensuring features such as the drop-up navigation box had to be carefully monitored to ensure no overlap thus causing x-scroll.*
 
 ### Testing mobile friendliness - iii.
 *Applied three different verified automated online testing tools to ensure website is ready for mobile:*
