@@ -269,8 +269,6 @@ So the next step was figuring out how to maximise the user experience and presen
 
 * JQuery library - https://code.jquery.com/jquery-3.2.1.slim.min.js         
 
-* Popper library - https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js
-
 * W3.CSS - https://www.w3schools.com/w3css/4/w3.css
 
 * Google Maps - https://developers.google.com/maps/documentation/javascript/examples
@@ -278,6 +276,12 @@ So the next step was figuring out how to maximise the user experience and presen
 * JS hint - https://jshint.com/
 
 * W3S html& css validator - https://validator.w3.org/
+
+* mobiReady - https://ready.mobi/
+
+* Google mobile friendly test- https://search.google.com/test/mobile-friendly
+
+* Lighthouse - Find via google developer tools in browser.
 
 ## Testing
 
@@ -295,11 +299,12 @@ Opened Google developer tools and toggled the site between various devices, that
 * iphone 6/7/8 & plus
 * ipad and ipad pro
 
- - Summary: Device looked& worked as intended on every device and screen size that was available.
+#### Summary: Device looked& worked as intended on every device and screen size that was available.
 
 ### Testing mobile friendliness - iii.
 *Applied three different verified automated online testing tools to ensure website is ready for mobile:*
 
+1.
 ### Google developer tool lighthouse:
    - Opened Google developer tools on-site, find lighthouse on navigation bar(next to security) and click generate report.
 
@@ -319,6 +324,7 @@ During the evaluation of the feedback, it is clear the chrome extensions have a 
 
 ----
 
+2.
  ### Google mobile friendly test:
    - Entered website link as indicated into enter bar on homepage, an automated testing tool to verify if site is equipped for mobile devices follow link below to see the results:
 
@@ -332,12 +338,12 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
          </div>
  </details>
  
-  - Summary: *""*
+  - Summary: *"This tool has determined that the Somerset Trails website is mobile-friendly through its robust testing procedure. Future iterations of the site will look to address loading times."*
  
  #### Google mobile friendliness results discussed here - https://github.com/michodgs24/Somerset-Trails/issues/14#issue-639764387
  
  ----
-
+3.
 ### mobiReady mobile test:
   - Enter website link as indicated into enter bar on homepage, press enter and the site automates the website to whether it will be mobile ready.
     
@@ -360,6 +366,9 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
 Tested html and css code formatting with https://validator.w3.org/ - done by copying& pasting the code via direct input into the site text box. 
 
 Tested the JavaScript code with https://jshint.com/ - done by copying& pasting the code via direct imput into the site text-area. 
+
+#### Summary
+*No errors were found in either tests, ensuring code is error free.*
 
 ## Deployment
 * This site is hosted using GitHub pages, deployed directly from the master branch. 
@@ -416,8 +425,6 @@ When executed the homepage will appear.
 
 -----
 
-<br>
-
 * __Banner__ -  
 
   - Summary 
@@ -451,12 +458,15 @@ When executed the homepage will appear.
 
 * JSHint -  https://jshint.com/
   - Credit JSHint for ensuring JavaScript code is error free.
+  
+* Lighthouse - find in developer tools
+  - Credit lighthouse for providing critical analysis of site.
 
 * mobiReady - https://ready.mobi/
   - Credit mobiReady for automated mobile testing service to ensure site is fit for mobile
   
 * Google mobile friendly test - https://search.google.com/test/mobile-friendly
-  - Credit Google mobile testing to ensure site is error free and mobile friendly 
+  - Credit Google mobile testing to ensure site is error free and mobile friendly
 
 ## External Media 
 All images were take from Google images advanced search with filter - free to use or share.
