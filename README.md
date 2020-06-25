@@ -141,7 +141,7 @@ So the next step was figuring out how to maximise the user experience and presen
 
 * *The Somerset trails tab is a hover drop-down element, when the user hovers on the tab; the navigation bar expands and a box drops down.*
 
-* *The dropdown box provides every trail available to the user at a single click and whilst hovering over each trail name the background lights up green& text size increases.*
+* *The dropdown box provides every trail available to the user at a single click and whilst hovering over each trail name the background lights up green.*
 
 <details>
   <summary>Navigation& Navigation dropdown</summary>
@@ -323,6 +323,9 @@ Opened Google developer tools and toggled the site between various devices, that
    - Summary: *"The lighthouse tool provided a good insight into the website mobile performance and assisted the development process by suggesting the scroll event-listener to improve scroll on mobile.
 Although this suggestion helped the scroll performance on mobile, re-running the lighthouse tool again, there was no improvement. 
 During the evaluation of the feedback, it is clear the chrome extensions have a negative impact on every category of the site, performance is also negatively impacted due to the number of unique domains called such as font awesome or JQuery. I estimate that the site does indeed meet the required standard for mobile and the results attained from Google mobile test, back this estimation. Future iterations of the site to look further into solutions to improve these statistics, in particular, the performance category by reducing the special domains and reducing file size."*
+
+#### Update:
+  - Through automating test provided by mobiReady, special domains have been reduced to six, future iterations to focus on reducing file size thus faster loading times.
 
 #### Lighthouse results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/10#issue-634894703
 
