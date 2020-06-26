@@ -301,6 +301,8 @@ Opened Google developer tools and toggled the site between various devices, that
 * iphone 6/7/8 & plus
 * ipad and ipad pro
 
+Also opened site on Samsung S10 mobile device and explored all the features.
+
 
 #### Summary: 
 *Device looked& worked as intended on every device and screen size that was available, the primary mobile testing screen was the iphone X as this had the ratio of 375 x 812 (width x height), with it being such a narrow width ensuring features such as the drop-up navigation box had to be carefully monitored to ensure no overlap thus causing x-scroll.*
@@ -403,14 +405,17 @@ When executed the homepage will appear.
 
 <br>
 
-* Navigation bar barriers& solutions - 
-  - Summary: *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. Future iterations of the site will aim to add the site logo to the navigation bar, as will make this feature more personalised to this website."*
+#### Navigation bar barriers& solutions - 
+  
+  - Summary: 
+  *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. Future iterations of the site will aim to add the site logo to the navigation bar, as will make this feature more personalised to this website."*
 
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
 
 -----
 
 #### Slideshow barriers& solutions - 
+  
   - Summary:
   *"The slideshow works as intended, albeit a slight jolt with some images due to varying heights but is barely noticeable. Future iterations of the site will address this."*
 
@@ -419,10 +424,22 @@ When executed the homepage will appear.
 -----
 
 #### Google Maps barriers& solutions - 
+  
   - Summary:
 *"Although the implementation of maps did present significant challenges, the value of the maps to the user experience is immense as it adds a different dimension with its virtual capability.  Improvement still to be made though, as the maps inline script on each page is bloated."*
 
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865
+
+#### Bottom navigation barriers& solutions - 
+   
+   -Summary:
+   *"The issues found with the drop-up were found whilst testing the site on different device screens and physically using the site with Samsung S10 mobile device. Once the width and positioning was adapted as stated above, this feature works as intended. Future iterations to expand on the design of the feature, adding the site logo and an image of each trail when user hovers over that trail option."*
+   
+ #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/16#issue-646458556
+ 
+ -----
+ 
+ <br>
 
 ## issues and bugs
 *This section looks into what existing issues that are still present in the project& what future iterations could do to resolve these issues:*
