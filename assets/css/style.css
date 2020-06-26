@@ -431,7 +431,7 @@ h2 {
 .bottom-nav .dropup-content {
     display: none;
     position: absolute;
-    bottom: 5em;
+    bottom: 12em;
     background-color: rgb(255, 255, 255);
     min-height: 10em;
     min-width: 18em;
