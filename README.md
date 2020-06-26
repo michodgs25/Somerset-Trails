@@ -430,6 +430,8 @@ When executed the homepage will appear.
 
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865
 
+----
+
 #### Bottom navigation barriers& solutions - 
    
    -Summary:
