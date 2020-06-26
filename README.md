@@ -181,7 +181,7 @@ So the next step was figuring out how to maximise the user experience and presen
 
 * *The map on the __homepage__ will be a map of the somerset area with pointers on each individual trail locations.*
 
-* *The __homepage map__ will have a terrain and distance(of trail) toggle buttons.*
+* *The __homepage map__ will have a terrain& satellite toggle buttons.*
 
 * *The map on the __trail result page__ will be zoomed in on that particular trail displaying trail location.*
 
