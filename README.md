@@ -380,8 +380,21 @@ Tested html and css code formatting with https://validator.w3.org/ - done by cop
 
 Tested the JavaScript code with https://jshint.com/ - done by copying& pasting the code via direct imput into the site text-area. 
 
-#### Summary
+#### - Summary:
 *No errors were found in either tests, ensuring code is error free.*
+
+### Testing website on mobile - iiiii
+Copied site link: https://michodgs24.github.io/Somerset-Trails/ and explored the site testing each feature and the testing was done on a Samsung S10 mobile device.
+Also tested the smoothness of the scroll.
+
+#### - Summary:
+*All features work as intended, scroll is reasonably smooth and the only issue found was to do with the bottom navigation box which has been resolved.(see project barriers& solutions - https://github.com/michodgs24/Somerset-Trails/issues/16#issue-646458556 for in depth discussion on bottom navigation)*
+
+#### See mobile test footage here: 
+*Exploring features: https://youtu.be/HtJoxYOrtiY*
+*Mobile scroll: https://youtu.be/jPsWYNgaCvY* 
+
+----
 
 ## Deployment
 * This site is hosted using GitHub pages, deployed directly from the master branch. 
