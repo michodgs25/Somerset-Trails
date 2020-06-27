@@ -307,6 +307,8 @@ Also opened site on Samsung S10 mobile device and explored all the features.
 #### Summary: 
 *Device looked& worked as intended on every device and screen size that was available, the primary mobile testing screen was the iphone X as this had the ratio of 375 x 812 (width x height), with it being such a narrow width ensuring features such as the drop-up navigation box had to be carefully monitored to ensure no overlap thus causing x-scroll.*
 
+## Site performance testing
+
 ### Testing mobile friendliness - iii.
 *Applied three different verified automated online testing tools to ensure website is ready for mobile:*
 
@@ -375,6 +377,18 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
 
 ----
 
+## Functional testing 
+*To ensure each feature works as intended, I manually tested each section from navigation bar to the footer icon links.
+
+   - Summary:
+   *""*
+   
+ #### Read full manual walk-through of each feature and how is should work here:
+ 
+ ----
+
+## Code validity
+
 ### Testing Code validity - iiii.
 Tested html and css code formatting with https://validator.w3.org/ - done by copying& pasting the code via direct input into the site text box. 
 
@@ -382,6 +396,8 @@ Tested the JavaScript code with https://jshint.com/ - done by copying& pasting t
 
 #### - Summary:
 *No errors were found in either tests, ensuring code is error free.*
+
+---- 
 
 ### Testing website on mobile - iiiii
 Copied site link: https://michodgs24.github.io/Somerset-Trails/ and explored the site testing each feature and the testing was done on a Samsung S10 mobile device.
@@ -443,6 +459,9 @@ When executed the homepage will appear.
 
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865
 
+#### Update - 
+Moving Google maps documentation from HTML documents and into an external .JS file was discussed with my mentor, code institute and also learning people. The answer across the board was that due there being multiple different maps across the site it will not be possible. As if I were just calling the one map, it would not be an issue to append to the script tag of the HTML document.
+
 ----
 
 #### Bottom navigation barriers& solutions - 
@@ -488,9 +507,6 @@ When executed the homepage will appear.
 * Google Developers - https://developers.google.com/
   - Credit to google developers documentation for mapping code.
 
-* Mozilla - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-  - Credit to Mozilla documentation for scroll event listener code implementation
-
 * Site point - https://www.sitepoint.com/google-maps-javascript-api-the-right-way/
   - Credit site point documentation on how to plot markers
   
@@ -508,6 +524,8 @@ When executed the homepage will appear.
   
 * Google mobile friendly test - https://search.google.com/test/mobile-friendly
   - Credit Google mobile testing to ensure site is error free and mobile friendly
+  
+ #### All code adapted is for educational purposes only and not for commercial gain.
 
 ## External Media 
 All images were take from Google images advanced search with filter - free to use or share.
