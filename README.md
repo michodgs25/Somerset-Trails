@@ -383,7 +383,7 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
    - Summary:
    *""*
    
- #### Read full manual walk-through of each feature and how is should work here:
+ #### Read full manual walk-through of each feature and how is should work here: https://github.com/michodgs24/Somerset-Trails/issues/17#issue-646701558
  
  ----
 
