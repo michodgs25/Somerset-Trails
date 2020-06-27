@@ -85,19 +85,3 @@ $("span", "other-trails").on({
         $(this).css("font-size", "1em");
     }
 });
-//event-listener, smooth scroll`
-/*let passiveIfSupported = false;
-try {
-    window.addEventListener("test", null,
-        Object.defineProperty(
-            {},
-            "passive",
-            {
-                get: function () { passiveIfSupported = { passive: false }; }
-            }
-        )
-    );
-} catch (err) { }
-window.addEventListener("scroll", function (event) {
-    /*if browser cannot use event.preventDefault();*/
-//}, passiveIfSupported);
