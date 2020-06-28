@@ -400,7 +400,7 @@ Tested the JavaScript code with https://jshint.com/ - done by copying& pasting t
 ---- 
 
 ### Testing website on mobile - iiiii
-Copied site link: https://michodgs24.github.io/Somerset-Trails/ and explored the site testing each feature and the testing was done on a Samsung S10 mobile device.
+Copied site link: https://michodgs24.github.io/Somerset-Trails/ and explored the site testing each feature and the testing was done on a Samsung Galaxy S10 mobile device.
 Also tested the smoothness of the scroll.
 
 #### - Summary:
@@ -460,13 +460,13 @@ When executed the homepage will appear.
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865
 
 #### Update - 
-Moving Google maps documentation from HTML documents and into an external .JS file was discussed with my mentor, code institute and also learning people. The answer across the board was that due there being multiple different maps across the site it will not be possible. As if I were just calling the one map, it would not be an issue to append to the script tag of the HTML document.
+Moving Google maps documentation from HTML documents and into an external .JS file was discussed with my mentor, code institute and also learning people. The answer across the board was that due to calling multiple different maps with varying markers across the site, it will not be possible. If for example I were just calling the one single map, it would not be an issue as this is shown in the code institute tutorial - *Adding The Map Element (Bootstrap 4)* or using google developers tutorial *https://developers.google.com/maps/faq* to append to the script tag of the HTML document.
 
 ----
 
 #### Bottom navigation barriers& solutions - 
    
-   -Summary:
+   - Summary:
    *"The issues found with the drop-up were found whilst testing the site on different device screens and physically using the site with Samsung S10 mobile device. Once the width and positioning was adapted as stated above, this feature works as intended. Future iterations to expand on the design of the feature, adding the site logo and an image of each trail when user hovers over that trail option."*
    
  #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/16#issue-646458556
