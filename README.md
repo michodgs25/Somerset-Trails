@@ -5,7 +5,19 @@
 
 ![Trails image](https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/logo/README.png)
 
-#### Live demo here: https://michodgs24.github.io/Somerset-Trails/
+#### Live website here: https://michodgs24.github.io/Somerset-Trails/
+
+  - Navigation feature demo: https://www.youtube.com/watch?v=rh5Chjdkfms
+
+  - Slideshow feature demo: *https://www.youtube.com/watch?v=HrrLd142sC8*
+
+  - Google Maps feature demo: https://www.youtube.com/watch?v=56QKj-ul_iI
+
+  - Bottom navigation feature demo: https://www.youtube.com/watch?v=bKr4JHP7VkE
+
+  - Scroll to top feature demo: https://www.youtube.com/watch?v=Lu2wbj7Zdi8
+
+  - Footer feature demo: https://www.youtube.com/watch?v=M-4EeGWfsxI
 
 ## Contents
 
@@ -378,12 +390,27 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
 ----
 
 ## Functional testing 
-*To ensure each feature works as intended, I manually tested each section from navigation bar to the footer icon links.
+To ensure each feature works as intended, I manually tested each section from navigation bar to the footer icon links.
+
+##### Footage of manual testing of each feature:
+  
+  - Navigation feature demo: https://www.youtube.com/watch?v=rh5Chjdkfms
+
+  - Slideshow feature demo: *https://www.youtube.com/watch?v=HrrLd142sC8*
+
+  - Google Maps feature demo: https://www.youtube.com/watch?v=56QKj-ul_iI
+
+  - Bottom navigation feature demo: https://www.youtube.com/watch?v=bKr4JHP7VkE
+
+  - Scroll to top feature demo: https://www.youtube.com/watch?v=Lu2wbj7Zdi8
+
+  - Footer feature demo: https://www.youtube.com/watch?v=M-4EeGWfsxI
 
    - Summary:
    *"Functional testing has been positive overall with only two slight issues which are more performance errors rather than functional as all features work as expected."*
    
  #### Read full manual walk-through of each feature and how is should work here: https://github.com/michodgs24/Somerset-Trails/issues/17#issue-646701558
+ 
  
  ----
 
