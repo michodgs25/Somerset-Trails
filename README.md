@@ -381,7 +381,7 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
 *To ensure each feature works as intended, I manually tested each section from navigation bar to the footer icon links.
 
    - Summary:
-   *""*
+   *"Functional testing has been positive overall with only two slight issues which are more performance errors rather than functional as all features work as expected."*
    
  #### Read full manual walk-through of each feature and how is should work here: https://github.com/michodgs24/Somerset-Trails/issues/17#issue-646701558
  
