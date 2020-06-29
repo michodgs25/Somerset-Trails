@@ -48,6 +48,21 @@ __Somerset Trails__ website offers a user **(see user stories below)** a visuall
 
 * Map of each trail is to be clearly defined on each page, and easy to use the toggles: terrain and map view.
 
+#### Main Fonts used in this project
+
+<details>
+  <summary>Fonts</summary>
+  <br>
+<div align="center">
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/fonts/black-font.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/fonts/nav-font.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/fonts/white-font.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/fonts/green-font.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/fonts/grey-font.jpg" target="_blank" rel=""/>
+<img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/fonts/footer-font.png" target="_blank" rel=""/>
+  </div>
+  </details>
+
 ### User Stories
 -----
 
