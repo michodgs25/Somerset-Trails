@@ -38,13 +38,13 @@
 
 ## UX
 
-__Somerset Trails__ site was born from observing that current sites such as: https://www.somersetlive.co.uk/news/somerset-news/11-stunning-walking-routes-around-2431780, had far too many ads clogging up each page which made the experience visitting the site unappealing. The trails are such beautiful places to visit, the website is many people's first impression and can be discouraging to see advertisements for various companies plastered everywhere.
+__Somerset Trails__ site was born from observing that current sites such as: https://www.somersetlive.co.uk/news/somerset-news/11-stunning-walking-routes-around-2431780, had far too many ads clogging up each page which made the experience visiting the site unappealing. The trails are such beautiful places to explore, the website should reflect this and is discouraging to see advertisements for various companies plastered everywhere.
 
-__Somerset Trails__ website offers a user **(see user stories below)** a visually impactful experience through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between satelite, terrain type and even go street view to visit each trail virtually.
+__Somerset Trails__ website offers a user **(see user stories below)** a visually impactful experience through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between satelite, terrain type and even go street view to explore each trail virtually.
 
 * A primary design goal of this website is to be easy to navigate, so users can explore each different trail and learn more about each trail via images& google maps seamlessly.
 
-* The site should be clean with matching color contrast that set the focus on the content itself.
+* The site should be clean with minimal colors that set the focus on the content itself.
 
 * Map of each trail is to be clearly defined on each page, and easy to use the toggles: terrain and map view.
 
@@ -80,7 +80,7 @@ __Somerset Trails__ website offers a user **(see user stories below)** a visuall
 
 *"Hey, my name is Jeremy a product owner for this site. I do not like when a site looks great on desktop but looks crowded& cluttered on a mobile device as I view alot of websites via my mobile so I would like the site to be pleasurable to view on mobile devices."*
 
-  - Solution: Ensure each section was spaced adequately& minimal colors(five) to ensure site looked clean.
+  - Solution: Ensure each section was spaced adequately& minimal colors(six) to ensure site looked clean.
 
 ---
 
@@ -178,6 +178,8 @@ So the next step was figuring out how to maximise the user experience and presen
 <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/open-home-ss.jpg" target="_blank" rel=""/>
   </div>
   </details>
+  
+   - Edit: *Somerset trail tab lights up green when expanded and each trail has a visible black border whilst hovering over option*
   
   #### Navigation bar Summary: 
    - *This feature was inspired by user stories, specifically, user Helen who asked for the site to be easy to navigate.*
@@ -356,7 +358,9 @@ Although this suggestion helped the scroll performance on mobile, re-running the
 During the evaluation of the feedback, it is clear the chrome extensions have a negative impact on every category of the site, performance is also negatively impacted due to the number of unique domains called such as font awesome or JQuery. I estimate that the site does indeed meet the required standard for mobile and the results attained from Google mobile test, back this estimation. Future iterations of the site to look further into solutions to improve these statistics, in particular, the performance category by reducing the special domains and reducing file size."*
 
 #### Update:
-  - Through automating test provided by mobiReady, special domains have been reduced to six, future iterations to focus on reducing file size thus faster loading times.
+  - Through automating test provided by mobiReady, special domains have been reduced to six, future iterations to focus on reducing file size thus faster loading times. 
+  In addition through testing scroll via mobile(Samsung Galaxy S10), scroll wasn't as smooth as could be, so removed the event-listener to see whether that was the issue. 
+  Scroll turned out to be alot more smoother; future iterations to investigate this further.
 
 #### Lighthouse results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/10#issue-634894703
 
@@ -541,10 +545,10 @@ Moving Google maps documentation from HTML documents and into an external .JS fi
 ## Acknowledgements
 
 * W3.CSS - https://www.w3schools.com/w3css/4/w3.css.
-  - Credit to W3.schools for navigation, slideshow, bottom-nav and scroll to the top button.
+  - Credit to W3.schools for navigation, slideshow, bottom-nav and scroll to the top button code.
 
 * Code institute - https://codeinstitute.net/
-  - Credit to code institute walk project for the banner animation.
+  - Credit to code institute walk through project *love running* for the banner animation inspiration& code.
 
 * Google Developers - https://developers.google.com/
   - Credit to google developers documentation for mapping code.
