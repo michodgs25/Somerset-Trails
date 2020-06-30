@@ -34,7 +34,7 @@
  * [Project-barriers-and-the-solutions](#Project-barriers-and-the-solutions)
  * [issues-and-bugs](#issues-and-bugs)
  * [Acknowledgements](#Acknowledgements)
- * [External-Media](#External Media)
+ * [External-Media](#External-Media)
 -----
 
 ## UX
