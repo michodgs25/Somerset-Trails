@@ -26,7 +26,7 @@
  * [Strategy](#Strategy)
  * [Scope](#Scope)
 * [Wire-Frames](#Wire-Frames)
- * [Feature-and-features-left-to-implement](#Features-and-features-left-to-implement)
+ * [Features](#Features)
  * [Technologies](#Technologies)
  * [Testing](#Testing)
  * [Version-control](#Version-control)
