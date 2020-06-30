@@ -458,6 +458,17 @@ Also tested the smoothness of the scroll.
 
 ----
 
+## Version Control
+* This sites version control is through github.
+
+* Using gitpod IDE, once completed a piece of work, I would type into the terminal:
+  
+  - git add "for example: index.html" *Adds a change in the working directory to the staging area.*
+  
+  - git commit -m "index.html" *Captures the state of a project at that point in time.*
+ 
+  - git push *Pushes file to github repository*
+
 ## Deployment
 * This site is hosted using GitHub pages, deployed directly from the master branch. 
 
