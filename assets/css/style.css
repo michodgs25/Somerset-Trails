@@ -298,9 +298,17 @@ h2 {
     margin: auto;
     }
 
+/*slideshow images*/
+img {
+    width: 100%;
+    height: 18em;
+    text-align: center;
+    }
+
 /* Slideshow container*/
 .slideshow-container {
-  max-width: 62.5em;
+  width: 50%;
+  height: 18em;
   position: relative;
   margin: auto;
 }
@@ -377,6 +385,32 @@ h2 {
 /*smaller screens, decrease text size */
 @media only screen and (max-width: 1em) {
   .text {font-size: 1em}
+}
+
+@media screen and (max-width: 75em) {
+
+    img .mySlides .slideshow-container {
+        width: 100%;
+        height: 20em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    
+    img .mySlides .slideshow-container {
+        width: 100%;
+        height: 20em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 18.75em) {
+    img .mySlides .slideshow-container {
+        width: 100%;
+        height: 20em;
+        text-align: center;
+    }
 }
 
 /*Maps section*/
