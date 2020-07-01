@@ -559,22 +559,22 @@ Moving Google maps documentation from HTML documents and into an external .JS fi
 
 ## Acknowledgements
 
-* W3.CSS - https://www.w3schools.com/w3css/4/w3.css.
+* W3.CSS - Code file: *https://www.w3schools.com/w3css/4/w3.css* site homepage: *https://www.w3schools.com/*
   - Credit to W3.schools for navigation, slideshow, bottom-nav and scroll to the top button code.
 
-* Code institute - https://codeinstitute.net/
+* Code institute - *https://codeinstitute.net/*
   - Credit to code institute walk through project *love running* for the banner animation inspiration& code.
 
-* Google Developers - https://developers.google.com/
+* Google Developers - *https://developers.google.com/*
   - Credit to google developers documentation for mapping code.
 
 * Site point - https://www.sitepoint.com/google-maps-javascript-api-the-right-way/
   - Credit site point documentation on how to plot markers
   
-* W3S validator -  https://validator.w3.org/
+* W3S validator - https://validator.w3.org/
   - Credit W3S for ensuring html& css code is error free.
 
-* JSHint -  https://jshint.com/
+* JSHint - https://jshint.com/
   - Credit JSHint for ensuring JavaScript code is error free.
   
 * Lighthouse - find in developer tools
