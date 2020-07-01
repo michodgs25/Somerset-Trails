@@ -315,6 +315,8 @@ So the next step was figuring out how to maximise the user experience and presen
 
 * Lighthouse - Find via google developer tools in browser.
 
+* Free formatter - https://www.freeformatter.com/html-formatter.html#ad-output
+
 ## Testing
 
 ### Testing site on different browsers - i.
@@ -464,11 +466,14 @@ Also tested the smoothness of the scroll.
 
 * Using gitpod IDE, once completed a piece of work, I would type into the terminal:
   
-  - git add "for example: index.html" *Adds a change in the working directory to the staging area.*
+  #### git add "for example: index.html" 
+ - *Adds a change in the working directory to the staging area.*
   
-  - git commit -m "index.html" *Captures the state of a project at that point in time.*
+  #### git commit -m "index.html" 
+ - *Captures the state of a project at that point in time.*
  
-  - git push *Pushes file to github repository*
+  #### git push
+ - *This pushes file(index.html) which was added& committed to github repository*
 
 ## Deployment
 * This site is hosted using GitHub pages, deployed directly from the master branch. 
