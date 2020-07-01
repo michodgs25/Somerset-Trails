@@ -299,9 +299,9 @@ So the next step was figuring out how to maximise the user experience and presen
 
 * Balslamiq - https://balsamiq.com/
 
-* JQuery library - https://code.jquery.com/jquery-3.2.1.slim.min.js         
+* JQuery library - https://jquery.com/        
 
-* W3.CSS - https://www.w3schools.com/w3css/4/w3.css
+* W3.CSS - https://www.w3schools.com/
 
 * Google Maps - https://developers.google.com/maps/documentation/javascript/examples
 
