@@ -7,17 +7,17 @@
 
 #### Live website here: https://michodgs24.github.io/Somerset-Trails/
 
-  - Navigation feature demo: https://www.youtube.com/watch?v=rh5Chjdkfms
+  - Navigation feature demo:*https://www.youtube.com/watch?v=rh5Chjdkfms*
 
   - Slideshow feature demo: *https://www.youtube.com/watch?v=HrrLd142sC8*
 
-  - Google Maps feature demo: https://www.youtube.com/watch?v=56QKj-ul_iI
+  - Google Maps feature demo: *https://www.youtube.com/watch?v=56QKj-ul_iI*
 
-  - Bottom navigation feature demo: https://www.youtube.com/watch?v=bKr4JHP7VkE
+  - Bottom navigation feature demo: *https://www.youtube.com/watch?v=bKr4JHP7VkE*
 
-  - Scroll to top feature demo: https://www.youtube.com/watch?v=Lu2wbj7Zdi8
+  - Scroll to top feature demo: *https://www.youtube.com/watch?v=Lu2wbj7Zdi8*
 
-  - Footer feature demo: https://www.youtube.com/watch?v=M-4EeGWfsxI
+  - Footer feature demo: *https://www.youtube.com/watch?v=M-4EeGWfsxI*
 
 ## Contents
 
