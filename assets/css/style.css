@@ -684,16 +684,14 @@ footer i {
     .other-trails {
         font-size: 0.7em;
         padding: 0.01em;
-        padding-top: 2em;
+        padding-top: 0.5em;
         text-align: center;
     }
 }
 
-@media screen and (max-width: 18.75em) {
+@media screen and (max-width: 21.875em) {
     .other-trails {
-        font-size: 0.7em;
-        padding: 0.01em;
-        padding-top: 1em;
+        font-size: 0.6em;
         text-align: center;
     }
 }
