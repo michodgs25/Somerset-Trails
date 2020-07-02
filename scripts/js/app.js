@@ -2,8 +2,10 @@
 /*declare& get navigation class, increase user accessibility*/
 $(".topnav.response").removeClass("responsive").addClass("topnav");
 $(".bottom-nav.response").removeClass("responsive").addClass("bottom-nav");
+
 /*scroll to to top button, increase user accessibility*/
 mybutton = document.getElementById("myBtn");
+
 /*when user scrolls 10rem from top of page, show button*/
 window.onscroll = function () { scrollFunction() };
 function scrollFunction() {
@@ -63,23 +65,13 @@ $("i").on({
         $(this).css("font-size", "2em");
     },
     mouseleave: function () {
-        $(this).css("font-size", "1.5em");
+        $(this).css("font-size", "2em");
     }
 });
 /*topnav interactivity*/
 $("button", "top-nav").on({
     mouseenter: function () {
         $(this).css("font-size", "1.5em");
-    },
-    mouseleave: function () {
-        $(this).css("font-size", "1em");
-    }
-});
-/*footer icons& text interactivity*/
-$("span", "other-trails").css("padding", "0.111em", "padding-top", "1em");
-$("span", "other-trails").on({
-    mouseenter: function () {
-        $(this).css("font-size", "0.8em");
     },
     mouseleave: function () {
         $(this).css("font-size", "1em");
