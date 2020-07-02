@@ -289,6 +289,62 @@ h2 {
     }
 }
 
+/*banner mobile image size*/
+/*mobile screen size*/
+@media screen and (max-width: 37.5em) {
+    
+    .banner .coastal-banner .staple-banner .exmoor-banner .cheddar-banner .blagdon-banner {
+        width: 100%;
+        height: 10em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 18.75em) {
+    .banner .coastal-banner .staple-banner .exmoor-banner .cheddar-banner .blagdon-banner {
+        width: 100%;
+        height: 10em;
+        text-align: center;
+    }
+}
+
+
+/*mobile screen size*/
+@media screen and (max-width: 37.5em) {
+    
+    img {
+        width: 95%;
+        height: 10em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 18.75em) {
+    img  {
+        width: 90%;
+        height: 7em;
+        text-align: center;
+    }
+}
+
+/*slideshow container mobile*/
+@media screen and (max-width: 37.5em) {
+    .slideshow-container {
+    width: 100%;
+    height: 10em;
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 18.75em) {
+    .slideshow-container {
+    width: 100%;
+    height: 10em;
+    text-align: center;
+    }
+}
+
+
 /*slideshow*/
 * {box-sizing:border-box}
 
