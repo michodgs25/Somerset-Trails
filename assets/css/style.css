@@ -456,7 +456,7 @@ text-align: center;
   .text {font-size: 1em}
 }
 
-/*desktop screen size*/
+/*slideshow desktop screen size*/
 @media screen and (max-width: 75em) {
 
     img  {
@@ -466,7 +466,7 @@ text-align: center;
     }
 }
 
-/*tablet screen size*/
+/*slideshow tablet screen size*/
 @media screen and (max-width: 64em) {
 
     img  {
