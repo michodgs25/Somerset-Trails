@@ -14,6 +14,7 @@ h2 {
 
 /*Navigation section*/
 .topnav {
+  line-height: 2em;  
   background-color: rgb(252, 214, 0, 0.664);
   overflow: hidden;
   z-index: 3;
@@ -99,7 +100,7 @@ h2 {
 /*homepage header*/
 .banner {
     width: 100%;
-	height: 30em;
+	height: 25em;
 	background: url("https://c0.wallpaperflare.com/preview/461/570/413/exmoor-pony-pony-horse-exmoor.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -117,7 +118,7 @@ h2 {
 /*smooth transitions*/
 .banner-outer {
     width: 100%;
-    height: 30em;
+    height: 25em;
     overflow:hidden;
     position: relative;
 }
@@ -125,7 +126,7 @@ h2 {
 /*cheddar header page*/
 .cheddar-banner {
     width: 100%;
-	height: 30em;
+	height: 25em;
 	background: url("https://images.pexels.com/photos/3969285/pexels-photo-3969285.jpeg?cs=srgb&dl=cheddar-gorge-3969285.jpg&fm=jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -143,7 +144,7 @@ h2 {
 /*Ensure smooth banner transition*/
 .cheddar-banner-outer {
     width: 100%;
-    height: 30em;
+    height: 25em;
     overflow:hidden;
     position: relative;
 }
@@ -160,7 +161,7 @@ h2 {
 /*blagdon banner*/
 .blagdon-banner {
     width: 100%;
-	height: 30em;
+	height: 25em;
 	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Blagdonlake2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -193,7 +194,7 @@ h2 {
 /*staple banner*/
 .staple-banner {
     width: 100%;
-	height: 30em;
+	height: 25em;
 	background: url("https://upload.wikimedia.org/wikipedia/commons/7/79/The_Malverns_from_Cleeve_Hill_%284966%29.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -209,7 +210,7 @@ h2 {
 
 .staple-banner-outer {
     width: 100%;
-    height: 30em;
+    height: 25em;
     overflow:hidden;
     position: relative;
 }
@@ -226,7 +227,7 @@ h2 {
 /*exmoor banner*/
 .exmoor-banner {
     width: 100%;
-	height: 30em;
+	height: 25em;
 	background: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Exmoor_National_Park.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -242,7 +243,7 @@ h2 {
 
 .exmoor-banner-outer {
     width: 100%;
-    height: 30em;
+    height: 25em;
     overflow:hidden;
     position: relative;
 }
@@ -259,7 +260,7 @@ h2 {
 /*coastal banner*/
 .coastal-banner {
     width: 100%;
-	height: 30em;
+	height: 25em;
 	background: url("https://live.staticflickr.com/7433/13432939784_6087d5241b_b.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -275,7 +276,7 @@ h2 {
 
 .coastal-banner-outer {
     width: 100%;
-    height: 30em;
+    height: 25em;
     overflow:hidden;
     position: relative;
 }
@@ -609,7 +610,7 @@ text-align: center;
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 1.25em;
+    bottom: 0.8em;
     right: 0.555em;
     z-index: 99;
     border: none;
@@ -630,7 +631,7 @@ text-align: center;
     #mybtn {
     display: none;
     position: fixed;
-    bottom: 1.25em;
+    bottom: 0.1em;
     right: 0.5em;
     font-size: 1em;
     }
@@ -640,7 +641,7 @@ text-align: center;
     #mybtn {
     display: none;
     position: fixed;
-    bottom: 1.25em;
+    bottom: 0.1em;
     right: 0.5em;
     font-size: 1em;
     }
@@ -658,6 +659,7 @@ footer {
 .logo {
     width: 2.5em;
     height: 2.5em;
+    border-radius: 0.4em;
 }
 
 .logo img a {
