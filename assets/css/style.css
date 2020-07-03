@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700&display=swap");
 /* Credit code sources for slideshow, navigation, bottom nav and scroll to top button - https://www.w3schools.com/*/
 /*Find links to each individual site page in README.md& homepage*/
+
 html {
 scroll-behavior: smooth;
 }
@@ -8,6 +9,7 @@ scroll-behavior: smooth;
 h2 {
 color: rgb(2, 194, 62);
 }
+
 /*Navigation section*/
 .topnav {
 line-height: 2em;  
@@ -15,6 +17,7 @@ background-color: rgb(252, 214, 0, 0.664);
 overflow: hidden;
 z-index: 3;
 }
+
 /*links inside the nav-bar */
 .topnav a {
 float: left;
@@ -25,21 +28,25 @@ padding: 2em;
 text-decoration: none;
 font-size: 2em;
 }
+
 /*highlight the current page */
 .active {
 background-color: rgb(2, 194, 62);
 color: rgb(255, 255, 255);
 }
+
 /* Hide link that opens& closes topnav on small screens */
 .topnav .icon {
 display: none;
 }
+
 /*position dropdown content */
 .dropdown {
 float: left;
 overflow: hidden;
 font-style: italic;
 }
+
 /*dropdown button to fit inside topnav */
 .dropdown .dropbtn {
 font-size: 2em;
@@ -50,6 +57,7 @@ padding: 2em;
 text-align: center;
 background-color: inherit;
 }
+
 /*dropdown content*/
 .dropdown-content {
 display: none;
@@ -58,6 +66,7 @@ background-color: rgb(0,0,0,0.2);
 min-width: 20em;
 z-index: 99;
 }
+
 /*achor tags*/
 .dropdown-content a {
 float: none;
@@ -69,19 +78,23 @@ text-align: center;
 font-size: 1em;
 font-style: italic;
 }
+
 /*interactive feature to dropdown items*/
 .topnav a:hover, .dropdown:hover .dropbtn {
 background-color: rgb(2, 194, 62);
 color: rgb(2, 1, 1, 0.904);
 }
+
 .dropdown-content a:hover {
 background-color: rgb(2, 194, 62);
 color: rgb(2, 1, 1, 0.904);
 border: 0.1em solid rgb(2, 1, 1, 0.904);
 }
+
 .dropdown:hover .dropdown-content {
 display: block;
 }
+
 /*homepage header*/
 .banner {
 width: 100%;
@@ -92,12 +105,14 @@ background-position: center;
 background-size: cover;
 background-attachment: scroll;
 }
+
 /*animation when page loads*/
 .banner {
 animation-name: trail-zoom;
 animation-duration: 1s;
 animation-fill-mode: backwards;
 }
+
 /*smooth transitions*/
 .banner-outer {
 width: 100%;
@@ -105,6 +120,7 @@ height: 25em;
 overflow:hidden;
 position: relative;
 }
+
 /*cheddar header page*/
 .cheddar-banner {
 width: 100%;
@@ -115,12 +131,14 @@ background-position: center;
 background-size: cover;
 background-attachment: scroll;
 }
+
 /*Animation when page loads*/
 .cheddar-banner {
 animation-name: trail-zoom;
 animation-duration: 1s;
 animation-fill-mode: backwards;
 }
+
 /*Ensure smooth banner transition*/
 .cheddar-banner-outer {
 width: 100%;
@@ -128,6 +146,7 @@ height: 25em;
 overflow:hidden;
 position: relative;
 }
+
 @keyframes trail-zoom {
 from{
 transform: scale(1.1);
@@ -136,6 +155,7 @@ to{
 transform: scale(1);
 }
 }
+
 /*blagdon banner*/
 .blagdon-banner {
 width: 100%;
@@ -146,17 +166,20 @@ background-position: center;
 background-size: cover;
 background-attachment: scroll;
 }
+
 .blagdon-banner {
 animation-name: trail-zoom;
 animation-duration: 1s;
 animation-fill-mode: backwards;
 }
+
 .blagdon-banner-outer {
 width: 100%;
 height: 30em;
 overflow:hidden;
 position: relative;
 }
+
 @keyframes trail-zoom {
 from{
 transform: scale(1.1);
@@ -165,6 +188,7 @@ to{
 transform: scale(1);
 }
 }
+
 /*staple banner*/
 .staple-banner {
 width: 100%;
@@ -175,17 +199,20 @@ background-position: center;
 background-size: cover;
 background-attachment: scroll;
 }
+
 .staple-banner {
 animation-name: trail-zoom;
 animation-duration: 1s;
 animation-fill-mode: backwards;
 }
+
 .staple-banner-outer {
 width: 100%;
 height: 25em;
 overflow:hidden;
 position: relative;
 }
+
 @keyframes trail-zoom {
 from{
 transform: scale(1.1);
@@ -194,6 +221,7 @@ to{
 transform: scale(1);
 }
 }
+
 /*exmoor banner*/
 .exmoor-banner {
 width: 100%;
@@ -204,17 +232,20 @@ background-position: center;
 background-size: cover;
 background-attachment: scroll;
 }
+
 .exmoor-banner {
 animation-name: trail-zoom;
 animation-duration: 1s;
 animation-fill-mode: backwards;
 }
+
 .exmoor-banner-outer {
 width: 100%;
 height: 25em;
 overflow:hidden;
 position: relative;
 }
+
 @keyframes trail-zoom {
 from{
 transform: scale(1.1);
@@ -223,6 +254,7 @@ to {
 transform: scale(1);
 }
 }
+
 /*coastal banner*/
 .coastal-banner {
 width: 100%;
@@ -233,17 +265,20 @@ background-position: center;
 background-size: cover;
 background-attachment: scroll;
 }
+
 .coastal-banner {
 animation-name: trail-zoom;
 animation-duration: 1s;
 animation-fill-mode: backwards;
 }
+
 .coastal-banner-outer {
 width: 100%;
 height: 25em;
 overflow:hidden;
 position: relative;
 }
+
 @keyframes trail-zoom {
 from{
 transform: scale(1.1);
@@ -252,19 +287,21 @@ to{
 transform: scale(1);
 }
 }
+
 /*dropdown mobile width*/
 @media screen and (max-width: 37.5em) {
 .dropbtn .dropdown {
 width: 100%;
 }
 }
+
 @media screen and (max-width: 37.5em) {
 .dropbtn .dropdown {
 width: 100%;
 }
 }
+
 /*banner mobile image size*/
-/*mobile screen size*/
 @media screen and (max-width: 37.5em) {
 .banner .coastal-banner .staple-banner .exmoor-banner .cheddar-banner .blagdon-banner {
 width: 100%;
@@ -272,6 +309,7 @@ height: 10em;
 text-align: center;
 }
 }
+
 @media screen and (max-width: 18.75em) {
 .banner .coastal-banner .staple-banner .exmoor-banner .cheddar-banner .blagdon-banner {
 width: 100%;
@@ -279,6 +317,7 @@ height: 10em;
 text-align: center;
 }
 }
+
 /*mobile screen size*/
 @media screen and (max-width: 37.5em) {
 img {
@@ -287,6 +326,7 @@ height: 10em;
 text-align: center;
 }
 }
+
 @media screen and (max-width: 18.75em) {
 img  {
 width: 90%;
@@ -294,6 +334,7 @@ height: 7em;
 text-align: center;
 }
 }
+
 /*slideshow container mobile*/
 @media screen and (max-width: 37.5em) {
 .slideshow-container {
@@ -302,6 +343,7 @@ height: 10em;
 text-align: center;
 }
 }
+
 @media screen and (max-width: 18.75em) {
 .slideshow-container {
 width: 100%;
@@ -309,19 +351,23 @@ height: 10em;
 text-align: center;
 }
 }
+
 /*slideshow*/
 * {box-sizing:border-box}
+
 .mySlides {
 display: none;
 vertical-align: middle;
 margin: auto;
 }
+
 /*slideshow images*/
 img {
 width: 100%;
 height: 18em;
 text-align: center;
 }
+
 /* Slideshow container*/
 .slideshow-container {
 width: 50%;
@@ -329,9 +375,11 @@ height: 18em;
 position: relative;
 margin: auto;
 }
+
 .btn .container a {
 text-decoration: none;
 }
+
 /*button center container/image */
 .container .btn {
 position: absolute;
@@ -347,10 +395,12 @@ border: none;
 cursor: pointer;
 border-radius: 0.313em;
 }
+
 /*cursur hovers, btn change color*/
 .container .btn:hover {
 background-color: rgba(2, 1, 1, 0.904);
 }
+
 /* Number text (1/6) */
 .numbertext {
 color: rgb(255, 255, 255);
@@ -359,6 +409,7 @@ padding: 1em 1em;
 position: absolute;
 top: 0;
 }
+
 /*Slideshow dots*/
 .dot {
 height: 1em;
@@ -371,9 +422,11 @@ display: inline-block;
 transition: background-color 0.6s ease;
 margin-bottom: 2em;
 }
+
 .active {
 background-color: rgb(2, 194, 62);
 }
+
 /* Fading animation */
 .fade {
 -webkit-animation-name: fade;
@@ -381,6 +434,7 @@ background-color: rgb(2, 194, 62);
 animation-name: fade;
 animation-duration: 3s;
 }
+
 @-webkit-keyframes fade {
 from {opacity: .8} 
 to {opacity: 1}
@@ -389,10 +443,12 @@ to {opacity: 1}
 from {opacity: .8} 
 to {opacity: 1}
 }
+
 /*smaller screens, decrease text size */
 @media only screen and (max-width: 1em) {
 .text {font-size: 1em}
 }
+
 /*slideshow desktop screen size*/
 @media screen and (max-width: 75em) {
 img  {
@@ -401,6 +457,7 @@ height: 12em;
 text-align: center;
 }
 }
+
 /*slideshow tablet screen size*/
 @media screen and (max-width: 64em) {
 img  {
@@ -409,6 +466,7 @@ height: 14em;
 text-align: center;
 }
 }
+
 /*tablet slideshow-container*/
 @media screen and (max-width: 64em) {
 .slideshow-container {
@@ -417,6 +475,7 @@ height: 14em;
 text-align: center;
 }
 }
+
 /*mobile screen size*/
 @media screen and (max-width: 37.5em) {
 img {
@@ -425,6 +484,7 @@ height: 10em;
 text-align: center;
 }
 }
+
 @media screen and (max-width: 18.75em) {
 img  {
 width: 90%;
@@ -432,6 +492,7 @@ height: 7em;
 text-align: center;
 }
 }
+
 /*slideshow container mobile*/
 @media screen and (max-width: 37.5em) {
 .slideshow-container {
@@ -440,6 +501,7 @@ height: 10em;
 text-align: center;
 }
 }
+
 @media screen and (max-width: 18.75em) {
 .slideshow-container {
 width: 100%;
@@ -447,6 +509,7 @@ height: 10em;
 text-align: center;
 }
 }
+
 /*Maps section*/
 .map-custom {
 height: 30em;
@@ -456,19 +519,23 @@ box-shadow: 1em 1em rgb(2, 194, 62);
 padding-bottom: 3em;
 margin-bottom: 3em;
 }
+
 /*bottom page navigation, enable access other trails*/
 .active {
 background-color: rgb(2, 194, 62);
 color: rgb(255, 255, 255);
 }
+
 /* Hide link that open& close dropdown on small screens*/
 .bottom-nav .icon {
 display: none;
 }
+
 /*button position*/
 .bottom-nav {
 text-align: center;
 }
+
 /*dropup button styling*/
 .bottom-nav .dropbtn {
 background-color: rgb(255, 255, 255);
@@ -478,6 +545,7 @@ padding: 1em;
 font-size: 3em;
 border: none;
 }
+
 /*positioning of container*/
 .bottom-nav .dropup {
 position: relative;
@@ -485,9 +553,11 @@ display: inline-block;
 font-style: italic;
 padding-bottom: 3em;
 }
+
 .bottom-nav .dropbtn {
 border: 0.1em solid rgba(2, 1, 1, 0.904);
 }
+
 /*content styling*/
 .bottom-nav .dropup-content {
 display: none;
@@ -500,6 +570,7 @@ box-shadow: 0em 0em 0em 0em rgba(0,0,0,0.2);
 z-index: 1;
 text-align: center;
 }
+
 /*links inside dropup*/
 .bottom-nav .dropup-content a {
 color: rgba(2, 1, 1, 0.904);
@@ -507,19 +578,23 @@ padding: 1em;
 text-decoration: none;
 display: block;
 }
+
 /*change color of links when hovered over*/
 .bottom-nav .dropup-content a:hover {
 background-color: rgb(2, 194, 62);
 border: 0.1em solid rgb(2, 1, 1, 0.904);
 }
+
 /*show dropup menu*/
 .bottom-nav .dropup:hover .dropup-content {
 display: block;
 }
+
 /* Change the background color of dropup button when dropup content is shown*/
 .bottom-nav .dropup:hover .dropbtn {
 background-color: rgb(2, 194, 62);
 }
+
 /* scroll back to top button*/
 #myBtn {
 display: none;
@@ -535,9 +610,11 @@ cursor: pointer;
 border-radius: 0.5em;
 font-size: 1.8em;
 }
+
 #myBtn:hover {
 background-color: rgb(2, 1, 1, 0.904);
 }
+
 /*scroll to top button mobile size*/
 @media screen and (max-width: 37.5em) {
 #mybtn {
@@ -548,6 +625,7 @@ right: 0.5em;
 font-size: 1em;
 }
 }
+
 @media screen and (max-width: 18.75em) {
 #mybtn {
 display: none;
@@ -590,6 +668,7 @@ padding: 2em;
 padding-top: 2em;
 text-align: center;
 }
+
 /*footer icon mobile size*/
 @media screen and (max-width: 37.5em) {
 .other-trails {
@@ -599,6 +678,7 @@ padding-top: 0.5em;
 text-align: center;
 }
 }
+
 @media screen and (max-width: 21.875em) {
 .other-trails {
 font-size: 0.6em;
