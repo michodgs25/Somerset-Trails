@@ -449,21 +449,13 @@ to {opacity: 1}
 .text {font-size: 1em}
 }
 
-/*slideshow desktop screen size*/
-@media screen and (max-width: 75em) {
-img  {
-width: 100%;
-height: 12em;
-text-align: center;
-}
-}
-
 /*slideshow tablet screen size*/
 @media screen and (max-width: 64em) {
 img  {
 width: 100%;
 height: 14em;
 text-align: center;
+
 }
 }
 
