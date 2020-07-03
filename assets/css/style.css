@@ -394,6 +394,7 @@ padding: 0.75em 1.5em;
 border: none;
 cursor: pointer;
 border-radius: 0.313em;
+border-bottom: 0.2em 0.2em rgb(2, 194, 62);
 }
 
 /*cursur hovers, btn change color*/
@@ -455,7 +456,7 @@ img  {
 width: 100%;
 height: 14em;
 text-align: center;
-
+border-bottom: 0.2em 0.2em rgb(2, 194, 62);
 }
 }
 
