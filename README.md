@@ -476,8 +476,8 @@ This sites version control is through github and using gitpod IDE, once complete
 #### git commit -m "index.html" 
  - *Captures the state of a project at that point in time.*
  
-#### git push
- - *This pushes file(index.html) which was added& committed to the github project repository*
+#### git push "index.html"
+ - *This pushes the file to the github project repository.*
 
 ## Deployment
 * This site is hosted using GitHub pages, deployed directly from the master branch. 
@@ -497,7 +497,7 @@ https://github.com/michodgs24/Somerset-Trails into your terminal.
 When executed the homepage will appear.
 
 ## Project barriers and the solutions
-*This section looks into the barriers that occurred during the process of this building this project and what solutions were chosen to hurdle the barriers:*
+*This section looks into the barriers that occurred during the process of this building this project and what solutions were chosen to hurdle those barriers:*
 
 <br>
 
@@ -513,7 +513,7 @@ When executed the homepage will appear.
 #### Slideshow barriers& solutions - 
   
   - Summary:
-  *"The slideshow works as intended, albeit a slight jolt with some images due to varying heights but is barely noticeable. Future iterations of the site will address this."*
+  *"The slideshow works as intended, albeit a slight jolt with some images due to varying heights but is barely noticeable. Future iterations of the site will address this. After receiving feedback from slack #18, I found a solution for the image jolt and issue had been resolved."*
 
 #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/12#issue-635778916
 
