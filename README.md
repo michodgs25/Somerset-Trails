@@ -461,6 +461,12 @@ Also tested the smoothness of the scroll.
 
 ----
 
+### Slack feedback 
+
+Summary: *"Slack feedback is very valuable, as it aided the development process of increasing site responsiveness(add breakpoints). Some of the feedback is noted such as the navigation& texts but no changes made, as they are specific design choices."*
+
+#### Read full article here: https://github.com/michodgs24/Somerset-Trails/issues/18#issue-650534228
+
 ## Version Control
 This sites version control is through github and using gitpod IDE, once completed a piece of work, I would type into the terminal:
   
