@@ -506,8 +506,10 @@ When executed the homepage will appear.
 #### Navigation bar barriers& solutions - 
   
   - Summary: 
-  *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. On mobile screens the navigation is large and the Somerset Trails tab ends up below the home icon, as a developer, I did consider using breakpoints to reduce the font size but felt that it suited the website from a design standpoint to leave it as it is. I did, however, increase the width of the dropdown box in mobile ensuring it filled the length of the navigation expansion.
-Future iterations of the site will aim to add the site logo to the navigation bar, as will make this feature more personalised to this website."*
+  *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. On mobile screens the navigation is large and the Somerset Trails tab ends up below the home icon, as a developer, I did consider using breakpoints to reduce the font size but felt that it suited the website from a design standpoint to leave it as it is.
+
+I did, however, increase the width of the dropdown box in mobile ensuring it filled the length of the navigation expansion. Though attempts to add a responsive breakpoint to mobile devices with a width of 411/420 did not seem to have any effect.
+Future iterations of the site will aim to add the site logo to the navigation bar, as will make this feature more personalised to this website and address issues stated above."*
 
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
 
