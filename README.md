@@ -49,6 +49,8 @@ __Somerset Trails__ website offers a user **(see user stories below)** a visuall
 
 * Map of each trail is to be clearly defined on each page, and easy to use the toggles: terrain and map view.
 
+* If any texts are used, they should be dynamic and not static.
+
 #### Main Fonts used in this project
 
 <details>
