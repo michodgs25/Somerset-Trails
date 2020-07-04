@@ -291,7 +291,7 @@ So the next step was figuring out how to maximise the user experience and presen
    - *Although the footer signals the end of the page, it is still important as spreading the word of the website via social media is such an important tool to raise awareness of the site.*
    
 ## Features left to implement
-   - Summary *"With future iterations of the website, the primary aims are to expand the number of trails and enhance the content of each trail with further images and Google maps capabilities as these are the main features."*
+   - Summary *"With future iterations of the website, the primary aims are to expand the number& enhance the content of each trail with further images, Google maps capabilities, and the improve page loading times. There are many enhancements that can be made for example #11 and future iterations aim to improve site responsiveness also."*
  
  #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/1#issue-612876703
 
