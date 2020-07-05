@@ -287,6 +287,18 @@ So the next step was figuring out how to maximise the user experience and presen
   </div>
   </details>
   
+#### Updated footer
+
+  <details>
+  <summary>Footer section</summary>
+  <br>
+  <div align="center">
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/new-footer.jpg"_blank" rel=""/>
+  </div>
+  </details>
+
+  - Feedback from from influenced this footer update - Read slack article here: https://github.com/michodgs24/Somerset-Trails/issues/18#issue-650534228
+  
  #### Footer Summary:
    - *Although the footer signals the end of the page, it is still important as spreading the word of the website via social media is such an important tool to raise awareness of the site.*
    
