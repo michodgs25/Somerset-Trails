@@ -550,12 +550,14 @@ Moving Google maps documentation from HTML documents and into an external .JS fi
 ## issues and bugs
 *This section looks into what existing issues that are still present in the project& what future iterations could do to resolve these issues:*
 
-* __Slideshow__ - 
+* __Slideshow& images__ - 
 
   - Summary 
   *"Images are such an important aspect of this website, beginning with user stories that asked for the site to be primarily images instead of text and the subject being outdoor trails. Future iterations will not only look into resolving existing issues but also look to expand and increase the quality of each image."*
 
-#### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128
+#### Read full articles here - 
+#### Slideshow: https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128 
+#### Images: https://github.com/michodgs24/Somerset-Trails/issues/19#issue-651073877
 
 -----
 
@@ -600,4 +602,4 @@ Moving Google maps documentation from HTML documents and into an external .JS fi
  #### All code adapted is for educational purposes only and not for commercial gain.
 
 ## External Media 
-All images were take from Google images advanced search with filter - free to use or share.
+All images were take from Google images advanced search with filter - __"free to use or share"__
