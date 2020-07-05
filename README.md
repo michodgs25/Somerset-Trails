@@ -39,7 +39,7 @@
 
 ## UX
 
-__Somerset Trails__ site was born from observing that current sites such as: https://www.somersetlive.co.uk/news/somerset-news/11-stunning-walking-routes-around-2431780, had far too many ads clogging up each page which made the experience visiting the site unappealing. The trails are such beautiful places to explore, the website should reflect this and is discouraging to see advertisements for various companies plastered everywhere.
+__Somerset Trails__ site was born from observing that current sites such as: https://www.somersetlive.co.uk/news/somerset-news/11-stunning-walking-routes-around-2431780, had far too many ads clogging up each page which made the experience visiting the site unappealing. The trails are such beautiful places to explore, the website should reflect this and is discouraging to see advertisements for various companies plastered everywhere. Somerset Trails purpose is to present the best of the Somerset countryside.
 
 __Somerset Trails__ website offers a user **(see user stories below)** a visually impactful experience through its application of a responsive slideshow on each trail and a Google maps feature enabling the user to toggle between satelite, terrain type and even go street view to explore each trail virtually.
 
