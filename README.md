@@ -471,7 +471,7 @@ Also tested the smoothness of the scroll.
 
 #### See mobile test footage here: 
 *Exploring features: https://youtu.be/HtJoxYOrtiY*
-*Mobile scroll: https://youtu.be/jPsWYNgaCvY* 
+*Mobile scroll: https://www.youtube.com/watch?v=50wVodbREuI* 
 
 ----
 
