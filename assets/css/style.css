@@ -82,6 +82,7 @@ h2 {
 
 /*interactive feature to dropdown items*/
 .topnav a:hover, .dropdown:hover .dropbtn {
+    width: 100vw;
     background-color: rgb(2, 194, 62);
     color: rgb(255, 255, 255);
 }
@@ -110,6 +111,17 @@ h2 {
     font-size: 0.8em;
     z-index: 99;
     width: 100%;
+    line-height: 1em;
+    overflow: hidden;
+    padding-bottom: 0.5em;
+    }
+}
+
+@media screen and (max-width: 26.25em) {
+.topnav .dropbtn .dropdown {
+    font-size: 0.8em;
+    z-index: 99;
+    width: 100vw;
     line-height: 1em;
     overflow: hidden;
     padding-bottom: 0.5em;
@@ -556,7 +568,7 @@ img  {
 .bottom-nav .dropup-content {
     display: none;
     position: absolute;
-    bottom: 12em;
+    bottom: 14em;
     background-color: rgb(255, 255, 255);
     min-height: 10em;
     min-width: 18em;
