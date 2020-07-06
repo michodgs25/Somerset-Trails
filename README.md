@@ -182,7 +182,7 @@ So the next step was figuring out how to maximise the user experience and presen
   </div>
   </details>
   
-   - Edit: *Somerset trail tab lights up green when expanded and each trail has a visible black border whilst hovering over option*
+   - Edit: *Somerset trail tab lights up green when expanded and each trail has a visible black border whilst hovering over option, also text is now white to increase quality.*
   
   #### Navigation bar Summary: 
    - *This feature was inspired by user stories, specifically, user Helen who asked for the site to be easy to navigate.*
@@ -477,7 +477,7 @@ Also tested the smoothness of the scroll.
 
 ### Slack feedback 
 
-Summary: *"Slack feedback is very valuable, as it aided the development process of increasing site responsiveness(add breakpoints). Some of the feedback is noted such as the navigation& texts but no changes made, as they are specific design choices."*
+Summary: *"Slack feedback is very valuable, as it aided the development process of increasing site responsiveness. Some of the feedback is noted such as the navigation& texts but minimal changes made, as they are specific design choices as stated above."*
 
 #### Read full article here: https://github.com/michodgs24/Somerset-Trails/issues/18#issue-650534228
 
@@ -518,9 +518,9 @@ When executed the homepage will appear.
 #### Navigation bar barriers& solutions - 
   
   - Summary: 
-  *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. On mobile screens the navigation is large and the Somerset Trails tab ends up below the home icon, as a developer, I did consider using breakpoints to reduce the font size but felt that it suited the website from a design standpoint to leave it as it is.
+  *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. On mobile screens the navigation is large and the Somerset Trails tab ends up below the home icon, as a developer, I did consider using breakpoints to reduce the font size but felt that it suited the website from a design standpoint to leave it as it is.*
 
-I did, however, increase the width of the dropdown box in mobile ensuring it filled the length of the navigation expansion. Though attempts to add a responsive breakpoint to mobile devices with a width of 411/420 did not seem to have any effect.
+*I did, however, increase the width of the dropdown box in mobile ensuring it filled the length of the navigation expansion. Though attempts to add a responsive breakpoint to    mobile devices with a width of 411/420 did not seem to have any effect.
 Future iterations of the site will aim to add the site logo to the navigation bar, as will make this feature more personalised to this website and address issues stated above."*
 
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
