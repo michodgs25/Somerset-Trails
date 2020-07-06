@@ -71,7 +71,7 @@ h2 {
 /*achor tags*/
 .dropdown-content a {
     float: none;
-    color: rgb(2, 1, 1, 0.904);
+    color: rgb(255, 255, 255);
     padding: 1em;
     text-decoration: none;
     display: block;
@@ -83,7 +83,7 @@ h2 {
 /*interactive feature to dropdown items*/
 .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(2, 194, 62);
-    color: rgb(2, 1, 1, 0.904);
+    color: rgb(255, 255, 255);
 }
 
 .dropdown-content a:hover {
@@ -95,6 +95,36 @@ h2 {
 .dropdown:hover .dropdown-content {
     display: block;
     z-index: 1;
+}
+
+/*navigation tablet size*/
+@media screen and (max-width: 50em) {
+    .dropbtn .dropdown .dropdown-content {
+        width: 100%
+    }
+}
+
+/*navigation mobile size*/
+@media screen and (max-width: 37.5em) {
+.topnav .dropbtn .dropdown {
+    font-size: 0.8em;
+    z-index: 99;
+    width: 100%;
+    line-height: 1em;
+    overflow: hidden;
+    padding-bottom: 0.5em;
+    }
+}
+
+@media screen and (max-width: 25em) {
+.topnav .dropbtn .dropdown {
+    font-size: 0.8em;
+    z-index: 99;
+    width: 100%;
+    line-height: 1em;
+    overflow: hidden;
+    padding-bottom: 0.5em;
+    }
 }
 
 /*homepage header*/
@@ -289,46 +319,7 @@ to{
     }
 }
 
-/*dropdown mobile width*/
-@media screen and (max-width: 37.5em) {
-.dropbtn .dropdown {
-    z-index: 1;
-    width: 100%;
-    }
-}
-
-@media screen and (max-width: 37.5em) {
-.dropbtn .dropdown {
-    z-index: 1;
-    width: 100%;
-    }
-}
-
-@media screen and (max-width: 25.9375em) {
-    .dropbtn .dropdown {
-        z-index: 1;
-        width: 100%;
-    }
-}
-
-/*banner mobile image size*/
-@media screen and (max-width: 37.5em) {
-.banner .coastal-banner .staple-banner .exmoor-banner .cheddar-banner .blagdon-banner {
-    width: 100%;
-    height: 10em;
-    text-align: center;
-    }
-}
-
-@media screen and (max-width: 18.75em) {
-.banner .coastal-banner .staple-banner .exmoor-banner .cheddar-banner .blagdon-banner {
-    width: 100%;
-    height: 10em;
-    text-align: center;
-    }
-}
-
-/*mobile screen size*/
+/*mobile images size*/
 @media screen and (max-width: 37.5em) {
 img {
     width: 95%;
@@ -683,7 +674,7 @@ footer i {
     }
 }
 
-@media screen and (max-width: 21.875em) {
+@media screen and (max-width: 23em) {
 .other-trails {
     font-size: 0.6em;
     text-align: center;
