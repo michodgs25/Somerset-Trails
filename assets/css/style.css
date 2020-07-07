@@ -1,10 +1,12 @@
+/* Credit code sources for slideshow, navigation, bottom nav and scroll to top button - https://www.w3schools.com*/
 @import url("https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700&display=swap");
-/* Credit code sources for slideshow, navigation, bottom nav and scroll to top button - https://www.w3schools.com/*/
-/*Find links to each individual site page in README.md& homepage*/
+/*Find links to each individual site pages in README.md*/
 
+/*smooth site scroll*/
 html {
     scroll-behavior: smooth;
 }
+
 /*header color*/
 h2 {
     color: rgb(2, 194, 62);
@@ -18,7 +20,7 @@ h2 {
     z-index: 1;
 }
 
-/*links inside the nav-bar */
+/*links inside nav-bar */
 .topnav a {
     float: left;
     display: block;
@@ -29,13 +31,13 @@ h2 {
     font-size: 2em;
 }
 
-/*highlight the current page */
+/*highlight current page */
 .active {
     background-color: rgb(2, 194, 62);
     color: rgb(255, 255, 255);
 }
 
-/* Hide link that opens& closes topnav on small screens */
+/* Hide link opening& close topnav on small screens */
 .topnav .icon {
     display: none;
 }
@@ -59,7 +61,7 @@ h2 {
     background-color: inherit;
 }
 
-/*dropdown content*/
+/*dropdown style*/
 .dropdown-content {
     display: none;
     position: relative;
@@ -80,7 +82,7 @@ h2 {
     font-style: italic;
 }
 
-/*interactive feature to dropdown items*/
+/*interactive styling to dropdown items*/
 .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(2, 194, 62);
     color: rgb(255, 255, 255);
@@ -117,17 +119,6 @@ h2 {
 }
 
 @media screen and (max-width: 26.25em) {
-.topnav .dropbtn .dropdown {
-    font-size: 0.8em;
-    z-index: 99;
-    width: 100%;
-    line-height: 1em;
-    overflow: hidden;
-    padding-bottom: 0.5em;
-    }
-}
-
-@media screen and (max-width: 25em) {
 .topnav .dropbtn .dropdown {
     font-size: 0.8em;
     z-index: 99;
@@ -327,40 +318,6 @@ from{
 }
 to{
     transform: scale(1);
-    }
-}
-
-/*mobile images size*/
-@media screen and (max-width: 37.5em) {
-img {
-    width: 95%;
-    height: 10em;
-    text-align: center;
-    }
-}
-
-@media screen and (max-width: 18.75em) {
-img  {
-    width: 90%;
-    height: 7em;
-    text-align: center;
-    }
-}
-
-/*slideshow container mobile*/
-@media screen and (max-width: 37.5em) {
-.slideshow-container {
-    width: 100%;
-    height: 10em;
-    text-align: center;
-    }
-}
-
-@media screen and (max-width: 18.75em) {
-.slideshow-container {
-    width: 100%;
-    height: 10em;
-    text-align: center;
     }
 }
 
@@ -685,7 +642,7 @@ footer i {
     }
 }
 
-@media screen and (max-width: 23em) {
+@media screen and (max-width: 26em) {
 .other-trails {
     font-size: 0.6em;
     text-align: center;

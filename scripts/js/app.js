@@ -1,6 +1,6 @@
 //please visit readme.md for code credits
 $(".topnav.response").removeClass("responsive").addClass("topnav");
-/*declare& get navigation class, increase user accessibility*/
+//declare& get navigation class, increase user accessibility
 $(".bottom-nav.response").removeClass("responsive").addClass("bottom-nav");
 
 //scroll to to top button, increase user accessibility
