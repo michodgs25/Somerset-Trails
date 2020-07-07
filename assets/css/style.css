@@ -414,16 +414,11 @@ img {
     to {opacity: 1}
 }
 
-/*smaller screens, decrease text size */
-@media only screen and (max-width: 1em) {
-.text {font-size: 1em}
-}
-
 /*slideshow tablet screen size*/
 @media screen and (max-width: 64em) {
     img  {
         width: 100%;
-        height: 14em;
+        height: 15em;
         text-align: center;
         border-bottom: 0.2em 0.2em rgb(2, 194, 62);
         }
@@ -433,7 +428,7 @@ img {
 @media screen and (max-width: 64em) {
 .slideshow-container {
     width: 95%;
-    height: 14em;
+    height: 15em;
     text-align: center;
     }
 }
