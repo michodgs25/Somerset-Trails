@@ -46,7 +46,7 @@ function showSlides() {
 $("h4").css({ "color": "white", "font-style": "italic", "text-align": "center" });
 $("h4").on({
     mouseenter: function () {
-        $(this).css("font-size", "3em", "z-index", "3");
+        $(this).css("font-size", "2.5em", "z-index", "3");
     },
     mouseleave: function () {
         $(this).css("font-size", "2em", "z-index", "3");

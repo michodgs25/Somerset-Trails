@@ -129,7 +129,7 @@ h2 {
     }
 }
 
-/*homepage header*/
+/*home banner*/
 .banner {
     width: 100%;
     height: 25em;
@@ -164,7 +164,37 @@ to{
     }
 }
 
-/*cheddar header page*/
+/*tablet banner size*/
+@media screen and (max-width: 64.375em) {
+    .banner {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+@media screen and (max-width: 64.375em) {
+    .banner-outer {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+/*mobile banner size*/
+@media screen and (max-width: 37.5em) {
+    .banner{
+        width: 100%;
+        height: 15em;
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    .banner-outer {
+        width: 100%;
+        height: 15em;
+    }
+}
+
+/*cheddar banner*/
 .cheddar-banner {
     width: 100%;
     height: 25em;
@@ -195,6 +225,36 @@ from{
 }
 to{
     transform: scale(1);
+    }
+}
+
+/*tablet banner size*/
+@media screen and (max-width: 64.375em) {
+    .cheddar-banner {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+@media screen and (max-width: 64.375em) {
+    .cheddar-banner-outer {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+/*mobile banner size*/
+@media screen and (max-width: 37.5em) {
+    .cheddar-banner {
+        width: 100%;
+        height: 15em;
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    .cheddar-banner-outer {
+        width: 100%;
+        height: 15em;
     }
 }
 
@@ -231,6 +291,36 @@ to{
     }
 }
 
+/*tablet banner size*/
+@media screen and (max-width: 64.375em) {
+    .blagdon-banner {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+@media screen and (max-width: 64.375em) {
+    .blagdon-banner {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+/*mobile banner size*/
+@media screen and (max-width: 37.5em) {
+    .blagdon-banner {
+        width: 100%;
+        height: 15em;
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    .blagdon-banner-outer {
+        width: 100%;
+        height: 15em;
+    }
+}
+
 /*staple banner*/
 .staple-banner {
     width: 100%;
@@ -261,6 +351,36 @@ from{
 }
 to{
     transform: scale(1);
+    }
+}
+
+/*tablet banner size*/
+@media screen and (max-width: 64.375em) {
+    .staple-banner {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+@media screen and (max-width: 64.375em) {
+    .staple-banner-outer {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+/*mobile banner size*/
+@media screen and (max-width: 37.5em) {
+    .staple-banner {
+        width: 100%;
+        height: 15em;
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    .staple-banner-outer {
+        width: 100%;
+        height: 15em;
     }
 }
 
@@ -297,6 +417,36 @@ to {
     }
 }
 
+/*tablet banner size*/
+@media screen and (max-width: 64.375em) {
+    .exmoor-banner {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+@media screen and (max-width: 64.375em) {
+    .exmoor-banner-outer {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+/*mobile banner size*/
+@media screen and (max-width: 37.5em) {
+    .exmoor-banner {
+        width: 100%;
+        height: 15em;
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    .exmoor-banner-outer {
+        width: 100%;
+        height: 15em;
+    }
+}
+
 /*coastal banner*/
 .coastal-banner {
     width: 100%;
@@ -327,6 +477,36 @@ from{
 }
 to{
     transform: scale(1);
+    }
+}
+
+/*tablet banner size*/
+@media screen and (max-width: 64.375em) {
+    .coastal-banner{
+        width: 100%;
+        height: 18em;
+    }
+}
+
+@media screen and (max-width: 64.375em) {
+    .coastal-banner-outer {
+        width: 100%;
+        height: 18em;
+    }
+}
+
+/*mobile banner size*/
+@media screen and (max-width: 37.5em) {
+    .coastal-banner{
+        width: 100%;
+        height: 15em;
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    .coastal-banner-outer {
+        width: 100%;
+        height: 15em;
     }
 }
 
