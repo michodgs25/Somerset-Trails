@@ -3,7 +3,7 @@
 
 *Somerset is world famous for it's beautiful countryside and spectacular hill-top views with thousands of tourists flocking to visit the area every year. Somerset boasts trails such as the **Cheddar Gorge**, the **Exmoor national park**, **Somerset Coastal path** and many more.*
 
-![Trails image](https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/logo/README.png)
+![Trails image](https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/README.png)
 
 #### Live website here: https://michodgs24.github.io/Somerset-Trails/
 
