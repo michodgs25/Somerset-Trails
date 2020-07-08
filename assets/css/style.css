@@ -406,23 +406,6 @@ img {
     background-color: rgb(2, 194, 62);
 }
 
-/* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 3s;
-    animation-name: fade;
-    animation-duration: 3s;
-}
-
-@-webkit-keyframes fade {
-    from {opacity: .8} 
-    to {opacity: 1}
-}
-@keyframes fade {
-    from {opacity: .8} 
-    to {opacity: 1}
-}
-
 /*slideshow tablet screen size*/
 @media screen and (max-width: 64em) {
     img  {
@@ -459,7 +442,7 @@ img  {
     }
 }
 
-/*slideshow container mobile*/
+/*slide container mobile*/
 @media screen and (max-width: 37.5em) {
 .slideshow-container {
     width: 100%;
@@ -468,6 +451,7 @@ img  {
     }
 }
 
+/*slide container mobile*/
 @media screen and (max-width: 18.75em) {
 .slideshow-container {
     width: 100%;
