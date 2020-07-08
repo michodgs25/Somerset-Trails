@@ -172,6 +172,7 @@ to{
     }
 }
 
+/*container*/
 @media screen and (max-width: 64.375em) {
     .banner-outer {
         width: 100%;
@@ -186,7 +187,7 @@ to{
         height: 15em;
     }
 }
-
+/*container*/
 @media screen and (max-width: 37.5em) {
     .banner-outer {
         width: 100%;
@@ -226,7 +227,7 @@ from{
 to{
     transform: scale(1);
     }
-}
+}   
 
 /*tablet banner size*/
 @media screen and (max-width: 64.375em) {
@@ -236,6 +237,7 @@ to{
     }
 }
 
+/*container*/
 @media screen and (max-width: 64.375em) {
     .cheddar-banner-outer {
         width: 100%;
@@ -251,6 +253,7 @@ to{
     }
 }
 
+/*container*/
 @media screen and (max-width: 37.5em) {
     .cheddar-banner-outer {
         width: 100%;
@@ -298,7 +301,7 @@ to{
         height: 18em;
     }
 }
-
+/*container*/
 @media screen and (max-width: 64.375em) {
     .blagdon-banner {
         width: 100%;
@@ -314,6 +317,7 @@ to{
     }
 }
 
+/*container*/
 @media screen and (max-width: 37.5em) {
     .blagdon-banner-outer {
         width: 100%;
@@ -362,6 +366,7 @@ to{
     }
 }
 
+/*container*/
 @media screen and (max-width: 64.375em) {
     .staple-banner-outer {
         width: 100%;
@@ -377,6 +382,7 @@ to{
     }
 }
 
+/*container*/
 @media screen and (max-width: 37.5em) {
     .staple-banner-outer {
         width: 100%;
@@ -425,6 +431,7 @@ to {
     }
 }
 
+/*container*/
 @media screen and (max-width: 64.375em) {
     .exmoor-banner-outer {
         width: 100%;
@@ -440,6 +447,7 @@ to {
     }
 }
 
+/*container*/
 @media screen and (max-width: 37.5em) {
     .exmoor-banner-outer {
         width: 100%;
@@ -488,6 +496,7 @@ to{
     }
 }
 
+/*container*/
 @media screen and (max-width: 64.375em) {
     .coastal-banner-outer {
         width: 100%;
@@ -503,6 +512,7 @@ to{
     }
 }
 
+/*container*/
 @media screen and (max-width: 37.5em) {
     .coastal-banner-outer {
         width: 100%;
