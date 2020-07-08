@@ -155,6 +155,15 @@ h2 {
     position: relative;
 }
 
+@keyframes trail-zoom {
+from{
+    transform: scale(1.1);
+}
+to{
+    transform: scale(1);
+    }
+}
+
 /*cheddar header page*/
 .cheddar-banner {
     width: 100%;
