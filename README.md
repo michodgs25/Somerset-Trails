@@ -538,14 +538,14 @@ When executed the homepage will appear.
 #### Google Maps barriers& solutions - 
   
   - Summary:
-*"Although the implementation of maps did present significant challenges, the value of the maps to the user experience is immense as it adds a different dimension with its virtual capability.  Improvement still to be made though, as the maps inline script on each page is bloated."*
-
-#### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865
+*"Although the implementation of maps presented the most significant challenge throughout this process, the value of the maps to the user experience is immense as it adds a different dimension with its virtual capabilities. Future iterations to update and maximise Google maps to the fullest extent."*
 
 ### Update - 
 Moving Google maps documentation from HTML documents and into an external .JS file was discussed with my mentor, code institute and also learning people. The answer across the board was that due to calling multiple different maps with varying markers across the site, it will not be possible. If for example I were just calling the one single map, it would not be an issue as this is shown in the code institute tutorial - *Adding The Map Element (Bootstrap 4)* or using google developers tutorial *https://developers.google.com/maps/faq* to append to the script tag of the HTML document.
 
-With further testing& investigations, I was able to append the home maps code via app.js, to the homepage(index.html script), however the rest of the maps code stays inline within each HTML document. Future investigations to look at resolving this barrier.
+With further testing& investigations, I was able to append the home maps code via app.js, to the homepage(index.html script), however the rest of the maps code was still inline within each HTML document. The solution was found to create a .js file for each map and append the map to the specific HTML script. 
+
+#### See https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865 for an in-depth discussion on this process.
 
 ----
 
