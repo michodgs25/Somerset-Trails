@@ -584,7 +584,7 @@ Moving Google maps documentation from HTML documents and into an external .JS fi
 * __Navigation__ -
 
   - Summary 
-  *"This issue is purely visual, the navigation functionality works as intended on all device types. I was unable to resolve this issue for mobile devices with widths of 411-420, as resolving this one error only created two more and those errors would affect the function itself. Future iterations of the website to re-structure the navigation bar to be more responsive."*
+  *"This issue is purely visual, the navigation functionality works as intended on all device types. I was unable to resolve this issue, specifically, mobile widths of 411& over, as resolving this one error only created two more and those errors would affect the function itself. Future iterations of the website to re-structure the navigation bar to be more responsive."*
   
 #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/20#issue-652252798
 
