@@ -542,8 +542,10 @@ When executed the homepage will appear.
 
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865
 
-#### Update - 
+### Update - 
 Moving Google maps documentation from HTML documents and into an external .JS file was discussed with my mentor, code institute and also learning people. The answer across the board was that due to calling multiple different maps with varying markers across the site, it will not be possible. If for example I were just calling the one single map, it would not be an issue as this is shown in the code institute tutorial - *Adding The Map Element (Bootstrap 4)* or using google developers tutorial *https://developers.google.com/maps/faq* to append to the script tag of the HTML document.
+
+With further testing& investigations, I was able to append the home maps code via app.js, to the homepage(index.html script), however the rest of the maps code stays inline within each HTML document. Future investigations to look at resolving this barrier.
 
 ----
 
