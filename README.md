@@ -236,9 +236,9 @@ So the next step was figuring out how to maximise the user experience and presen
 
 * *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button.*
 
-* *The dropup button is interactive& shrinks once the user hovers over it.*
+* *The dropup is fully responsive, on all device screens.*
 
-* *The box contains the other trails links so the user can access the next trail with ease.*
+* *The box contains all the trail links like the navigation bar, so the user can access the next trail with ease.*
 
   <details>
   <summary>Bottom page navigation</summary>
@@ -277,7 +277,7 @@ So the next step was figuring out how to maximise the user experience and presen
   
   * *Footer section signals to the user that the page has ended and provides links to homepage social media.*
   
-  * *The links are center horizontally, with a light orange background& styled green. Social media: Facebook and twitter in icon form that opens a new browser tab when clicked on, which takes the user to either our facebook page or login page if not signed in.*  
+  * *The links are center horizontally, with a light orange background& icons styled green. The site logo on far left,social media: Facebook and twitter in icon form that opens a new browser tab when clicked on, which takes the user to either our facebook/twitter page or login page if not signed in. Home icons takes the user home and the logo is static and there for trademark/visual purposes.*  
   
   <details>
   <summary>Footer section</summary>
@@ -421,8 +421,6 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
 
 *Automated testing provided great value to shedding light on issues within the site as human error is very prevalent in the development process. The downside to this testing is that the testing was done virtually at the end of the process and some features such as the images. Due to the sheer amount(twenty-five) of images, it causes delays in loading times and being the end of the process there is not enough time to re-package a more effective& efficient use of those images.*
 
-*Future iterations of the project, each feature will be tested individually as the project goes through development phase, although this may take more time it will cause less issues when the project is at the end and the site will be more robust.*
-
 ----
 
 ## Functional testing 
@@ -518,10 +516,11 @@ When executed the homepage will appear.
 #### Navigation bar barriers& solutions - 
   
   - Summary: 
-  *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. On mobile screens the navigation is large and the Somerset Trails tab ends up below the home icon, as a developer, I did consider using breakpoints to reduce the font size but felt that it suited the website from a design standpoint to leave it as it is.*
+  *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. On mobile screens the navigation is large and the Somerset Trails tab ends up below the home icon, as a developer, I applied breakpoints to reduce the height of the navigation.
 
-*I did, however, increase the width of the dropdown box in mobile ensuring it filled the length of the navigation expansion. Though attempts to add a responsive breakpoint to    mobile devices with a width of 411/420 did not seem to have any effect.
-Future iterations of the site will aim to add the site logo to the navigation bar, as will make this feature more personalised to this website and address issues stated above."*
+*Although attempts to add a responsive breakpoint to mobile devices with a width of 411/420 did not seem to have any effect. I did increase the width of the dropdown box in mobile ensuring it filled the length of the navigation expansion but again devices with widths of 411/420 did not respond whereas smaller devices(300-400) did respond.*
+
+*Future iterations of the site will aim to resolve the navigation width for 411/420 mobiles and add the site logo to the navigation bar, as will make this feature more personalised to this website and address issues stated above."*
 
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
 
@@ -585,7 +584,7 @@ Moving Google maps documentation from HTML documents and into an external .JS fi
 * __Navigation__ -
 
   - Summary 
-  *"This issue is purely visual, the navigation functionality works as intended on all device types. I was unable to resolve this issue, as resolving this one error only created two more and those errors would affect the function itself. Future iterations of the website to re-structure the navigation bar to be more responsive."*
+  *"This issue is purely visual, the navigation functionality works as intended on all device types. I was unable to resolve this issue for mobile devices with widths of 411-420, as resolving this one error only created two more and those errors would affect the function itself. Future iterations of the website to re-structure the navigation bar to be more responsive."*
   
 #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/20#issue-652252798
 
