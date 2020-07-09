@@ -702,7 +702,7 @@ img {
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 0.8em;
+    bottom: 4em;
     right: 0.555em;
     z-index: 99;
     border: none;
@@ -716,17 +716,6 @@ img {
 
 #myBtn:hover {
     background-color: rgb(2, 1, 1, 0.904);
-}
-
-/*scroll to top button mobile size*/
-@media screen and (max-width: 37.5em) {
-#mybtn {
-    display: none;
-    position: fixed;
-    bottom: 0.1em;
-    right: 0.5em;
-    font-size: 1em;
-    }
 }
 
 /*footer section*/
@@ -750,7 +739,7 @@ footer {
     list-style: none;
 }
 
-.other-trails li {
+.other-trails a {
     list-style-type: none;
     text-align: center;
     display: inline;
@@ -768,7 +757,15 @@ footer i {
 .other-trails {
     font-size: 0.7em;
     padding: 0.01em;
-    padding-top: 0.5em;
+    padding-top: 2em;
     text-align: center;
+    line-height: 10em;
+    }
+}
+
+/*breakpoint specific for iphone 5/SE*/
+@media screen and (max-width: 26.25em) {
+.other-trails {
+    font-size: 0.6em;
     }
 }
