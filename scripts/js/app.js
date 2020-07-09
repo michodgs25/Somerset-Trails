@@ -5,6 +5,7 @@ $(".bottom-nav.response").removeClass("responsive").addClass("bottom-nav");
 
 //scroll to to top button, increase user accessibility
 mybutton = document.getElementById("myBtn");
+
 //when user scrolls 10rem from top of page, show button
 window.onscroll = function () { scrollFunction() };
 function scrollFunction() {
@@ -20,6 +21,7 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0; //for chrome, firefox, IE and opera
 }
+
 //slideshow function,styling& animation
 var slideIndex = 0;
 showSlides();
@@ -39,8 +41,10 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 2000); //Change image every 2 seconds
 }
+
 //banner text, introduce viewer to page
 $("h4").css({ "color": "white", "font-style": "italic", "text-align": "center" });
+
 $("h4").on({
     mouseenter: function () {
         $(this).css("font-size", "2.5em", "z-index", "3");
@@ -49,8 +53,10 @@ $("h4").on({
         $(this).css("font-size", "2em", "z-index", "3");
     }
 });
+
 //h2, visibility& interactivity
 $("h2").css({ "text-align": "center", "padding": "0.5em" });
+
 $("h2").on({
     mouseenter: function () {
         $(this).css("font-size", "1.5em");
