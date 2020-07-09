@@ -2,6 +2,7 @@
 $(".topnav.response").removeClass("responsive").addClass("topnav");
 //declare& get navigation class, increase user accessibility
 $(".bottom-nav.response").removeClass("responsive").addClass("bottom-nav");
+
 //scroll to to top button, increase user accessibility
 mybutton = document.getElementById("myBtn");
 //when user scrolls 10rem from top of page, show button
@@ -13,6 +14,7 @@ function scrollFunction() {
         mybutton.style.display = "none";
     }
 }
+
 //scroll to top
 function topFunction() {
     document.body.scrollTop = 0;
@@ -57,6 +59,7 @@ $("h2").on({
         $(this).css("font-size", "1em");
     }
 });
+
 //icons interactivity
 $("i").on({
     mouseenter: function () {
@@ -66,6 +69,7 @@ $("i").on({
         $(this).css("font-size", "2em");
     }
 });
+
 //topnav interactivity
 $("button", "top-nav").on({
     mouseenter: function () {
