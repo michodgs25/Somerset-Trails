@@ -516,11 +516,11 @@ When executed the homepage will appear.
 #### Navigation bar barriers& solutions - 
   
   - Summary: 
-  *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. On mobile screens the navigation is large and the Somerset Trails tab ends up below the home icon, as a developer, I applied breakpoints to reduce the height of the navigation.
+  *"The navigation bar looks clean& interactive and works as intended. The drop-up nav and scroll to the top button provide greater ease of use to the user thus an effective solution. On mobile screens the navigation is large and the Somerset Trails tab ends up below the home icon, as a developer, I applied breakpoints to reduce the height of the navigation.*
 
-*Although attempts to add a responsive breakpoint to mobile devices with a width of 411/420 did not seem to have any effect. I did increase the width of the dropdown box in mobile ensuring it filled the length of the navigation expansion but again devices with widths of 411/420 did not respond whereas smaller devices(300-400) did respond.*
+*Although attempts to add a responsive breakpoint to mobile devices with a width of 411/420 did not seem to have any effect. I did increase the width of the navigation dropdown box in mobile ensuring it filled the length of the navigation expansion but again devices with widths of 411/420 did not respond whereas smaller devices(300-400) did respond.*
 
-*Future iterations of the site will aim to resolve the navigation width for 411/420 mobiles and add the site logo to the navigation bar, as will make this feature more personalised to this website and address issues stated above."*
+*Future iterations of the site will aim to resolve the navigation width for 411& over mobiles and add the site logo to the navigation bar, as will make this feature more personalised to this website and address issues stated above."*
 
 #### Read full article here -  https://github.com/michodgs24/Somerset-Trails/issues/11#issue-635441825
 
