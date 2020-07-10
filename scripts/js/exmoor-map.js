@@ -8,7 +8,7 @@
       function initMap() {
           map = new google.maps.Map(document.getElementsByClassName("map-custom")[0], {
               center: { lat: 51.180000, lng: -3.000000 },
-              zoom: 9
+              zoom: 8
           });
           
           //call map window& create marker variable
