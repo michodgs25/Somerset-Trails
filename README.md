@@ -486,10 +486,10 @@ This sites version control is through github and using gitpod IDE, once complete
 * To run locally, you can visit the project page(master branch): https://github.com/michodgs24/Somerset-Trails and clone the relevant code:
 
   <details>
-  <summary>mobiReady</summary>
+  <summary>Master Branch page</summary>
   <br>
   <div align="center">
- <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/code-clone-ss.jpg" target="_blank" rel=""/>
+    <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/code-clone-ss.jpg" target="_blank" rel=""/>
   </div>
  </details>
 
