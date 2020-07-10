@@ -4,20 +4,17 @@
 
 /*Find links to each individual site pages in README.md*/
 
-
 /*smooth page scroll*/
 
 html {
 	scroll-behavior: smooth;
 }
 
-
 /*header color*/
 
 h2 {
 	color: rgb(2, 194, 62);
 }
-
 
 /*Navigation section*/
 
@@ -27,7 +24,6 @@ h2 {
 	overflow: hidden;
 	z-index: 1;
 }
-
 
 /*links inside nav-bar */
 
@@ -41,7 +37,6 @@ h2 {
 	font-size: 2em;
 }
 
-
 /*highlight current page*/
 
 .active {
@@ -49,13 +44,11 @@ h2 {
 	color: rgb(255, 255, 255);
 }
 
-
 /* Hide link opening& close topnav on small screens */
 
 .topnav .icon {
 	display: none;
 }
-
 
 /*position dropdown content */
 
@@ -65,7 +58,6 @@ h2 {
 	font-style: italic;
 	z-index: 1;
 }
-
 
 /*position& style dropdown button to fit inside topnav */
 
@@ -79,7 +71,6 @@ h2 {
 	background-color: inherit;
 }
 
-
 /*dropdown content in mobile*/
 
 @media screen and (max-width: 37.5em) {
@@ -91,7 +82,6 @@ h2 {
 	}
 }
 
-
 /*dropdown position& style*/
 
 .dropdown-content {
@@ -102,7 +92,6 @@ h2 {
 	z-index: 1;
 	padding-bottom: 0.5em;
 }
-
 
 /*dropdown styling& position*/
 
@@ -116,7 +105,6 @@ h2 {
 	font-size: 1em;
 	font-style: italic;
 }
-
 
 /*interactive styling to dropdown items*/
 
@@ -137,7 +125,6 @@ h2 {
 	z-index: 1;
 }
 
-
 /*home banner*/
 
 .banner {
@@ -150,7 +137,6 @@ h2 {
 	background-attachment: scroll;
 }
 
-
 /*animation when page loads*/
 
 .banner {
@@ -158,7 +144,6 @@ h2 {
 	animation-duration: 1s;
 	animation-fill-mode: backwards;
 }
-
 
 /*smooth animation transition*/
 
@@ -178,7 +163,6 @@ h2 {
 	}
 }
 
-
 /*tablet banner size*/
 
 @media screen and (max-width: 64.375em) {
@@ -188,7 +172,6 @@ h2 {
 	}
 }
 
-
 /*container& smooth animation transition*/
 
 @media screen and (max-width: 64.375em) {
@@ -197,7 +180,6 @@ h2 {
 		height: 18em;
 	}
 }
-
 
 /*mobile banner size*/
 
@@ -208,7 +190,6 @@ h2 {
 	}
 }
 
-
 /*container& smooth animation transition*/
 
 @media screen and (max-width: 37.5em) {
@@ -217,7 +198,6 @@ h2 {
 		height: 15em;
 	}
 }
-
 
 /*cheddar banner*/
 
@@ -231,7 +211,6 @@ h2 {
 	background-attachment: scroll;
 }
 
-
 /*Animation when page loads*/
 
 .cheddar-banner {
@@ -239,7 +218,6 @@ h2 {
 	animation-duration: 1s;
 	animation-fill-mode: backwards;
 }
-
 
 /*smooth banner transition*/
 
@@ -259,7 +237,6 @@ h2 {
 	}
 }
 
-
 /*tablet banner size*/
 
 @media screen and (max-width: 64.375em) {
@@ -268,7 +245,6 @@ h2 {
 		height: 18em;
 	}
 }
-
 
 /*container& smooth animation transition*/
 
@@ -279,7 +255,6 @@ h2 {
 	}
 }
 
-
 /*mobile banner size*/
 
 @media screen and (max-width: 37.5em) {
@@ -289,7 +264,6 @@ h2 {
 	}
 }
 
-
 /*container smooth animation transition*/
 
 @media screen and (max-width: 37.5em) {
@@ -298,7 +272,6 @@ h2 {
 		height: 15em;
 	}
 }
-
 
 /*blagdon banner*/
 
@@ -318,7 +291,6 @@ h2 {
 	animation-fill-mode: backwards;
 }
 
-
 /*smooth animation transition*/
 
 .blagdon-banner-outer {
@@ -337,7 +309,6 @@ h2 {
 	}
 }
 
-
 /*tablet banner size*/
 
 @media screen and (max-width: 64.375em) {
@@ -347,7 +318,6 @@ h2 {
 	}
 }
 
-
 /*container& smooth animation transition*/
 
 @media screen and (max-width: 64.375em) {
@@ -356,7 +326,6 @@ h2 {
 		height: 18em;
 	}
 }
-
 
 /*mobile banner size*/
 
@@ -367,7 +336,6 @@ h2 {
 	}
 }
 
-
 /*container& smooth animation transition*/
 
 @media screen and (max-width: 37.5em) {
@@ -376,7 +344,6 @@ h2 {
 		height: 15em;
 	}
 }
-
 
 /*staple hill banner*/
 
@@ -396,7 +363,6 @@ h2 {
 	animation-fill-mode: backwards;
 }
 
-
 /*smooth animation transition*/
 
 .staple-banner-outer {
@@ -415,7 +381,6 @@ h2 {
 	}
 }
 
-
 /*tablet banner size*/
 
 @media screen and (max-width: 64.375em) {
@@ -425,7 +390,6 @@ h2 {
 	}
 }
 
-
 /*container& smooth animation transition*/
 
 @media screen and (max-width: 64.375em) {
@@ -434,7 +398,6 @@ h2 {
 		height: 18em;
 	}
 }
-
 
 /*mobile banner size*/
 
@@ -445,7 +408,6 @@ h2 {
 	}
 }
 
-
 /*container& smooth animation transition*/
 
 @media screen and (max-width: 37.5em) {
@@ -454,7 +416,6 @@ h2 {
 		height: 15em;
 	}
 }
-
 
 /*exmoor banner*/
 
@@ -474,7 +435,6 @@ h2 {
 	animation-fill-mode: backwards;
 }
 
-
 /*smooth animation transition*/
 
 .exmoor-banner-outer {
@@ -493,7 +453,6 @@ h2 {
 	}
 }
 
-
 /*tablet banner size*/
 
 @media screen and (max-width: 64.375em) {
@@ -503,7 +462,6 @@ h2 {
 	}
 }
 
-
 /*container& smooth animation transition*/
 
 @media screen and (max-width: 64.375em) {
@@ -512,7 +470,6 @@ h2 {
 		height: 18em;
 	}
 }
-
 
 /*mobile banner size*/
 
@@ -523,7 +480,6 @@ h2 {
 	}
 }
 
-
 /*container& smooth animation transition*/
 
 @media screen and (max-width: 37.5em) {
@@ -532,7 +488,6 @@ h2 {
 		height: 15em;
 	}
 }
-
 
 /*coastal banner*/
 
@@ -552,7 +507,6 @@ h2 {
 	animation-fill-mode: backwards;
 }
 
-
 /*smooth animation transition*/
 
 .coastal-banner-outer {
@@ -571,7 +525,6 @@ h2 {
 	}
 }
 
-
 /*tablet banner size*/
 
 @media screen and (max-width: 64.375em) {
@@ -581,7 +534,6 @@ h2 {
 	}
 }
 
-
 /*container& smooth animation transition*/
 
 @media screen and (max-width: 64.375em) {
@@ -590,7 +542,6 @@ h2 {
 		height: 18em;
 	}
 }
-
 
 /*mobile banner size*/
 
@@ -601,7 +552,6 @@ h2 {
 	}
 }
 
-
 /*container& smooth animation transition*/
 
 @media screen and (max-width: 37.5em) {
@@ -610,7 +560,6 @@ h2 {
 		height: 15em;
 	}
 }
-
 
 /*slideshow*/
 
@@ -624,7 +573,6 @@ h2 {
 	margin: auto;
 }
 
-
 /*slideshow images*/
 
 img {
@@ -632,7 +580,6 @@ img {
 	height: 18em;
 	text-align: center;
 }
-
 
 /* Slideshow container*/
 
@@ -646,7 +593,6 @@ img {
 .btn .container a {
 	text-decoration: none;
 }
-
 
 /*button center container/image */
 
@@ -666,13 +612,11 @@ img {
 	border-bottom: 0.2em 0.2em rgb(2, 194, 62);
 }
 
-
 /*cursur hovers, btn change color*/
 
 .container .btn:hover {
 	background-color: rgba(2, 1, 1, 0.904);
 }
-
 
 /* Number text (1/6) */
 
@@ -683,7 +627,6 @@ img {
 	position: absolute;
 	top: 0;
 }
-
 
 /*Slideshow dots*/
 
@@ -703,7 +646,6 @@ img {
 	background-color: rgb(2, 194, 62);
 }
 
-
 /*slideshow tablet screen size*/
 
 @media screen and (max-width: 64em) {
@@ -715,7 +657,6 @@ img {
 	}
 }
 
-
 /*tablet slideshow-container*/
 
 @media screen and (max-width: 64em) {
@@ -725,7 +666,6 @@ img {
 		text-align: center;
 	}
 }
-
 
 /*mobile screen size*/
 
@@ -737,7 +677,6 @@ img {
 	}
 }
 
-
 /*slide container mobile*/
 
 @media screen and (max-width: 37.5em) {
@@ -747,7 +686,6 @@ img {
 		text-align: center;
 	}
 }
-
 
 /*Maps section*/
 
@@ -760,7 +698,6 @@ img {
 	margin-bottom: 3em;
 }
 
-
 /*bottom page navigation, enable access other trails*/
 
 .active {
@@ -768,20 +705,17 @@ img {
 	color: rgb(255, 255, 255);
 }
 
-
 /* Hide link that open& close dropdown on small screens*/
 
 .bottom-nav .icon {
 	display: none;
 }
 
-
 /*button position*/
 
 .bottom-nav {
 	text-align: center;
 }
-
 
 /*dropup button styling& position*/
 
@@ -795,7 +729,6 @@ img {
 	padding: 1em;
 }
 
-
 /*positioning& styling of container*/
 
 .bottom-nav .dropup {
@@ -808,7 +741,6 @@ img {
 .bottom-nav .dropbtn {
 	border: 0.1em solid rgba(2, 1, 1, 0.904);
 }
-
 
 /*content styling*/
 
@@ -824,7 +756,6 @@ img {
 	text-align: center;
 }
 
-
 /*links inside dropup*/
 
 .bottom-nav .dropup-content a {
@@ -834,7 +765,6 @@ img {
 	display: block;
 }
 
-
 /*change color of links when hovered over*/
 
 .bottom-nav .dropup-content a:hover {
@@ -842,20 +772,17 @@ img {
 	border: 0.1em solid rgb(2, 1, 1, 0.904);
 }
 
-
 /*show dropup menu*/
 
 .bottom-nav .dropup:hover .dropup-content {
 	display: block;
 }
 
-
 /* Change the background color of dropup button when dropup content is shown*/
 
 .bottom-nav .dropup:hover .dropbtn {
 	background-color: rgb(2, 194, 62);
 }
-
 
 /* scroll back to top button*/
 
@@ -878,7 +805,6 @@ img {
 	background-color: rgb(2, 1, 1, 0.904);
 }
 
-
 /*footer section*/
 
 footer {
@@ -887,7 +813,6 @@ footer {
 	background-color: rgba(255, 232, 168);
 	color: rgb(2, 194, 62);
 }
-
 
 /*logo for footer*/
 
@@ -917,7 +842,6 @@ footer i {
 	text-align: center;
 }
 
-
 /*footer icon mobile size*/
 
 @media screen and (max-width: 37.5em) {
@@ -929,7 +853,6 @@ footer i {
 		line-height: 10em;
 	}
 }
-
 
 /*breakpoint specific for iphone 5/SE*/
 
