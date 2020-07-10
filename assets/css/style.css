@@ -1,779 +1,940 @@
 /* Credit code sources for slideshow, navigation, bottom nav and scroll to top button - https://www.w3schools.com*/
+
 @import url("https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700&display=swap");
+
 /*Find links to each individual site pages in README.md*/
 
+
 /*smooth page scroll*/
+
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
+
 
 /*header color*/
+
 h2 {
-    color: rgb(2, 194, 62);
+	color: rgb(2, 194, 62);
 }
+
 
 /*Navigation section*/
+
 .topnav {
-    line-height: 1.5em;  
-    background-color: rgb(252, 214, 0, 0.664);
-    overflow: hidden;
-    z-index: 1;
+	line-height: 1.5em;
+	background-color: rgb(252, 214, 0, 0.664);
+	overflow: hidden;
+	z-index: 1;
 }
+
 
 /*links inside nav-bar */
+
 .topnav a {
-    float: left;
-    display: block;
-    color: rgb(166, 171, 167);
-    text-align: center;
-    padding: 2em;
-    text-decoration: none;
-    font-size: 2em;
+	float: left;
+	display: block;
+	color: rgb(166, 171, 167);
+	text-align: center;
+	padding: 2em;
+	text-decoration: none;
+	font-size: 2em;
 }
+
 
 /*highlight current page*/
+
 .active {
-    background-color: rgb(2, 194, 62);
-    color: rgb(255, 255, 255);
+	background-color: rgb(2, 194, 62);
+	color: rgb(255, 255, 255);
 }
+
 
 /* Hide link opening& close topnav on small screens */
+
 .topnav .icon {
-    display: none;
+	display: none;
 }
+
 
 /*position dropdown content */
+
 .dropdown {
-    float: left;
-    overflow: hidden;
-    font-style: italic;
-    z-index: 1;
+	float: left;
+	overflow: hidden;
+	font-style: italic;
+	z-index: 1;
 }
+
 
 /*position& style dropdown button to fit inside topnav */
+
 .dropdown .dropbtn {
-    font-size: 2em;
-    border: none;
-    outline: none;
-    color: rgb(2, 194, 62);
-    padding: 2em;
-    text-align: center;
-    background-color: inherit;
+	font-size: 2em;
+	border: none;
+	outline: none;
+	color: rgb(2, 194, 62);
+	padding: 2em;
+	text-align: center;
+	background-color: inherit;
 }
+
 
 /*dropdown content in mobile*/
+
 @media screen and (max-width: 37.5em) {
-    .dropdown .dropbtn {
-    font-size: 2.1em;
-    color: rgb(2, 194, 62);
-    padding: 1em;
-    padding-right: 2.1em;
-    }
+	.dropdown .dropbtn {
+		font-size: 2.1em;
+		color: rgb(2, 194, 62);
+		padding: 1em;
+		padding-right: 2.1em;
+	}
 }
+
 
 /*dropdown position& style*/
+
 .dropdown-content {
-    display: none;
-    position: relative;
-    background-color: rgb(0,0,0,0.2);
-    min-width: 20em;
-    z-index: 1;
-    padding-bottom: 0.5em;
+	display: none;
+	position: relative;
+	background-color: rgb(0, 0, 0, 0.2);
+	min-width: 20em;
+	z-index: 1;
+	padding-bottom: 0.5em;
 }
+
 
 /*dropdown styling& position*/
+
 .dropdown-content a {
-    float: none;
-    color: rgb(255, 255, 255);
-    padding: 1em;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    font-size: 1em;
-    font-style: italic;
+	float: none;
+	color: rgb(255, 255, 255);
+	padding: 1em;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 1em;
+	font-style: italic;
 }
 
+
 /*interactive styling to dropdown items*/
-.topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(2, 194, 62);
-    color: rgb(255, 255, 255);
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+	background-color: rgb(2, 194, 62);
+	color: rgb(255, 255, 255);
 }
 
 .dropdown-content a:hover {
-    background-color: rgb(2, 194, 62);
-    color: rgb(2, 1, 1, 0.904);
-    border: 0.1em solid rgb(2, 1, 1, 0.904);
+	background-color: rgb(2, 194, 62);
+	color: rgb(2, 1, 1, 0.904);
+	border: 0.1em solid rgb(2, 1, 1, 0.904);
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-    z-index: 1;
+	display: block;
+	z-index: 1;
 }
+
 
 /*home banner*/
+
 .banner {
-    width: 100%;
-    height: 25em;
-    background: url("https://c0.wallpaperflare.com/preview/461/570/413/exmoor-pony-pony-horse-exmoor.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
+	width: 100%;
+	height: 25em;
+	background: url("https://c0.wallpaperflare.com/preview/461/570/413/exmoor-pony-pony-horse-exmoor.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
 }
+
 
 /*animation when page loads*/
+
 .banner {
-    animation-name: trail-zoom;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
+	animation-name: trail-zoom;
+	animation-duration: 1s;
+	animation-fill-mode: backwards;
 }
 
+
 /*smooth animation transition*/
+
 .banner-outer {
-    width: 100%;
-    height: 25em;
-    overflow:hidden;
-    position: relative;
+	width: 100%;
+	height: 25em;
+	overflow: hidden;
+	position: relative;
 }
 
 @keyframes trail-zoom {
-from{
-    transform: scale(1.1);
+	from {
+		transform: scale(1.1);
+	}
+	to {
+		transform: scale(1);
+	}
 }
-to{
-    transform: scale(1);
-    }
-}
+
 
 /*tablet banner size*/
+
 @media screen and (max-width: 64.375em) {
-    .banner {
-        width: 100%;
-        height: 18em;
-    }
+	.banner {
+		width: 100%;
+		height: 18em;
+	}
 }
 
+
 /*container& smooth animation transition*/
+
 @media screen and (max-width: 64.375em) {
-    .banner-outer {
-        width: 100%;
-        height: 18em;
-    }
+	.banner-outer {
+		width: 100%;
+		height: 18em;
+	}
 }
+
 
 /*mobile banner size*/
+
 @media screen and (max-width: 37.5em) {
-    .banner{
-        width: 100%;
-        height: 15em;
-    }
+	.banner {
+		width: 100%;
+		height: 15em;
+	}
 }
+
+
 /*container& smooth animation transition*/
+
 @media screen and (max-width: 37.5em) {
-    .banner-outer {
-        width: 100%;
-        height: 15em;
-    }
+	.banner-outer {
+		width: 100%;
+		height: 15em;
+	}
 }
+
 
 /*cheddar banner*/
+
 .cheddar-banner {
-    width: 100%;
-    height: 25em;
-    background: url("https://images.pexels.com/photos/3969285/pexels-photo-3969285.jpeg?cs=srgb&dl=cheddar-gorge-3969285.jpg&fm=jpg");background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
+	width: 100%;
+	height: 25em;
+	background: url("https://images.pexels.com/photos/3969285/pexels-photo-3969285.jpeg?cs=srgb&dl=cheddar-gorge-3969285.jpg&fm=jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
 }
+
 
 /*Animation when page loads*/
+
 .cheddar-banner {
-    animation-name: trail-zoom;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
+	animation-name: trail-zoom;
+	animation-duration: 1s;
+	animation-fill-mode: backwards;
 }
+
 
 /*smooth banner transition*/
+
 .cheddar-banner-outer {
-    width: 100%;
-    height: 25em;
-    overflow:hidden;
-    position: relative;
+	width: 100%;
+	height: 25em;
+	overflow: hidden;
+	position: relative;
 }
 
 @keyframes trail-zoom {
-from{
-    transform: scale(1.1);
+	from {
+		transform: scale(1.1);
+	}
+	to {
+		transform: scale(1);
+	}
 }
-to{
-    transform: scale(1);
-    }
-}   
+
 
 /*tablet banner size*/
+
 @media screen and (max-width: 64.375em) {
-    .cheddar-banner {
-        width: 100%;
-        height: 18em;
-    }
+	.cheddar-banner {
+		width: 100%;
+		height: 18em;
+	}
 }
+
 
 /*container& smooth animation transition*/
+
 @media screen and (max-width: 64.375em) {
-    .cheddar-banner-outer {
-        width: 100%;
-        height: 18em;
-    }
+	.cheddar-banner-outer {
+		width: 100%;
+		height: 18em;
+	}
 }
 
+
 /*mobile banner size*/
+
 @media screen and (max-width: 37.5em) {
-    .cheddar-banner {
-        width: 100%;
-        height: 15em;
-    }
+	.cheddar-banner {
+		width: 100%;
+		height: 15em;
+	}
 }
+
 
 /*container smooth animation transition*/
+
 @media screen and (max-width: 37.5em) {
-    .cheddar-banner-outer {
-        width: 100%;
-        height: 15em;
-    }
+	.cheddar-banner-outer {
+		width: 100%;
+		height: 15em;
+	}
 }
+
 
 /*blagdon banner*/
+
 .blagdon-banner {
-    width: 100%;
-    height: 25em;
-    background: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Blagdonlake2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
+	width: 100%;
+	height: 25em;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Blagdonlake2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
 }
 
 .blagdon-banner {
-    animation-name: trail-zoom;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
+	animation-name: trail-zoom;
+	animation-duration: 1s;
+	animation-fill-mode: backwards;
 }
+
 
 /*smooth animation transition*/
+
 .blagdon-banner-outer {
-    width: 100%;
-    height: 25em;
-    overflow:hidden;
-    position: relative;
+	width: 100%;
+	height: 25em;
+	overflow: hidden;
+	position: relative;
 }
 
 @keyframes trail-zoom {
-from{
-    transform: scale(1.1);
+	from {
+		transform: scale(1.1);
+	}
+	to {
+		transform: scale(1);
+	}
 }
-to{
-    transform: scale(1);
-    }
-}
+
 
 /*tablet banner size*/
+
 @media screen and (max-width: 64.375em) {
-    .blagdon-banner {
-        width: 100%;
-        height: 18em;
-    }
+	.blagdon-banner {
+		width: 100%;
+		height: 18em;
+	}
 }
 
+
 /*container& smooth animation transition*/
+
 @media screen and (max-width: 64.375em) {
-    .blagdon-banner {
-        width: 100%;
-        height: 18em;
-    }
+	.blagdon-banner {
+		width: 100%;
+		height: 18em;
+	}
 }
+
 
 /*mobile banner size*/
+
 @media screen and (max-width: 37.5em) {
-    .blagdon-banner {
-        width: 100%;
-        height: 15em;
-    }
+	.blagdon-banner {
+		width: 100%;
+		height: 15em;
+	}
 }
 
+
 /*container& smooth animation transition*/
+
 @media screen and (max-width: 37.5em) {
-    .blagdon-banner-outer {
-        width: 100%;
-        height: 15em;
-    }
+	.blagdon-banner-outer {
+		width: 100%;
+		height: 15em;
+	}
 }
+
 
 /*staple hill banner*/
+
 .staple-banner {
-    width: 100%;
-    height: 25em;
-    background: url("https://upload.wikimedia.org/wikipedia/commons/7/79/The_Malverns_from_Cleeve_Hill_%284966%29.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
+	width: 100%;
+	height: 25em;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/7/79/The_Malverns_from_Cleeve_Hill_%284966%29.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
 }
 
 .staple-banner {
-    animation-name: trail-zoom;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
+	animation-name: trail-zoom;
+	animation-duration: 1s;
+	animation-fill-mode: backwards;
 }
+
 
 /*smooth animation transition*/
+
 .staple-banner-outer {
-    width: 100%;
-    height: 25em;
-    overflow:hidden;
-    position: relative;
+	width: 100%;
+	height: 25em;
+	overflow: hidden;
+	position: relative;
 }
 
 @keyframes trail-zoom {
-from{
-    transform: scale(1.1);
+	from {
+		transform: scale(1.1);
+	}
+	to {
+		transform: scale(1);
+	}
 }
-to{
-    transform: scale(1);
-    }
-}
+
 
 /*tablet banner size*/
+
 @media screen and (max-width: 64.375em) {
-    .staple-banner {
-        width: 100%;
-        height: 18em;
-    }
+	.staple-banner {
+		width: 100%;
+		height: 18em;
+	}
 }
 
+
 /*container& smooth animation transition*/
+
 @media screen and (max-width: 64.375em) {
-    .staple-banner-outer {
-        width: 100%;
-        height: 18em;
-    }
+	.staple-banner-outer {
+		width: 100%;
+		height: 18em;
+	}
 }
+
 
 /*mobile banner size*/
+
 @media screen and (max-width: 37.5em) {
-    .staple-banner {
-        width: 100%;
-        height: 15em;
-    }
+	.staple-banner {
+		width: 100%;
+		height: 15em;
+	}
 }
 
+
 /*container& smooth animation transition*/
+
 @media screen and (max-width: 37.5em) {
-    .staple-banner-outer {
-        width: 100%;
-        height: 15em;
-    }
+	.staple-banner-outer {
+		width: 100%;
+		height: 15em;
+	}
 }
+
 
 /*exmoor banner*/
+
 .exmoor-banner {
-    width: 100%;
-    height: 25em;
-    background: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Exmoor_National_Park.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
+	width: 100%;
+	height: 25em;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Exmoor_National_Park.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
 }
 
 .exmoor-banner {
-    animation-name: trail-zoom;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
+	animation-name: trail-zoom;
+	animation-duration: 1s;
+	animation-fill-mode: backwards;
 }
+
 
 /*smooth animation transition*/
+
 .exmoor-banner-outer {
-    width: 100%;
-    height: 25em;
-    overflow:hidden;
-    position: relative;
+	width: 100%;
+	height: 25em;
+	overflow: hidden;
+	position: relative;
 }
 
 @keyframes trail-zoom {
-from{
-    transform: scale(1.1);
+	from {
+		transform: scale(1.1);
+	}
+	to {
+		transform: scale(1);
+	}
 }
-to {
-    transform: scale(1);
-    }
-}
+
 
 /*tablet banner size*/
+
 @media screen and (max-width: 64.375em) {
-    .exmoor-banner {
-        width: 100%;
-        height: 18em;
-    }
+	.exmoor-banner {
+		width: 100%;
+		height: 18em;
+	}
 }
 
+
 /*container& smooth animation transition*/
+
 @media screen and (max-width: 64.375em) {
-    .exmoor-banner-outer {
-        width: 100%;
-        height: 18em;
-    }
+	.exmoor-banner-outer {
+		width: 100%;
+		height: 18em;
+	}
 }
+
 
 /*mobile banner size*/
+
 @media screen and (max-width: 37.5em) {
-    .exmoor-banner {
-        width: 100%;
-        height: 15em;
-    }
+	.exmoor-banner {
+		width: 100%;
+		height: 15em;
+	}
 }
 
+
 /*container& smooth animation transition*/
+
 @media screen and (max-width: 37.5em) {
-    .exmoor-banner-outer {
-        width: 100%;
-        height: 15em;
-    }
+	.exmoor-banner-outer {
+		width: 100%;
+		height: 15em;
+	}
 }
+
 
 /*coastal banner*/
+
 .coastal-banner {
-    width: 100%;
-    height: 25em;
-    background: url("https://live.staticflickr.com/7433/13432939784_6087d5241b_b.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
+	width: 100%;
+	height: 25em;
+	background: url("https://live.staticflickr.com/7433/13432939784_6087d5241b_b.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
 }
 
 .coastal-banner {
-    animation-name: trail-zoom;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
+	animation-name: trail-zoom;
+	animation-duration: 1s;
+	animation-fill-mode: backwards;
 }
+
 
 /*smooth animation transition*/
+
 .coastal-banner-outer {
-    width: 100%;
-    height: 25em;
-    overflow:hidden;
-    position: relative;
+	width: 100%;
+	height: 25em;
+	overflow: hidden;
+	position: relative;
 }
 
 @keyframes trail-zoom {
-from{
-    transform: scale(1.1);
+	from {
+		transform: scale(1.1);
+	}
+	to {
+		transform: scale(1);
+	}
 }
-to{
-    transform: scale(1);
-    }
-}
+
 
 /*tablet banner size*/
+
 @media screen and (max-width: 64.375em) {
-    .coastal-banner{
-        width: 100%;
-        height: 18em;
-    }
+	.coastal-banner {
+		width: 100%;
+		height: 18em;
+	}
 }
 
+
 /*container& smooth animation transition*/
+
 @media screen and (max-width: 64.375em) {
-    .coastal-banner-outer {
-        width: 100%;
-        height: 18em;
-    }
+	.coastal-banner-outer {
+		width: 100%;
+		height: 18em;
+	}
 }
+
 
 /*mobile banner size*/
+
 @media screen and (max-width: 37.5em) {
-    .coastal-banner{
-        width: 100%;
-        height: 15em;
-    }
+	.coastal-banner {
+		width: 100%;
+		height: 15em;
+	}
 }
+
 
 /*container& smooth animation transition*/
+
 @media screen and (max-width: 37.5em) {
-    .coastal-banner-outer {
-        width: 100%;
-        height: 15em;
-    }
+	.coastal-banner-outer {
+		width: 100%;
+		height: 15em;
+	}
 }
+
 
 /*slideshow*/
-* {box-sizing:border-box}
+
+* {
+	box-sizing: border-box
+}
 
 .mySlides {
-    display: none;
-    vertical-align: middle;
-    margin: auto;
+	display: none;
+	vertical-align: middle;
+	margin: auto;
 }
+
 
 /*slideshow images*/
+
 img {
-    width: 100%;
-    height: 18em;
-    text-align: center;
+	width: 100%;
+	height: 18em;
+	text-align: center;
 }
 
+
 /* Slideshow container*/
+
 .slideshow-container {
-    width: 50%;
-    height: 18em;
-    position: relative;
-    margin: auto;
+	width: 50%;
+	height: 18em;
+	position: relative;
+	margin: auto;
 }
 
 .btn .container a {
-    text-decoration: none;
+	text-decoration: none;
 }
+
 
 /*button center container/image */
+
 .container .btn {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -60%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: rgb(2, 194, 62);
-    color: rgb(255, 255, 255);
-    font-size: 1em;
-    padding: 0.75em 1.5em;
-    border: none;
-    cursor: pointer;
-    border-radius: 0.313em;
-    border-bottom: 0.2em 0.2em rgb(2, 194, 62);
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: rgb(2, 194, 62);
+	color: rgb(255, 255, 255);
+	font-size: 1em;
+	padding: 0.75em 1.5em;
+	border: none;
+	cursor: pointer;
+	border-radius: 0.313em;
+	border-bottom: 0.2em 0.2em rgb(2, 194, 62);
 }
+
 
 /*cursur hovers, btn change color*/
+
 .container .btn:hover {
-    background-color: rgba(2, 1, 1, 0.904);
+	background-color: rgba(2, 1, 1, 0.904);
 }
+
 
 /* Number text (1/6) */
+
 .numbertext {
-    color: rgb(255, 255, 255);
-    font-size: 1em;
-    padding: 1em 1em;
-    position: absolute;
-    top: 0;
+	color: rgb(255, 255, 255);
+	font-size: 1em;
+	padding: 1em 1em;
+	position: absolute;
+	top: 0;
 }
+
 
 /*Slideshow dots*/
+
 .dot {
-    height: 1em;
-    width: 1em;
-    margin: 0 0.11em;
-    color: rgb(2, 194, 62);
-    background-color: rgb(166, 171, 167);
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    margin-bottom: 2em;
+	height: 1em;
+	width: 1em;
+	margin: 0 0.11em;
+	color: rgb(2, 194, 62);
+	background-color: rgb(166, 171, 167);
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	margin-bottom: 2em;
 }
 
 .active {
-    background-color: rgb(2, 194, 62);
+	background-color: rgb(2, 194, 62);
 }
+
 
 /*slideshow tablet screen size*/
+
 @media screen and (max-width: 64em) {
-    img  {
-        width: 100%;
-        height: 15em;
-        text-align: center;
-        border-bottom: 0.2em 0.2em rgb(2, 194, 62);
-        }
+	img {
+		width: 100%;
+		height: 15em;
+		text-align: center;
+		border-bottom: 0.2em 0.2em rgb(2, 194, 62);
+	}
 }
+
 
 /*tablet slideshow-container*/
+
 @media screen and (max-width: 64em) {
-.slideshow-container {
-    width: 95%;
-    height: 15em;
-    text-align: center;
-    }
+	.slideshow-container {
+		width: 95%;
+		height: 15em;
+		text-align: center;
+	}
 }
+
 
 /*mobile screen size*/
+
 @media screen and (max-width: 37.5em) {
-img {
-    width: 95%;
-    height: 10em;
-    text-align: center;
-    }
+	img {
+		width: 95%;
+		height: 10em;
+		text-align: center;
+	}
 }
+
 
 /*slide container mobile*/
+
 @media screen and (max-width: 37.5em) {
-.slideshow-container {
-    width: 100%;
-    height: 10em;
-    text-align: center;
-    }
+	.slideshow-container {
+		width: 100%;
+		height: 10em;
+		text-align: center;
+	}
 }
+
 
 /*Maps section*/
+
 .map-custom {
-    height: 30em;
-    width: 100%;
-    border: 0.1em solid rgb(2, 1, 1, 0.904);
-    box-shadow: 1em 1em rgb(2, 194, 62);
-    padding-bottom: 3em;
-    margin-bottom: 3em;
+	height: 30em;
+	width: 100%;
+	border: 0.1em solid rgb(2, 1, 1, 0.904);
+	box-shadow: 1em 1em rgb(2, 194, 62);
+	padding-bottom: 3em;
+	margin-bottom: 3em;
 }
+
 
 /*bottom page navigation, enable access other trails*/
+
 .active {
-    background-color: rgb(2, 194, 62);
-    color: rgb(255, 255, 255);
+	background-color: rgb(2, 194, 62);
+	color: rgb(255, 255, 255);
 }
+
 
 /* Hide link that open& close dropdown on small screens*/
+
 .bottom-nav .icon {
-    display: none;
+	display: none;
 }
+
 
 /*button position*/
+
 .bottom-nav {
-    text-align: center;
+	text-align: center;
 }
+
 
 /*dropup button styling& position*/
+
 .bottom-nav .dropbtn {
-    background-color: rgb(255, 255, 255);
-    color:rgba(2, 1, 1, 0.904);
-    box-shadow: 0.2em 0.2em rgb(2, 194, 62);
-    font-size: 3em;
-    font-style: italic;
-    border: none;
-    padding: 1em;
+	background-color: rgb(255, 255, 255);
+	color: rgba(2, 1, 1, 0.904);
+	box-shadow: 0.2em 0.2em rgb(2, 194, 62);
+	font-size: 3em;
+	font-style: italic;
+	border: none;
+	padding: 1em;
 }
+
 
 /*positioning& styling of container*/
+
 .bottom-nav .dropup {
-    position: relative;
-    display: inline-block;
-    font-style: italic;
-    padding-bottom: 3em;
+	position: relative;
+	display: inline-block;
+	font-style: italic;
+	padding-bottom: 3em;
 }
 
 .bottom-nav .dropbtn {
-    border: 0.1em solid rgba(2, 1, 1, 0.904);
+	border: 0.1em solid rgba(2, 1, 1, 0.904);
 }
+
 
 /*content styling*/
+
 .bottom-nav .dropup-content {
-    display: none;
-    position: absolute;
-    bottom: 14em;
-    background-color: rgb(255, 255, 255);
-    min-height: 10em;
-    min-width: 18em;
-    box-shadow: 0em 0em 0em 0em rgba(0,0,0,0.2);
-    z-index: 1;
-    text-align: center;
+	display: none;
+	position: absolute;
+	bottom: 14em;
+	background-color: rgb(255, 255, 255);
+	min-height: 10em;
+	min-width: 18em;
+	box-shadow: 0em 0em 0em 0em rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	text-align: center;
 }
+
 
 /*links inside dropup*/
+
 .bottom-nav .dropup-content a {
-    color: rgba(2, 1, 1, 0.904);
-    padding: 1em;
-    text-decoration: none;
-    display: block;
+	color: rgba(2, 1, 1, 0.904);
+	padding: 1em;
+	text-decoration: none;
+	display: block;
 }
+
 
 /*change color of links when hovered over*/
+
 .bottom-nav .dropup-content a:hover {
-    background-color: rgb(2, 194, 62);
-    border: 0.1em solid rgb(2, 1, 1, 0.904);
+	background-color: rgb(2, 194, 62);
+	border: 0.1em solid rgb(2, 1, 1, 0.904);
 }
+
 
 /*show dropup menu*/
+
 .bottom-nav .dropup:hover .dropup-content {
-    display: block;
+	display: block;
 }
+
 
 /* Change the background color of dropup button when dropup content is shown*/
+
 .bottom-nav .dropup:hover .dropbtn {
-    background-color: rgb(2, 194, 62);
+	background-color: rgb(2, 194, 62);
 }
 
+
 /* scroll back to top button*/
+
 #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 4em;
-    right: 0.555em;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: rgb(2, 194, 62);
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    border-radius: 0.5em;
-    font-size: 1.8em;
+	display: none;
+	position: fixed;
+	bottom: 4em;
+	right: 0.555em;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: rgb(2, 194, 62);
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	border-radius: 0.5em;
+	font-size: 1.8em;
 }
 
 #myBtn:hover {
-    background-color: rgb(2, 1, 1, 0.904);
+	background-color: rgb(2, 1, 1, 0.904);
 }
+
 
 /*footer section*/
+
 footer {
-    text-align: center;
-    line-height: 10em;
-    background-color: rgba(255, 232, 168);
-    color: rgb(2, 194, 62);
+	text-align: center;
+	line-height: 10em;
+	background-color: rgba(255, 232, 168);
+	color: rgb(2, 194, 62);
 }
 
+
 /*logo for footer*/
+
 .logo {
-    width: 2.5em;
-    height: 2.5em;
-    border-radius: 0.4em;
+	width: 2.5em;
+	height: 2.5em;
+	border-radius: 0.4em;
 }
 
 .logo img a {
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    padding: 1em;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	padding: 1em;
 }
 
 .other-trails a {
-    list-style-type: none;
-    text-align: center;
-    display: inline;
+	list-style-type: none;
+	text-align: center;
+	display: inline;
 }
 
 footer i {
-    font-size: 2em;
-    padding: 2em;
-    padding-top: 2em;
-    text-align: center;
+	font-size: 2em;
+	padding: 2em;
+	padding-top: 2em;
+	text-align: center;
 }
+
 
 /*footer icon mobile size*/
+
 @media screen and (max-width: 37.5em) {
-.other-trails {
-    font-size: 0.7em;
-    padding: 0.01em;
-    padding-top: 2em;
-    text-align: center;
-    line-height: 10em;
-    }
+	.other-trails {
+		font-size: 0.7em;
+		padding: 0.01em;
+		padding-top: 2em;
+		text-align: center;
+		line-height: 10em;
+	}
 }
 
+
 /*breakpoint specific for iphone 5/SE*/
+
 @media screen and (max-width: 26.25em) {
-.other-trails {
-    font-size: 0.6em;
-    }
+	.other-trails {
+		font-size: 0.6em;
+	}
 }
