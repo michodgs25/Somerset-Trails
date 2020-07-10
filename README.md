@@ -209,15 +209,15 @@ So the next step was figuring out how to maximise the user experience and presen
    
    ----
 
-### Google maps feature
+### Google maps API feature
 
-* *The map on the __homepage__ will be a map of the somerset area with pointers on each individual trail locations.*
+* *The map on the __homepage__ will be a map of the somerset area with markers placed on each individual trail locations.*
 
-* *The __homepage map__ will have a terrain& satellite toggle buttons.*
+* *The __homepage map& result trail page__ will have a terrain& satellite toggle buttons.*
 
 * *The map on the __trail result page__ will be zoomed in on that particular trail displaying trail location.*
 
-* *Each map has the ability to access street view of each trail, by dropping the little figure onto the map.*
+* *Each map has the ability to access street view of each trail, by dropping the little figure onto the map and zoom in& out toggles.*
 
 <details>
   <summary>Somerset Maps</summary>
@@ -227,18 +227,18 @@ So the next step was figuring out how to maximise the user experience and presen
   </div>
   </details>
   
-  #### Google Maps Summary:
+  #### Google Maps feature Summary:
    - *The Google maps feature was inspired by user stories and the ambition to exceed user expectations by adding not only imagery but virtual reality which each user can use to explore each trail and the general area.*
    
    ----
 
 ### Explore tab feature
 
-* *An enlarge dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button.*
+* *A dropup button placed directly above the footer section, the dropup box is accessed by hovering the cursor over the button or tap in tablet& mobile.*
 
 * *The dropup is fully responsive, on all device screens.*
 
-* *The box contains all the trail links like the navigation bar, so the user can access the next trail with ease.*
+* *The box contains all the trail links like the navigation bar, so the user can access the next trail with ease whilst at the end of each page.*
 
   <details>
   <summary>Bottom page navigation</summary>
