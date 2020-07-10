@@ -741,9 +741,10 @@ footer {
 }
 
 .logo img a {
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     list-style: none;
+    padding: 1em;
 }
 
 .other-trails a {
