@@ -5,7 +5,7 @@
 
 ![Trails image](https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/README.png)
 
-#### Live website here: https://michodgs24.github.io/Somerset-Trails/
+#### Live website here: https://michodgs24.github.io/Somerset-Trails/ - Refresh page if having loading issues
 
   - Navigation feature demo:*https://www.youtube.com/watch?v=rh5Chjdkfms*
 
@@ -545,7 +545,12 @@ Moving Google maps documentation from HTML documents and into an external .JS fi
 
 With further testing& investigations, I was able to append the home maps code via app.js, to the homepage(index.html script), however the rest of the maps code was still inline within each HTML document. The solution was found to create a .js file for each map and append the map to the specific HTML script. 
 
-#### See https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865 for an in-depth discussion on this process.
+*An unfortunate side effect implementing this solution is having to an addition script to the footer of the page, the site was having loading issues prior to this and now the main banner sometimes does not appear at all. The page has to be refreshed for this to happen, this occurs on desktop screens where the banner is at its largest.* 
+
+*Please visit __https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008__ for in-depth discussion on the overall banner process.*
+
+Despite this minor seback the positives outweigh the negatives, as the HTML documents footer are not bloated anymore& the code is cleaner and browsers can load maps with greater efficiency.
+#### See https://github.com/michodgs24/Somerset-Trails/issues/13#issue-637367865 for an in-depth discussion on the Google maps process.
 
 ----
 
