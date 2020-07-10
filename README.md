@@ -426,25 +426,10 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
 ## Functional testing 
 To ensure each feature works as intended, I manually tested each section from navigation bar to the footer icon links.
 
-##### Footage of manual testing of each feature:
-  
-  - Navigation feature demo: https://www.youtube.com/watch?v=rh5Chjdkfms
-
-  - Slideshow feature demo: *https://www.youtube.com/watch?v=HrrLd142sC8*
-
-  - Google Maps feature demo: https://www.youtube.com/watch?v=56QKj-ul_iI
-
-  - Bottom navigation feature demo: https://www.youtube.com/watch?v=bKr4JHP7VkE
-
-  - Scroll to top feature demo: https://www.youtube.com/watch?v=Lu2wbj7Zdi8
-
-  - Footer feature demo: https://www.youtube.com/watch?v=M-4EeGWfsxI
-
    - Summary:
    *"Functional testing has been positive overall with only two slight issues which are more performance errors rather than functional as all features work as expected."*
    
  #### Read full manual walk-through of each feature and how is should work here: https://github.com/michodgs24/Somerset-Trails/issues/17#issue-646701558
- 
  
  ----
 
@@ -498,7 +483,7 @@ This sites version control is through github and using gitpod IDE, once complete
 
 * In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-* To run locally, you can clone this repository directly into the editor of your choice.
+* To run locally, you can go into the clone folder and run the relevant html.
 
 * To run this site locally, via git-pod, type into the terminal:
   
@@ -506,10 +491,6 @@ This sites version control is through github and using gitpod IDE, once complete
   
   - opens port 8000, which the IDE presents three options to of them view site immediately:
   __Open preview(Opens a window within the IDE) or open in browser(that is set as the main browser)__
-
-* To cut ties with this GitHub repository, type git remote rm origin into the terminal.
-
-* When the code is downloaded as a .zip it can be unzipped and runned by opening the unzipped folder and then execute index.html. 
 
 * The code will be executed in the browser that is set as main browser, this can be Chrome or one of the other available browsers. 
 When executed the homepage will appear.
