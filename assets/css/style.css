@@ -645,7 +645,7 @@ img {
     text-align: center;
 }
 
-/*dropup button styling*/
+/*dropup button styling& position*/
 .bottom-nav .dropbtn {
     background-color: rgb(255, 255, 255);
     color:rgba(2, 1, 1, 0.904);
@@ -653,13 +653,14 @@ img {
     font-size: 3em;
     font-style: italic;
     border: none;
+    padding: 1em;
 }
 
-/*positioning of container*/
+/*positioning& styling of container*/
 .bottom-nav .dropup {
     position: relative;
     display: inline-block;
-    padding: 1em;
+    font-style: italic;
     padding-bottom: 3em;
 }
 
