@@ -651,7 +651,7 @@ img {
 @media screen and (max-width: 64em) {
 	img {
 		width: 100%;
-		height: 15em;
+		height: 17em;
 		text-align: center;
 		border-bottom: 0.2em 0.2em rgb(2, 194, 62);
 	}
@@ -662,7 +662,7 @@ img {
 @media screen and (max-width: 64em) {
 	.slideshow-container {
 		width: 95%;
-		height: 15em;
+		height: 17em;
 		text-align: center;
 	}
 }
