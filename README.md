@@ -545,7 +545,7 @@ Moving Google maps documentation from HTML documents and into an external .JS fi
 
 With further testing& investigations, I was able to append the home maps code via app.js, to the homepage(index.html script), however the rest of the maps code was still inline within each HTML document. The solution was found to create a .js file for each map and append the map to the specific HTML script. 
 
-*An unfortunate side effect implementing this solution is having to an addition script to the footer of the page, the site was having loading issues prior to this and now the main banner sometimes does not appear at all. The page has to be refreshed for this to happen, this occurs on desktop screens where the banner is at its largest.* 
+*An unfortunate side effect implementing this solution is having to add an additional script to the footer of each page, the site was having loading issues prior to this and now the main banner sometimes does not appear at all. The page has to be refreshed for this to happen, this occurs on desktop screens where the banner is at its largest.* 
 
 *Please visit __https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008__ for in-depth discussion on the overall banner process.*
 
