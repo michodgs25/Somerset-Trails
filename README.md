@@ -498,8 +498,14 @@ This sites version control is through github and using gitpod IDE, once complete
 
 * In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-* To run locally, you can clone this repository directly into the editor of your choice by entering git clone
-https://github.com/michodgs24/Somerset-Trails into your terminal. 
+* To run locally, you can clone this repository directly into the editor of your choice.
+
+* To run this site locally, via git-pod, type into the terminal:
+  
+  - python3 -m http.server 
+  
+  - opens port 8000, which the IDE presents three options to of them view site immediately:
+  __Open preview(Opens a window within the IDE) or open in browser(that is set as the main browser)__
 
 * To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
