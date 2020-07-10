@@ -467,13 +467,13 @@ Summary: *"Slack feedback is very valuable, as it aided the development process 
 ## Version Control
 This sites version control is through github and using gitpod IDE, once completed a piece of work, I would type into the terminal:
   
-#### git add "for example: index.html" 
+#### git add index.html
  - *Adds a change in the working directory to the staging area.*
   
-#### git commit -m "index.html" 
- - *Captures the state of a project at that point in time.*
+#### git commit -m "Update index.html code formatting" 
+ - *Captures the state of a project at that point in time. Ensure message is specific to the changes made to the file(s).*
  
-#### git push "index.html"
+#### git push index.html
  - *This pushes the file to the github project repository.*
 
 ## Deployment
@@ -483,7 +483,15 @@ This sites version control is through github and using gitpod IDE, once complete
 
 * In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-* To run locally, you can go into the clone folder and run the relevant html.
+* To run locally, you can visit the project page(master branch): https://github.com/michodgs24/Somerset-Trails and clone the relevant code:
+
+  <details>
+  <summary>mobiReady</summary>
+  <br>
+  <div align="center">
+ <img src="https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/code-clone-ss.jpg" target="_blank" rel=""/>
+  </div>
+ </details>
 
 * To run this site locally, via git-pod, type into the terminal:
   
