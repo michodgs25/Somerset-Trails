@@ -103,7 +103,7 @@ This shows that the countryside is a glamorous& viable getaway for many families
 ## Scope
 
 The next problem to solve was that there was already a great website called: https://www.nationaltrail.co.uk/en_GB/ - so what could I offer that is different? 
-Users that come to this site aren't looking for trails in Wales or the north of England, this sites scope is specifically aimed towards users who either are local or who are visitting the Somerset area for a period of time. 
+Users that come to this site aren't looking for trails in Wales or the north of England, this sites scope is specifically aimed towards users who either are local or who are visiting the Somerset area for a period of time. 
 
 So the next step was figuring out how to maximise the user experience and present the best of Somerset trails using imagery as primary source of information for the user. The solution came in the form of two major features - a slideshow& a Google map on each page, this provides images sourced from Google images and applies Google's powerful maps application which is known worldwide for its quality user experience.
 
@@ -215,7 +215,7 @@ So the next step was figuring out how to maximise the user experience and presen
 
 * *The __homepage map& result trail page__ will have a terrain& satellite toggle buttons.*
 
-* *The map on the __trail result page__ will be zoomed in on that particular trail displaying trail location.*
+* *The map on the __trail result page__ will be focussed on that particular trail, displaying the trail location.*
 
 * *Each map has the ability to access street view of each trail, by dropping the little figure onto the map and zoom in& out toggles.*
 
@@ -496,8 +496,8 @@ This sites version control is through github and using gitpod IDE, once complete
   
   - python3 -m http.server 
   
-  - opens port 8000, which the IDE presents three options to of them view site immediately:
-  __Open preview(Opens a window within the IDE) or open in browser(that is set as the main browser)__
+  - opens port 8000, which the IDE presents three options two of which, view the site immediately:
+  __Open preview(Opens a window within the IDE) or open in browser(that is set as the main browser).__
 
 * The code will be executed in the browser that is set as main browser, this can be Chrome or one of the other available browsers. 
 When executed the homepage will appear.
@@ -557,8 +557,6 @@ Despite this minor seback the positives outweigh the negatives, as the HTML docu
  #### Read full article here - https://github.com/michodgs24/Somerset-Trails/issues/16#issue-646458556
  
  -----
- 
- <br>
 
 ## issues and bugs
 *This section looks into what existing issues that are still present in the project& what future iterations could do to resolve these issues:*
