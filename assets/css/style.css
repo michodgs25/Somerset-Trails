@@ -823,7 +823,6 @@ footer {
 }
 
 .logo img a {
-	text-align: center;
 	text-decoration: none;
 	list-style: none;
 	padding: 1em;
@@ -831,7 +830,6 @@ footer {
 
 .other-trails a {
 	list-style-type: none;
-	text-align: center;
 	display: inline;
 }
 
@@ -839,17 +837,15 @@ footer i {
 	font-size: 2em;
 	padding: 2em;
 	padding-top: 2em;
-	text-align: center;
 }
 
 /*footer icon mobile size*/
 
 @media screen and (max-width: 37.5em) {
-	.other-trails {
+	.other-trails  {
 		font-size: 0.7em;
 		padding: 0.01em;
 		padding-top: 2em;
-		text-align: center;
 		line-height: 10em;
 	}
 }
