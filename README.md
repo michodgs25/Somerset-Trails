@@ -535,11 +535,12 @@ When executed the homepage will appear.
 *"Although the implementation of maps presented the most significant challenge throughout this process, the value of the maps to the user experience is immense as it adds a different dimension with its virtual capabilities. Future iterations to update and maximise Google maps to the fullest extent."*
 
 ### Update - 
-Moving Google maps documentation from HTML documents and into an external .JS file was discussed with my mentor, code institute and also learning people. The answer across the board was that due to calling multiple different maps with varying markers across the site, it will not be possible. If for example I were just calling the one single map, it would not be an issue as this is shown in the code institute tutorial - *Adding The Map Element (Bootstrap 4)* or using google developers tutorial *https://developers.google.com/maps/faq* to append to the script tag of the HTML document.
+Moving Google maps documentation from HTML documents and into an external .JS file was discussed with my mentor, code institute and also learning people. The consensus reached across the board was that due to calling multiple different maps with varying markers across the site, it will not be possible to place all the maps in one file. 
+If for example I were just calling the one single map, it would not be an issue as this is shown in the code institute tutorial - *Adding The Map Element (Bootstrap 4)* or using google developers tutorial *https://developers.google.com/maps/faq* to append to the script tag of the HTML document.
 
-With further testing& investigations, I was able to append the home maps code via app.js, to the homepage(index.html script), however the rest of the maps code was still inline within each HTML document. The solution was found to create a .js file for each map and append the map to the specific HTML script. 
+With further testing& investigations, I was able to append the home maps code via app.js, to the homepage(index.html script), however the rest of the maps code was still inline within each HTML document. Later on a solution was concocted to create a .js file for each map and append the map to the specific HTML script calling `class="map-custom"`to each script tag.
 
-*An unfortunate side effect implementing this solution is having to add an additional script to the footer of each page, the site was having loading issues prior to this and now the main banner sometimes does not appear at all. The page has to be refreshed for this to happen, this occurs on desktop screens where the banner is at its largest.* 
+*An unfortunate side effect implementing this solution is having to add an additional script to the footer of each page, the site was having loading issues prior to this and now the main banner sometimes does not appear at all. The page has to be refreshed for this to happen, this occurs more often on desktop screens where the banner is at its largest.* 
 
 *Please visit __https://github.com/michodgs24/Somerset-Trails/issues/8#issue-629929008__ for in-depth discussion on the overall banner process.*
 
