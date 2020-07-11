@@ -375,9 +375,8 @@ Although this suggestion helped the scroll performance on mobile, re-running the
 During the evaluation of the feedback, it is clear the chrome extensions have a negative impact on every category of the site, performance is also negatively impacted due to the number of unique domains called such as font awesome or JQuery. I estimate that the site does indeed meet the required standard for mobile and the results attained from Google mobile test, back this estimation. Future iterations of the site to look further into solutions to improve these statistics, in particular, the performance category by reducing the special domains and reducing file size."*
 
 #### Update:
-  - Through automating test provided by mobiReady, special domains have been reduced to six, future iterations to focus on reducing file size thus faster loading times. 
-  In addition through testing scroll via mobile(Samsung Galaxy S10), scroll wasn't as smooth as could be, so removed the event-listener to see whether that was the issue. 
-  Scroll turned out to be alot more smoother; future iterations to investigate this further.
+Through testing scroll via mobile(Samsung Galaxy S10), scroll wasn't as smooth as could be, so removed the event-listener to see whether this was the issue. 
+Scroll turned out to be alot more smoother without the event-listener; so the decision was to made to remove it permanently and future iterations to investigate this further.
 
 #### Lighthouse results discussed here: https://github.com/michodgs24/Somerset-Trails/issues/10#issue-634894703
 
@@ -419,7 +418,7 @@ https://search.google.com/test/mobile-friendly?id=VI5xc_oZOk01oyRxKnw2GQ
   
 #### mobiReady results discussed here - https://github.com/michodgs24/Somerset-Trails/issues/15#issue-639850820
 
-*Automated testing provided great value to shedding light on issues within the site as human error is very prevalent in the development process. The downside to this testing is that the testing was done virtually at the end of the process and some features such as the images. Due to the sheer amount(twenty-five) of images, it causes delays in loading times and being the end of the process there is not enough time to re-package a more effective& efficient use of those images.*
+*Automated testing provided great value to shedding light on issues within the site as human error is very prevalent in the development process.
 
 ----
 
