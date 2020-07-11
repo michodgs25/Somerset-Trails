@@ -563,12 +563,12 @@ Despite this minor seback the positives outweigh the negatives, as the HTML docu
 ## issues and bugs
 *This section looks into what existing issues that are still present in the project& what future iterations could do to resolve these issues:*
 
-* __Slideshow& images__ - 
+* __Slideshow__ - 
 
   - Summary 
-  *"Images are such an important aspect of this website, beginning with user stories that asked for the site to be primarily images instead of text and the subject being outdoor trails. Future iterations will not only look into expanding and increase the quality of each image."*
+  *"Images are such an important aspect of this website, beginning with user stories that asked for the site to be primarily images instead of text and the subject being outdoor trails. Future iterations will not only look into expanding& increasing the quality of each image but resolve inline CSS code adapted from W3S schools."*
 
-#### Read full article here - Slideshow& Images https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128 
+#### Read full article here - Slideshow https://github.com/michodgs24/Somerset-Trails/issues/9#issue-634880128 
 
 -----
 
