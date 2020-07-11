@@ -37,13 +37,6 @@ h2 {
 	font-size: 2em;
 }
 
-/*highlight current page*/
-
-.active {
-	background-color: rgb(2, 194, 62);
-	color: rgb(255, 255, 255);
-}
-
 /*Hide link opening& close topnav on small screens*/
 
 .topnav .icon {
@@ -633,13 +626,13 @@ img {
 .dot {
 	height: 1em;
 	width: 1em;
-	margin: 0 0.11em;
 	color: rgb(2, 194, 62);
 	background-color: rgb(166, 171, 167);
 	border-radius: 50%;
 	display: inline-block;
 	transition: background-color 0.6s ease;
-	margin-bottom: 2em;
+    margin: 0.111em;
+    margin-bottom: 2em;
 }
 
 .active {
