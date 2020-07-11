@@ -25,7 +25,7 @@ h2 {
 	z-index: 1;
 }
 
-/*links inside nav-bar */
+/*links inside nav-bar*/
 
 .topnav a {
 	float: left;
@@ -44,7 +44,7 @@ h2 {
 	color: rgb(255, 255, 255);
 }
 
-/* Hide link opening& close topnav on small screens */
+/*Hide link opening& close topnav on small screens*/
 
 .topnav .icon {
 	display: none;
@@ -59,7 +59,7 @@ h2 {
 	z-index: 1;
 }
 
-/*position& style dropdown button to fit inside topnav */
+/*position& style dropdown button to fit inside topnav*/
 
 .dropdown .dropbtn {
 	font-size: 2em;
@@ -581,7 +581,7 @@ img {
 	text-align: center;
 }
 
-/* Slideshow container*/
+/*Slideshow container*/
 
 .slideshow-container {
 	width: 50%;
@@ -618,7 +618,7 @@ img {
 	background-color: rgba(2, 1, 1, 0.904);
 }
 
-/* Number text (1/6) */
+/*Slideshow number text (1/6)*/
 
 .numbertext {
 	color: rgb(255, 255, 255);
@@ -705,7 +705,7 @@ img {
 	color: rgb(255, 255, 255);
 }
 
-/* Hide link that open& close dropdown on small screens*/
+/*Hide link that open& close dropdown on small screens*/
 
 .bottom-nav .icon {
 	display: none;
@@ -778,13 +778,13 @@ img {
 	display: block;
 }
 
-/* Change the background color of dropup button when dropup content is shown*/
+/*Change the background color of dropup button when dropup content is shown*/
 
 .bottom-nav .dropup:hover .dropbtn {
 	background-color: rgb(2, 194, 62);
 }
 
-/* scroll back to top button*/
+/*scroll back to top button*/
 
 #myBtn {
 	display: none;
