@@ -5,7 +5,7 @@
 
 ![Trails image](https://github.com/michodgs24/Somerset-Trails/blob/master/assets/images/readme/README.png)
 
-#### Live website here: https://michodgs24.github.io/Somerset-Trails/ - Refresh page if having loading issues
+#### Live website here: https://michodgs25.github.io/Somerset-Trails/ - Refresh page if having loading issues
 
   - Navigation feature demo:*https://www.youtube.com/watch?v=rh5Chjdkfms*
 
